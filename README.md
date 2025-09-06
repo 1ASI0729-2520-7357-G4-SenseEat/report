@@ -24,9 +24,9 @@
 |             Member              |   Code    |
 |:-------------------------------:|:---------:|
 |              |  |
-|  |    ...    |
-|    |    ...    |
-|     |    ...    |
+|  Tumi Oliden Manuel Ignacio  |    u20241c134    |
+|  Vega Coronado Fabricio Samir  |    u202317000    |
+|  Villanueva Andrade Ysaac Ligorio   |    u20231c168    |
 |  Tuesta Marin Romina Alejandra  |    U202211706   |
 
 <strong> Setiembre 2025</strong><br>
