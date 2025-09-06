@@ -26,7 +26,7 @@
 |              |  |
 |  |    ...    |
 |    |    ...    |
-|     |    ...    |
+|  Vega Coronado Fabricio Samir   |    U202317000   |
 |  Tuesta Marin Romina Alejandra  |    U202211706   |
 
 <strong> Setiembre 2025</strong><br>
