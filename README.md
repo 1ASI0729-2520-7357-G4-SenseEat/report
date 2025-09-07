@@ -2,7 +2,7 @@
 # FreshSense
 
 <div align="center">
-
+prueba
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <img alt="upc-logo" src="assets/upc_logo_200x200_jao73r.png" width="200"/><br>
