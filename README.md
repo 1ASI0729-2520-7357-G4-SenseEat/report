@@ -230,14 +230,45 @@ Se estima que un tercio de los alimentos producidos se desperdician globalmente.
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<img alt="UX CANVAS" src="assets/Lean UX Canvas.png" width="200"/><br>
+<img alt="LEAN UX CANVAS" src="assets/Lean UX Canvas.jpg" width="700"/><br>
 
 ## 1.3. Segmentos objetivo
 
+Para el proyecto FreshSense se han seleccionado dos segmentos principales de usuarios a los cuales la solución aporta un valor claro y adaptado a sus necesidades específicas:
+
+##Adultos jóvenes 
+ - Edad: 25 a 40 años
+ - Estilo de vida: Dinámico y ocupado.
+ - Uso de tecnología: Frecuente.
+ - Necesidad principal: Gestionar el inventario alimenticio de forma sencilla y eficiente sin dedicar mucho tiempo.
+ - Beneficios buscados: Alertas oportunas y recomendaciones para evitar desperdicios y optimizar el consumo.
+
+##Pequeños negocios o emprendedores de alimentos caseros
+ - Perfil: Personas que elaboran y venden alimentos desde casa.
+ - Necesidad principal: Controlar la frescura de sus productos para garantizar calidad y minimizar pérdidas.
+ - Beneficios buscados: Solución económica y accesible para monitorear productos perecederos y manejar inventario eficientemente.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+Conocer a los competidores es clave para identificar oportunidades y definir una estrategia efectiva para FreshSense. Este análisis considera tanto competidores directos, que ofrecen soluciones similares, como indirectos que abordan el problema del desperdicio alimentario desde otras perspectivas. Comprender sus fortalezas y debilidades permitirá posicionar mejor nuestra propuesta y diferenciarla en el mercado.
+
 ### 2.1.1. Análisis competitivo
+![alt text](<assets/Cuadro comparativo FreshSense.jpg>)
+
+Este cuadro comparativo permite observar claramente cómo FreshSense se posiciona en el mercado frente a competidores directos e indirectos. Mientras otros actores enfocan sus soluciones en sectores profesionales, distribución o donación, FreshSense se distingue por su enfoque centrado en el hogar, ofreciendo un dispositivo accesible y una experiencia integral para reducir el desperdicio alimentario doméstico. Esta propuesta combina tecnología específica, precios competitivos y una estrategia de marketing educativa que busca generar lealtad y un impacto positivo real en los usuarios finales.
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+FreshSense adoptará una estrategia centrada en diferenciarse por su enfoque específico en hogares, ofreciendo una solución accesible y fácil de usar para el control del desperdicio alimentario en refrigeradores domésticos. Para lograrlo, se aplicarán las siguientes tácticas:
+
+- Campañas de marketing digital y contenidos educativos para sensibilizar sobre el desperdicio alimentario y los beneficios de una gestión eficiente del inventario doméstico.
+- Ofrecer un hardware con precio competitivo y acceso gratuito a funciones básicas, incentivando la suscripción a planes premium que agreguen valor con análisis avanzados y recetas personalizadas.
+- En redes sociales, producción de contenido útil y atractivo, incluyendo recetas, consejos de conservación y testimonios, que fomenten la comunidad y el engagement.
+- Colaboraciones con supermercados, apps de recetas y plataformas de sostenibilidad para ampliar el alcance y la confianza en la marca.
+- Desarrollo continuo de la app para maximizar su intuición, usabilidad y valor agregado mediante notificaciones y alertas personalizadas.
+- Programas de soporte, encuestas de satisfacción y recompensas para fortalecer la lealtad y generar recomendaciones boca a boca.
+
+Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnológico, sino como un aliado en la reducción del desperdicio de alimentos con impacto positivo en la economía y el medio ambiente de los hogares.
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
