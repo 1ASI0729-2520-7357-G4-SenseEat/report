@@ -23,7 +23,7 @@
 
 |             Member              |   Code    |
 |:-------------------------------:|:---------:|
-|              |  |
+|  Valverde Portuguez Natalia Ximena | u20231a816 |
 |  Tumi Oliden Manuel Ignacio  |    u20241c134    |
 |  Vega Coronado Fabricio Samir  |    u202317000    |
 |  Villanueva Andrade Ysaac Ligorio   |    u20231c168    |
