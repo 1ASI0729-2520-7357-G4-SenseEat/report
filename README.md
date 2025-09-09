@@ -271,6 +271,60 @@ Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnol
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+## Segmento 1: 
+### Adultos jóvenes (25-40 años, dinámicos y ocupados)
+
+#### Hábitos y problemas
+
+1. ¿Qué tan seguido revisas el estado de tus alimentos en el refrigerador?
+
+2. ¿Has tenido que botar comida en la última semana o mes? ¿Qué alimentos suelen desperdiciarse más?
+
+3. ¿Qué sientes cuando tienes que desechar alimentos?
+
+4. ¿Cómo gestionas actualmente tu inventario alimenticio? (listas, memoria, apps, nada).
+
+5. ¿Qué dificultades encuentras al intentar consumir tus alimentos antes de que se malogren?
+
+#### Uso de tecnología
+
+6. ¿Qué aplicaciones o dispositivos usas en tu día a día para organizar tu vida (ejemplo: apps de compras, recordatorios, fitness, etc.)?
+   
+7. ¿Estarías dispuesto(a) a usar una app para monitorear tus alimentos? ¿Qué esperas que sea fácil o difícil en esa experiencia?
+
+#### Valor y disposición
+8. ¿Qué te motivaría a usar un sistema que te avise cuándo un alimento está por vencer o deteriorarse?
+   
+9. Si además de alertas recibieras recetas personalizadas con lo que tienes en el refrigerador, ¿lo encontrarías útil?
+    
+10. ¿Pagarías una suscripción mensual por este tipo de servicio? Si sí, ¿qué rango de precio considerarías razonable?
+
+
+## Segmento 2: 
+### Pequeños negocios / emprendedores de alimentos caseros
+
+#### Hábitos y problemas
+
+1. ¿Qué tipo de alimentos manejas en tu negocio y cuáles son más propensos a perderse o malograrse?
+
+2. ¿Con qué frecuencia enfrentas pérdidas por deterioro de productos?
+
+3. ¿Tienes actualmente un método para controlar la frescura de tus ingredientes (listas, hojas de Excel, memoria, otro)?
+
+#### Necesidades
+
+4. ¿Qué impacto tiene para tu negocio perder productos perecibles? (económico, reputación, tiempo, clientes).
+5. ¿Qué importancia le das a la calidad y frescura de los alimentos que vendes?
+6. ¿Qué tipo de alertas o reportes te gustaría recibir para mejorar tu control de inventario?
+
+#### Valor y disposición
+7. ¿Te resultaría útil tener un dispositivo que monitoree automáticamente el estado de los productos dentro de tu refrigerador?
+8. ¿Qué características serían imprescindibles para que confíes en este tipo de solución?
+9. ¿Pagarías por una herramienta que te ayude a reducir pérdidas y mantener la frescura? ¿Prefieres un pago único por el dispositivo o una suscripción mensual con funciones adicionales?
+10. Si el sistema pudiera darte estadísticas de consumo, desperdicio y hasta proyecciones de compras, ¿te serviría para tu negocio?
+
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
