@@ -232,6 +232,12 @@ del ABET – EAC - Student Outcome 3.
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+#### SEGMENTO 1: Adultos jóvenes
+<img alt="upc-logo" src="assets/José_userP1.png" width="600"/><br>
+
+### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
+<img alt="upc-logo" src="assets/Luisa_userP2.png" width="600"/><br>
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
