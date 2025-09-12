@@ -149,11 +149,11 @@ del ABET – EAC - Student Outcome 3.
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-Sense Eat es una startup enfocada en el desarrollo de soluciones tecnológicas para reducir el deserdicio de alimentos en los hogares. A través de la innovación, busca generar un impacto positivo en el cuidado del medio ambiente y la economía familiar, facilitando un mejor control y gestión del inventario alimenticio.
+Sense Eat es una startup enfocada en el desarrollo de soluciones tecnológicas para reducir el desperdicio de alimentos en los hogares. A través de la innovación, busca generar un impacto positivo en el cuidado del medio ambiente y la economía familiar, facilitando un mejor control y gestión del inventario alimenticio.
 
-Su producto principal, FreshSense, consiste en un dispositivo equipado con sensores que se coloca dentro del refrigerador para medir la temperatura, humedad y la concentración de gas etileno (indicador clave en el proceso de maduración y descomposición de frutas y verduras). Esta información es enviada a una aplicación web donde los usuarios pueden visualizar el estado de sus alimentos y recibir alertas anticipadas sobre su posible deterioro.
+Nuestro producto principal, FreshSense, consiste en un dispositivo equipado con sensores que se coloca dentro del refrigerador para medir la temperatura, humedad y la concentración de gas etileno (indicador clave en el proceso de maduración y descomposición de frutas y verduras). Esta información es enviada a una aplicación web donde los usuarios pueden visualizar el estado de sus alimentos y recibir alertas anticipadas sobre su posible deterioro.
 
-El modelo del negocio de Sense Eat está basado en la venta directa del dispositivo sensor y una suscripción mensual que ofrece funciones premium, como análisis detallado del inventario alimenticio y sugerencias de recetas personalizadas basadas en los productos disponibles, promoviendo así un consumo más eficiente y reducción  de desperdicios.
+El modelo del negocio de Sense Eat está basado en la venta directa del dispositivo sensor y una suscripción mensual que ofrece funciones premium, como análisis detallado del inventario alimenticio y sugerencias de recetas personalizadas basadas en los productos disponibles, promoviendo así un consumo más eficiente y reducción de desperdicios.
     
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -161,8 +161,8 @@ El modelo del negocio de Sense Eat está basado en la venta directa del disposit
 
 |                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|  |  <br>  |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|            |  <br>  |
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 |   
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
@@ -229,8 +229,7 @@ Se estima que un tercio de los alimentos producidos se desperdician globalmente.
 - Creemos que la inclusión de recetas personalizadas basadas en los alimentos disponibles en el refrigerador motivará a los usuarios a aprovechar mejor sus ingredientes y reducir el desperdicio. Sabremos que esto es cierto cuando al menos el 40% de los usuarios utilicen las recetas sugeridas al menos una vez por semana durante el primer mes de uso.
 
 ##### 1.2.2.4. Lean UX Canvas
-
-<img alt="LEAN UX CANVAS" src="assets/Lean UX Canvas.jpg" width="700"/><br>
+![alt text](assets/LeanUXCanvas_FreshSense.jpg)
 
 ## 1.3. Segmentos objetivo
 
@@ -253,9 +252,14 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 Conocer a los competidores es clave para identificar oportunidades y definir una estrategia efectiva para FreshSense. Este análisis considera tanto competidores directos, que ofrecen soluciones similares, como indirectos que abordan el problema del desperdicio alimentario desde otras perspectivas. Comprender sus fortalezas y debilidades permitirá posicionar mejor nuestra propuesta y diferenciarla en el mercado.
 
 ### 2.1.1. Análisis competitivo
-![alt text](<assets/Cuadro comparativo FreshSense.jpg>)
+![alt text](assets/AnalisisCompetitivo_FreshSense.png)
+![alt text](assets/FODA_FreshSense.png)
 
-Este cuadro comparativo permite observar claramente cómo FreshSense se posiciona en el mercado frente a competidores directos e indirectos. Mientras otros actores enfocan sus soluciones en sectores profesionales, distribución o donación, FreshSense se distingue por su enfoque centrado en el hogar, ofreciendo un dispositivo accesible y una experiencia integral para reducir el desperdicio alimentario doméstico. Esta propuesta combina tecnología específica, precios competitivos y una estrategia de marketing educativa que busca generar lealtad y un impacto positivo real en los usuarios finales.
+El análisis competitivo realizado permite comprender con claridad el panorama actual del mercado y la posición que ocupa FreshSense frente a competidores relevantes como Orbisk, OneThird y Too Good To Go. Si bien cada actor tiene enfoques y modelos distintos, el valor diferencial de FreshSense radica en su enfoque específico para hogares con una solución tecnológica accesible, combinando hardware y app con un modelo freemium atractivo para el mercado objetivo.
+
+Además, este análisis enfatiza las fortalezas de FreshSense en innovación, precio y marketing educativo, pero también revela áreas de mejora y desafíos potenciales frente a competidores consolidados en segmentos industriales o de consumo masivo. Las oportunidades de crecimiento incluyen el aumento en la conciencia ambiental y las alianzas estratégicas que pueden amplificar su alcance.
+
+En conclusión, FreshSense tiene un posicionamiento sólido pero debe continuar innovando en experiencia de usuario y escalabilidad para consolidarse como líder en la categoría doméstica de control y reducción del desperdicio alimentario.
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 FreshSense adoptará una estrategia centrada en diferenciarse por su enfoque específico en hogares, ofreciendo una solución accesible y fácil de usar para el control del desperdicio alimentario en refrigeradores domésticos. Para lograrlo, se aplicarán las siguientes tácticas:
