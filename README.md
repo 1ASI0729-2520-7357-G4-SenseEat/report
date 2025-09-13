@@ -469,6 +469,16 @@ Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alime
 | 14      | US14          | Recetas exclusivas premium       | Como usuario premium, quiero tener acceso a recetas avanzadas para aprovechar mis ingredientes. | 2 |
 | 15      | US15          | Reporte de impacto ambiental     | Como usuario, quiero ver un reporte mensual del impacto ambiental evitado (ej. kg de CO₂ ahorrados). | 3 |
 | 16      | US16          | Compartir logros en redes        | Como usuario, quiero compartir mis logros de reducción de desperdicio en redes sociales. | 2 |
+| 17      | US17          | Sincronización con smart fridges | Como usuario, quiero que FreshSense se integre con refrigeradores inteligentes para recibir datos combinados y mejorar la precisión. | 8 |
+| 18      | US18          | Control por voz con asistentes   | Como usuario, quiero poder controlar funciones básicas de FreshSense con asistentes de voz (Alexa, Google). | 5 |
+| 19      | US19          | Notificaciones personalizadas    | Como usuario, quiero configurar qué notificaciones recibir y a qué dispositivo para no ser molestado. | 3 |
+| 20      | US20          | Logros y recompensas             | Como usuario, quiero ganar logros por uso frecuente y reducción de desperdicio para motivarme. | 3 |
+| 21      | US21          | Compartir en redes sociales      | Como usuario, quiero compartir mis logros en redes sociales para inspirar a otros. | 2 |
+| 22      | US22          | Retos y competencias             | Como usuario, quiero participar en retos con otros usuarios para reducir desperdicio y ganar premios. | 5 |
+| 23      | US23          | Categorías personalizadas        | Como usuario, quiero crear y asignar categorías propias para organizar mis alimentos según mi preferencia. | 3 |
+| 24      | US24          | Historial de consumo             | Como usuario, quiero consultar un historial de consumo para analizar mis hábitos alimenticios y ajustar compras. | 5 |
+| 25      | US25          | Sugerencias de compra            | Como usuario, quiero recibir sugerencias de compra basadas en inventario y consumo para evitar faltantes o exceso. | 5 |
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
