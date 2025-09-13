@@ -76,6 +76,7 @@
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
         - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+      
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
@@ -170,12 +171,140 @@ del ABET – EAC - Student Outcome 3.
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+Conocer a los competidores es clave para identificar oportunidades y definir una estrategia efectiva para FreshSense. Este análisis considera tanto competidores directos, que ofrecen soluciones similares, como indirectos que abordan el problema del desperdicio alimentario desde otras perspectivas. Comprender sus fortalezas y debilidades permitirá posicionar mejor nuestra propuesta y diferenciarla en el mercado.
+
 ### 2.1.1. Análisis competitivo
+![alt text](assets/AnalisisCompetitivo_FreshSense.png)
+![alt text](assets/FODA_FreshSense.png)
+
+El análisis competitivo realizado permite comprender con claridad el panorama actual del mercado y la posición que ocupa FreshSense frente a competidores relevantes como Orbisk, OneThird y Too Good To Go. Si bien cada actor tiene enfoques y modelos distintos, el valor diferencial de FreshSense radica en su enfoque específico para hogares con una solución tecnológica accesible, combinando hardware y app con un modelo freemium atractivo para el mercado objetivo.
+
+Además, este análisis enfatiza las fortalezas de FreshSense en innovación, precio y marketing educativo, pero también revela áreas de mejora y desafíos potenciales frente a competidores consolidados en segmentos industriales o de consumo masivo. Las oportunidades de crecimiento incluyen el aumento en la conciencia ambiental y las alianzas estratégicas que pueden amplificar su alcance.
+
+En conclusión, FreshSense tiene un posicionamiento sólido pero debe continuar innovando en experiencia de usuario y escalabilidad para consolidarse como líder en la categoría doméstica de control y reducción del desperdicio alimentario.
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+FreshSense adoptará una estrategia centrada en diferenciarse por su enfoque específico en hogares, ofreciendo una solución accesible y fácil de usar para el control del desperdicio alimentario en refrigeradores domésticos. Para lograrlo, se aplicarán las siguientes tácticas:
+
+- Campañas de marketing digital y contenidos educativos para sensibilizar sobre el desperdicio alimentario y los beneficios de una gestión eficiente del inventario doméstico.
+- Ofrecer un hardware con precio competitivo y acceso gratuito a funciones básicas, incentivando la suscripción a planes premium que agreguen valor con análisis avanzados y recetas personalizadas.
+- En redes sociales, producción de contenido útil y atractivo, incluyendo recetas, consejos de conservación y testimonios, que fomenten la comunidad y el engagement.
+- Colaboraciones con supermercados, apps de recetas y plataformas de sostenibilidad para ampliar el alcance y la confianza en la marca.
+- Desarrollo continuo de la app para maximizar su intuición, usabilidad y valor agregado mediante notificaciones y alertas personalizadas.
+- Programas de soporte, encuestas de satisfacción y recompensas para fortalecer la lealtad y generar recomendaciones boca a boca.
+
+Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnológico, sino como un aliado en la reducción del desperdicio de alimentos con impacto positivo en la economía y el medio ambiente de los hogares.
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+## Segmento 1: 
+### Adultos jóvenes (25-40 años, dinámicos y ocupados)
+
+#### Hábitos y problemas
+
+1. ¿Qué tan seguido revisas el estado de tus alimentos en el refrigerador?
+
+2. ¿Has tenido que botar comida en la última semana o mes? ¿Qué alimentos suelen desperdiciarse más?
+
+3. ¿Qué sientes cuando tienes que desechar alimentos?
+
+4. ¿Cómo gestionas actualmente tu inventario alimenticio? (listas, memoria, apps, nada).
+
+5. ¿Qué dificultades encuentras al intentar consumir tus alimentos antes de que se malogren?
+
+#### Uso de tecnología
+
+6. ¿Qué aplicaciones o dispositivos usas en tu día a día para organizar tu vida (ejemplo: apps de compras, recordatorios, fitness, etc.)?
+   
+7. ¿Estarías dispuesto(a) a usar una app para monitorear tus alimentos? ¿Qué esperas que sea fácil o difícil en esa experiencia?
+
+#### Valor y disposición
+8. ¿Qué te motivaría a usar un sistema que te avise cuándo un alimento está por vencer o deteriorarse?
+   
+9. Si además de alertas recibieras recetas personalizadas con lo que tienes en el refrigerador, ¿lo encontrarías útil?
+    
+10. ¿Pagarías una suscripción mensual por este tipo de servicio? Si sí, ¿qué rango de precio considerarías razonable?
+
+
+## Segmento 2: 
+### Pequeños negocios / emprendedores de alimentos caseros
+
+#### Hábitos y problemas
+
+1. ¿Qué tipo de alimentos manejas en tu negocio y cuáles son más propensos a perderse o malograrse?
+
+2. ¿Con qué frecuencia enfrentas pérdidas por deterioro de productos?
+
+3. ¿Tienes actualmente un método para controlar la frescura de tus ingredientes (listas, hojas de Excel, memoria, otro)?
+
+#### Necesidades
+
+4. ¿Qué impacto tiene para tu negocio perder productos perecibles? (económico, reputación, tiempo, clientes).
+5. ¿Qué importancia le das a la calidad y frescura de los alimentos que vendes?
+6. ¿Qué tipo de alertas o reportes te gustaría recibir para mejorar tu control de inventario?
+
+#### Valor y disposición
+7. ¿Te resultaría útil tener un dispositivo que monitoree automáticamente el estado de los productos dentro de tu refrigerador?
+8. ¿Qué características serían imprescindibles para que confíes en este tipo de solución?
+9. ¿Pagarías por una herramienta que te ayude a reducir pérdidas y mantener la frescura? ¿Prefieres un pago único por el dispositivo o una suscripción mensual con funciones adicionales?
+10. Si el sistema pudiera darte estadísticas de consumo, desperdicio y hasta proyecciones de compras, ¿te serviría para tu negocio?
+
+
 ### 2.2.2. Registro de entrevistas
+### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
+
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 1                     | **Nombre:** Piero Tapia  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Piero Tapia, trabajador del sector salud, comentó que revisa el refrigerador un par de veces por semana, pero aun así suele botar embutidos y nuggets que no consume a tiempo. Su mayor preocupación es el impacto económico y la incomodidad de desperdiciar comida que otros podrían aprovechar. No utiliza ninguna aplicación ni listas, y reconoce que muchas veces termina comprando lo mismo y aburriéndose de su dieta. Cree que una aplicación le sería útil si cuenta con tutoriales accesibles en cualquier momento, alertas de alimentos por vencer y recetas que le ayuden a variar. Considera justo un costo entre 15 y 25 soles mensuales, similar a una plataforma de streaming, aunque advierte que las notificaciones excesivas podrían volverse molestas | ![Evidencia](assets/Entrevista%20Piero.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1ds2HwtLlN2qdSDsHA3fB1maRVExLGLSn/view?usp=drive_link) |
+
+
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 2                     | **Nombre:** Alvaro Yagui  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Álvaro Yagui, dedicado al área de ventas, señaló que la falta de tiempo y el cansancio hacen que olvide cocinar lo que compra, lo que provoca que carnes, plátanos y paltas se malogren con frecuencia. Asocia estas pérdidas con frustración y descuido, pues implican desperdicio de dinero. No usa aplicaciones para control, salvo alarmas en el celular, pero reconoce que resulta tedioso. Valora la idea de una aplicación que facilite el registro de alimentos mediante voz o escáner, acompañada de notificaciones claras y recetas para combinar los ingredientes disponibles. Está dispuesto a pagar entre 15 y 20 soles mensuales, un rango que equipara al de una suscripción de Spotify | ![Evidencia](assets/Entrevista%20Yagui.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1BW0g2O54GD13gXBsNcTrhmmlvwBqTeFc/view?usp=drive_link) |
+
+
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 3                     | **Nombre:** Gabriela Vasquez  <br> **Edad:** 25  <br> **Distrito:** Pueblo Libre <br><br> **Resumen:** Gabriela Vázquez, de 25 años, reconoció que suele revisar el refrigerador solo una vez por semana, lo que la lleva a olvidar alimentos y desperdiciar principalmente frutas y verduras. Este hábito le genera frustración y la sensación de estar perdiendo dinero. Aunque utiliza notas y calendario para organizarse, no aplica ninguna herramienta específica para gestionar la comida. Considera valiosa una aplicación siempre que sea intuitiva, atractiva y con recordatorios confiables, además de que le ofrezca recetas para aprovechar mejor lo que ya tiene. En cuanto al costo, ve razonable un plan grupal parecido al de Spotify, alrededor de 30 soles compartidos entre varias personas | ![Evidencia](assets/Entrevista%20Gabriela.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1zAOWVJjCjoiuuvE4Mp8h9_h-m27QpLtD/view?usp=drive_link) |
+
 ### 2.2.3. Análisis de entrevistas
+### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
+---
+### Hallazgos :
+## 👨 Piero Tapia
+
+Revisa su refrigerador dos veces por semana, pero desecha embutidos y nuggets. Percibe el desperdicio como un problema económico y también ético/social, pues otros podrían aprovechar la comida. No utiliza apps ni listas, y menciona aburrimiento por consumir lo mismo cada semana.
+
+**Puntos clave:**
+- Valora el impacto **económico, ambiental y social** de reducir desperdicios.  
+- Necesita un **tutorial claro y repetible** dentro de la app.  
+- Ve las **recetas como un “gancho”** para mantenerse en la plataforma.  
+- Estima justo pagar entre **15 y 25 soles mensuales**, similar a un servicio de streaming.  
+- Advierte sobre **notificaciones excesivas**, por lo que se requieren alertas inteligentes.  
+
+
+## 👨 Álvaro Yagui
+
+Lleva un estilo de vida ocupado y reconoce que carnes, plátanos y paltas suelen malograrse porque olvida cocinarlos. Siente frustración y descuido al desperdiciar dinero. No usa apps de control, solo alarmas, que considera tediosas.
+
+**Puntos clave:**
+- El problema está ligado a la **falta de tiempo y energía**.  
+- Sugiere un **registro automatizado** (voz o escáner con IA).  
+- Interés en **recetas que eviten la monotonía**.  
+- Dispuesto a pagar entre **15 y 20 soles mensuales**, comparable a Spotify.  
+
+## 👩 Gabriela Vázquez (25 años)
+
+Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alimentos y termine botando principalmente frutas y verduras. Esto le genera frustración y sensación de pérdida económica. Se organiza con notas y calendario, pero no con herramientas específicas para alimentos.
+
+**Puntos clave:**
+- Necesita **alertas tempranas** sobre alimentos por vencer.  
+- Busca una aplicación **intuitiva y atractiva** en su diseño.  
+- Le interesan **recetas personalizadas** para aprovechar ingredientes.  
+- Estaría dispuesta a pagar bajo un modelo **familiar** (~30 soles compartidos, estilo Spotify).  
+---
+### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
@@ -183,6 +312,25 @@ del ABET – EAC - Student Outcome 3.
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
+
+| Ubiquos Term          | Definition of Functional Domain                                                         | 
+|-----------------------|-----------------------------------------------------------------------------------------|
+| Food Waste            | Loss or discard of edible food that could have been consumed, caused by poor management, lack of monitoring, or premature spoilage. |
+| FreshSense Device     | Sensor-based hardware placed inside the refrigerator to monitor food conditions such as temperature, humidity, and ethylene gas levels.|
+| Ethylene Gas          | Natural plant hormone released by fruits and vegetables during ripening. In FreshSense, ethylene gas is considered an indicator of freshness: high levels mean food is ripening faster and may spoil soon. |
+| Food Inventory        | List and status of available food items stored at home or in small businesses, including expiration estimation. |
+| Food Condition        | Current state of stored food measured by FreshSense (fresh, at risk, or spoiled). |
+| Expiration Alert      | Notification sent to users when a food item is approaching spoilage or expiration. |
+| Recipe Suggestion     | Cooking recommendation generated by the app based on ingredients close to expiration. |
+| Consumption Report    | Weekly or monthly summary of food consumed, discarded, and saved, showing economic and environmental impact. |
+| Premium Subscription  | Paid plan offering advanced features such as detailed inventory analysis, personalized recipes, and environmental statistics. |
+| Household User        | Individual or family that uses FreshSense at home to manage their food and reduce waste. |
+| Food Entrepreneur     | Small business owner or person who sells homemade food and uses FreshSense to guarantee freshness and reduce losses. |
+| Sustainability Impact | Positive effect of reducing food waste, measured in terms of money saved, CO₂ emissions avoided, and responsible consumption. |
+| Gamification          | Use of challenges, badges, and achievements within the app to motivate users to reduce waste. |
+| Food Monitoring      | Continuous tracking of storage conditions and freshness status of food. |
+| Smart Notification   | Alert system customized to user preferences, avoiding excessive or irrelevant reminders. |
+| Recipe Filter       | User option to search recipes by difficulty, time, or dietary preference. |
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
