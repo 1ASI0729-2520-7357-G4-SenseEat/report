@@ -347,6 +347,42 @@ Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnol
 | 3                     | **Nombre:** Gabriela Vasquez  <br> **Edad:** 25  <br> **Distrito:** Pueblo Libre <br><br> **Resumen:** Gabriela Vázquez, de 25 años, reconoció que suele revisar el refrigerador solo una vez por semana, lo que la lleva a olvidar alimentos y desperdiciar principalmente frutas y verduras. Este hábito le genera frustración y la sensación de estar perdiendo dinero. Aunque utiliza notas y calendario para organizarse, no aplica ninguna herramienta específica para gestionar la comida. Considera valiosa una aplicación siempre que sea intuitiva, atractiva y con recordatorios confiables, además de que le ofrezca recetas para aprovechar mejor lo que ya tiene. En cuanto al costo, ve razonable un plan grupal parecido al de Spotify, alrededor de 30 soles compartidos entre varias personas | ![Evidencia](assets/Entrevista%20Gabriela.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1zAOWVJjCjoiuuvE4Mp8h9_h-m27QpLtD/view?usp=drive_link) |
 
 ### 2.2.3. Análisis de entrevistas
+### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
+---
+### Hallazgos :
+## 👨 Piero Tapia
+
+Revisa su refrigerador dos veces por semana, pero desecha embutidos y nuggets. Percibe el desperdicio como un problema económico y también ético/social, pues otros podrían aprovechar la comida. No utiliza apps ni listas, y menciona aburrimiento por consumir lo mismo cada semana.
+
+**Puntos clave:**
+- Valora el impacto **económico, ambiental y social** de reducir desperdicios.  
+- Necesita un **tutorial claro y repetible** dentro de la app.  
+- Ve las **recetas como un “gancho”** para mantenerse en la plataforma.  
+- Estima justo pagar entre **15 y 25 soles mensuales**, similar a un servicio de streaming.  
+- Advierte sobre **notificaciones excesivas**, por lo que se requieren alertas inteligentes.  
+
+
+## 👨 Álvaro Yagui
+
+Lleva un estilo de vida ocupado y reconoce que carnes, plátanos y paltas suelen malograrse porque olvida cocinarlos. Siente frustración y descuido al desperdiciar dinero. No usa apps de control, solo alarmas, que considera tediosas.
+
+**Puntos clave:**
+- El problema está ligado a la **falta de tiempo y energía**.  
+- Sugiere un **registro automatizado** (voz o escáner con IA).  
+- Interés en **recetas que eviten la monotonía**.  
+- Dispuesto a pagar entre **15 y 20 soles mensuales**, comparable a Spotify.  
+
+## 👩 Gabriela Vázquez (25 años)
+
+Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alimentos y termine botando principalmente frutas y verduras. Esto le genera frustración y sensación de pérdida económica. Se organiza con notas y calendario, pero no con herramientas específicas para alimentos.
+
+**Puntos clave:**
+- Necesita **alertas tempranas** sobre alimentos por vencer.  
+- Busca una aplicación **intuitiva y atractiva** en su diseño.  
+- Le interesan **recetas personalizadas** para aprovechar ingredientes.  
+- Estaría dispuesta a pagar bajo un modelo **familiar** (~30 soles compartidos, estilo Spotify).  
+---
+### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
@@ -357,10 +393,63 @@ Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnol
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+### Segmento #1 : Adultos jóvenes
+![alt text](assets/ToBe_Scenario_Seg1.jpeg)
+### Segmento #2 : Pequeños negocios / emprendedores de alimentos caseros
+![alt text](assets/ToBe_Scenario_Seg2.jpeg)
 ## 3.2. User Stories
+
+| Epic / User Story ID | Título                         | Descripción                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                               | Relacionado con (Epic ID) |
+|-----------------------|--------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| US01                 | Monitoreo de alimentos         | Como usuario, quiero que el sensor mida temperatura, humedad y etileno para conocer el estado real de mis alimentos. | **Escenario 1:** Registro de datos exitoso. <br> Dado que el sensor está activo <br> Cuando detecta variaciones <br> Entonces la información debe enviarse a la app en tiempo real. <br><br> **Escenario 2:** Error de conexión. <br> Dado que el sensor pierde conexión <br> Entonces la app debe mostrar un error y sugerir reconexión. | EP01 |
+| US02                 | Visualización de inventario    | Como usuario, quiero ver en la app el estado de cada alimento para identificar cuáles están en riesgo. | **Escenario 1:** Vista general con colores. <br> Dado que accedo al panel <br> Cuando abro la app <br> Entonces debo ver estado (verde, amarillo, rojo). <br><br> **Escenario 2:** Detalle. <br> Dado que selecciono un alimento <br> Entonces debo ver fecha estimada de caducidad y condiciones actuales. | EP01 |
+| US03                 | Alertas anticipadas            | Como usuario, quiero recibir alertas cuando un alimento esté por vencer para consumirlo a tiempo. | **Escenario 1:** Activación de alerta. <br> Dado que un alimento está próximo a caducar <br> Entonces el sistema debe notificarme. <br><br> **Escenario 2:** No generar alerta sin riesgo. <br> Dado que no hay alimentos en riesgo <br> Entonces no deben aparecer notificaciones. | EP02 |
+| US04                 | Configuración de notificaciones| Como usuario, quiero configurar la hora y frecuencia de las notificaciones para que no sean invasivas. | **Escenario 1:** Configuración exitosa. <br> Dado que ingreso parámetros válidos <br> Entonces el sistema debe aplicarlos. <br><br> **Escenario 2:** Error en configuración. <br> Dado que ingreso valores inválidos <br> Entonces el sistema debe mostrar un mensaje de error. | EP02 |
+| US05                 | Registro automático de alimentos | Como usuario, quiero registrar mis alimentos mediante voz o escáner para ahorrar tiempo. | **Escenario 1:** Registro por voz. <br> Dado que digo “compré pollo y plátanos” <br> Entonces la app debe registrar esos productos. <br><br> **Escenario 2:** Registro por escaneo. <br> Dado que escaneo un código válido <br> Entonces el producto debe registrarse automáticamente. | EP03 |
+| US06                 | Edición de inventario          | Como usuario, quiero editar manualmente mi inventario para mantenerlo actualizado. | **Escenario 1:** Edición exitosa. <br> Dado que modifico cantidad o fecha <br> Entonces la app debe guardar los cambios. <br><br> **Escenario 2:** Error en edición. <br> Dado que ingreso datos inválidos <br> Entonces la app debe mostrar un mensaje de error. | EP03 |
+| US07                 | Resumen semanal                | Como usuario, quiero recibir un reporte semanal de mis alimentos consumidos y desperdiciados. | **Escenario 1:** Generación de reporte. <br> Dado que ha pasado una semana <br> Entonces debo ver un resumen con métricas de consumo. <br><br> **Escenario 2:** Envío por correo. <br> Dado que activo esa opción <br> Entonces debo recibir el reporte por email. | EP03 |
+| US08                 | Recetas personalizadas         | Como usuario, quiero recibir recetas basadas en los alimentos que están próximos a caducar. | **Escenario 1:** Recetas con ingredientes en riesgo. <br> Dado que tengo productos próximos a vencer <br> Entonces la app debe mostrar recetas con ellos. <br><br> **Escenario 2:** Sin riesgo. <br> Dado que no hay productos en riesgo <br> Entonces la app debe mostrar recetas generales. | EP04 |
+| US09                 | Filtros de recetas             | Como usuario, quiero filtrar recetas por dificultad, tiempo o dieta para adaptarlas a mi estilo de vida. | **Escenario 1:** Filtro aplicado. <br> Dado que selecciono “rápido” <br> Entonces la app debe mostrar recetas de menos de 30 min. <br><br> **Escenario 2:** Sin coincidencias. <br> Dado que no hay recetas bajo un filtro <br> Entonces la app debe mostrar un mensaje “no se encontraron recetas”. | EP04 |
+| US10                 | Tutorial interactivo           | Como usuario, quiero un tutorial inicial y repetible para aprender a usar la app. | **Escenario 1:** Tutorial visible. <br> Dado que soy nuevo usuario <br> Entonces debo ver un tutorial al iniciar la app. <br><br> **Escenario 2:** Repetir tutorial. <br> Dado que ya he usado la app <br> Cuando accedo a “Ayuda” <br> Entonces debo poder repetir el tutorial. | EP05 |
+| US11                 | Interfaz atractiva             | Como usuario, quiero una interfaz visual sencilla y atractiva que me motive a usar la aplicación. | **Escenario 1:** Diseño usable. <br> Dado que navego por la app <br> Entonces los menús deben ser claros y accesibles. <br><br> **Escenario 2:** Error de usabilidad. <br> Dado que un botón está mal configurado <br> Entonces la app debe notificarlo al equipo técnico. | EP05 |
+| US12                 | Análisis detallado de inventario | Como usuario premium, quiero acceder a un análisis detallado de mis alimentos para optimizar mis compras. | **Escenario 1:** Reporte avanzado. <br> Dado que soy usuario premium <br> Entonces debo ver métricas detalladas de inventario. <br><br> **Escenario 2:** Sin acceso. <br> Dado que no soy premium <br> Entonces debo ver un aviso de “Función disponible en plan premium”. | EP06 |
+| US13                 | Estadísticas de ahorro         | Como usuario premium, quiero ver estadísticas de ahorro económico y reducción de desperdicio. | **Escenario 1:** Estadísticas visibles. <br> Dado que accedo a mi perfil <br> Entonces debo ver mi ahorro acumulado. <br><br> **Escenario 2:** Sin datos. <br> Dado que soy nuevo usuario premium <br> Entonces la app debe mostrar un mensaje “aún no hay estadísticas”. | EP06 |
+| US14                 | Recetas exclusivas premium     | Como usuario premium, quiero tener acceso a recetas avanzadas para aprovechar mis ingredientes. | **Escenario 1:** Acceso permitido. <br> Dado que soy premium <br> Entonces debo ver recetas exclusivas. <br><br> **Escenario 2:** Acceso restringido. <br> Dado que no soy premium <br> Entonces no debo ver recetas exclusivas. | EP06 |
+| US15                 | Reporte de impacto ambiental   | Como usuario, quiero ver un reporte mensual del impacto ambiental evitado (ej. kg de CO₂ ahorrados). | **Escenario 1:** Reporte generado. <br> Dado que accedo a mi perfil <br> Entonces debo ver el impacto ambiental acumulado. <br><br> **Escenario 2:** Sin datos. <br> Dado que no he registrado consumo <br> Entonces la app debe mostrar “aún no hay datos”. | EP07 |
+| US16                 | Compartir logros en redes      | Como usuario, quiero compartir mis logros de reducción de desperdicio en redes sociales. | **Escenario 1:** Compartir exitoso. <br> Dado que selecciono “Compartir” <br> Entonces la app debe publicar mi logro en la red seleccionada. <br><br> **Escenario 2:** Error de conexión. <br> Dado que la red no responde <br> Entonces la app debe mostrar un mensaje de error. | EP07 |
+
+## Epics
+
+| Epic ID | Título                               | Descripción                                                                                     |
+|---------|---------------------------------------|-------------------------------------------------------------------------------------------------|
+| EP01    | Monitoreo de alimentos                | Gestionar en tiempo real el estado de frutas, verduras y perecibles con sensores de temperatura, humedad y gas etileno. |
+| EP02    | Alertas y notificaciones inteligentes | Avisar a los usuarios cuando un alimento esté próximo a vencer o deteriorarse.                  |
+| EP03    | Gestión de inventario alimenticio     | Permitir registrar, visualizar y organizar los alimentos disponibles en el refrigerador.        |
+| EP04    | Recetas personalizadas                | Recomendar preparaciones basadas en los ingredientes disponibles para fomentar su consumo.      |
+| EP05    | Experiencia de usuario y accesibilidad| Garantizar una app intuitiva, atractiva, con tutoriales y facilidad de uso.                     |
+| EP06    | Modelo de suscripción premium         | Ofrecer planes pagos con funciones avanzadas como análisis detallado, estadísticas y recetas premium. |
+| EP07    | Impacto ambiental y sostenibilidad    | Promover la reducción del desperdicio y concientizar al usuario sobre el ahorro económico y ecológico. |
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
-
+| # Orden | User Story ID | Título                          | Descripción                                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|---------------|----------------------------------|-----------------------------------------------------------------------------|----------------------------------|
+| 1       | US01          | Monitoreo de alimentos           | Como usuario, quiero que el sensor mida temperatura, humedad y etileno para conocer el estado real de mis alimentos. | 5 |
+| 2       | US02          | Visualización de inventario      | Como usuario, quiero ver en la app el estado de cada alimento para identificar cuáles están en riesgo. | 3 |
+| 3       | US03          | Alertas anticipadas              | Como usuario, quiero recibir alertas cuando un alimento esté por vencer para poder consumirlo a tiempo. | 5 |
+| 4       | US04          | Configuración de notificaciones  | Como usuario, quiero configurar la hora y frecuencia de las notificaciones para que no sean invasivas. | 3 |
+| 5       | US05          | Registro automático de alimentos | Como usuario, quiero registrar mis alimentos mediante voz o escáner para ahorrar tiempo. | 5 |
+| 6       | US06          | Edición de inventario            | Como usuario, quiero editar manualmente mi inventario para mantenerlo actualizado. | 2 |
+| 7       | US07          | Resumen semanal                  | Como usuario, quiero recibir un reporte semanal de mis alimentos consumidos y desperdiciados. | 3 |
+| 8       | US08          | Recetas personalizadas           | Como usuario, quiero recibir recetas basadas en los alimentos que están próximos a caducar. | 5 |
+| 9       | US09          | Filtros de recetas               | Como usuario, quiero filtrar recetas por dificultad, tiempo o dieta para adaptarlas a mi estilo de vida. | 3 |
+| 10      | US10          | Tutorial interactivo             | Como usuario, quiero un tutorial inicial y repetible para aprender a usar la app. | 2 |
+| 11      | US11          | Interfaz atractiva               | Como usuario, quiero una interfaz visual sencilla y atractiva que me motive a usar la aplicación. | 3 |
+| 12      | US12          | Análisis detallado de inventario | Como usuario premium, quiero acceder a un análisis detallado de mis alimentos para optimizar mis compras. | 5 |
+| 13      | US13          | Estadísticas de ahorro           | Como usuario premium, quiero ver estadísticas de ahorro económico y reducción de desperdicio. | 3 |
+| 14      | US14          | Recetas exclusivas premium       | Como usuario premium, quiero tener acceso a recetas avanzadas para aprovechar mis ingredientes. | 2 |
+| 15      | US15          | Reporte de impacto ambiental     | Como usuario, quiero ver un reporte mensual del impacto ambiental evitado (ej. kg de CO₂ ahorrados). | 3 |
+| 16      | US16          | Compartir logros en redes        | Como usuario, quiero compartir mis logros de reducción de desperdicio en redes sociales. | 2 |
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
