@@ -491,33 +491,42 @@ El Impact Mapping de FreshSense se elaboró con el propósito de vincular las me
 En conclusión, el Impact Mapping permitió establecer una trazabilidad clara entre la estrategia de negocio y la implementación del producto. Esto asegura que las funcionalidades priorizadas no solo atiendan a los requerimientos técnicos, sino que generen un impacto real en los hábitos de consumo de los usuarios, reduzcan el desperdicio alimentario y fortalezcan el modelo de negocio de FreshSense.
 
 ## 3.4. Product Backlog
-| # Orden | User Story ID | Título  | Descripción    | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|---------------|----------------------------------|-----------------------------------------------------------------------------|----------------------------------|
-| 1  | US01| Monitoreo de alimentos | Como usuario, quiero que el sensor mida temperatura, humedad y etileno para conocer el estado real de mis alimentos. | 5 |
-| 2  | US02| Visualización de inventario | Como usuario, quiero ver en la app el estado de cada alimento para identificar cuáles están en riesgo. | 3 |
-| 3  | US03| Alertas anticipadas | Como usuario, quiero recibir alertas cuando un alimento esté por vencer para poder consumirlo a tiempo. | 5 |
-| 4  | US04| Configuración de notificaciones  | Como usuario, quiero configurar la hora y frecuencia de las notificaciones para que no sean invasivas. | 3 |
-| 5  | US05| Registro automático de alimentos | Como usuario, quiero registrar mis alimentos mediante voz o escáner para ahorrar tiempo. | 5 |
-| 6  | US06| Edición de inventario  | Como usuario, quiero editar manualmente mi inventario para mantenerlo actualizado. | 2 |
-| 7  | US07| Resumen semanal| Como usuario, quiero recibir un reporte semanal de mis alimentos consumidos y desperdiciados. | 3 |
-| 8  | US08| Recetas personalizadas | Como usuario, quiero recibir recetas basadas en los alimentos que están próximos a caducar. | 5 |
-| 9  | US09| Filtros de recetas  | Como usuario, quiero filtrar recetas por dificultad, tiempo o dieta para adaptarlas a mi estilo de vida. | 3 |
-| 10 | US10| Tutorial interactivo| Como usuario, quiero un tutorial inicial y repetible para aprender a usar la app. | 2 |
-| 11 | US11| Interfaz atractiva  | Como usuario, quiero una interfaz visual sencilla y atractiva que me motive a usar la aplicación. | 3 |
-| 12 | US12| Análisis detallado de inventario | Como usuario premium, quiero acceder a un análisis detallado de mis alimentos para optimizar mis compras. | 5 |
-| 13 | US13| Estadísticas de ahorro | Como usuario premium, quiero ver estadísticas de ahorro económico y reducción de desperdicio. | 3 |
-| 14 | US14| Recetas exclusivas premium  | Como usuario premium, quiero tener acceso a recetas avanzadas para aprovechar mis ingredientes. | 2 |
-| 15 | US15| Reporte de impacto ambiental| Como usuario, quiero ver un reporte mensual del impacto ambiental evitado (ej. kg de CO₂ ahorrados). | 3 |
-| 16 | US16| Compartir logros en redes   | Como usuario, quiero compartir mis logros de reducción de desperdicio en redes sociales. | 2 |
-| 17 | US17| Sincronización con smart fridges | Como usuario, quiero que FreshSense se integre con refrigeradores inteligentes para recibir datos combinados y mejorar la precisión. | 8 |
-| 18 | US18| Control por voz con asistentes   | Como usuario, quiero poder controlar funciones básicas de FreshSense con asistentes de voz (Alexa, Google). | 5 |
-| 19 | US19| Notificaciones personalizadas    | Como usuario, quiero configurar qué notificaciones recibir y a qué dispositivo para no ser molestado. | 3 |
-| 20 | US20| Logros y recompensas| Como usuario, quiero ganar logros por uso frecuente y reducción de desperdicio para motivarme. | 3 |
-| 21 | US21| Compartir en redes sociales | Como usuario, quiero compartir mis logros en redes sociales para inspirar a otros. | 2 |
-| 22 | US22| Retos y competencias| Como usuario, quiero participar en retos con otros usuarios para reducir desperdicio y ganar premios. | 5 |
-| 23 | US23| Categorías personalizadas   | Como usuario, quiero crear y asignar categorías propias para organizar mis alimentos según mi preferencia. | 3 |
-| 24 | US24| Historial de consumo| Como usuario, quiero consultar un historial de consumo para analizar mis hábitos alimenticios y ajustar compras. | 5 |
-| 25 | US25| Sugerencias de compra  | Como usuario, quiero recibir sugerencias de compra basadas en inventario y consumo para evitar faltantes o exceso. | 5 |
+| # Orden | User Story ID | Título                                | Descripción                                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|--------:|---------------|----------------------------------------|-----------------------------------------------------------------------------|----------------------------------|
+| 1       | US01          | Visualización propuesta                | Como visitante adulto joven, quiero entender rápidamente la propuesta de FreshSense para valorar su utilidad. | 2 |
+| 2       | US02          | Sección para pequeños negocios         | Como visitante emprendedor, quiero información dedicada para sentirme identificado y entender beneficios. | 2 |
+| 3       | US03          | Formulario de contacto                 | Como visitante, quiero un formulario simple para solicitar información o demo fácilmente. | 2 |
+| 4       | US04          | CTA para suscripción                   | Como visitante interesado, quiero un llamado claro a la acción para iniciar una suscripción o prueba gratis. | 2 |
+| 5       | US05          | Compatibilidad móvil                   | Como visitante, quiero que la landing funcione correctamente en móviles. | 3 |
+| 6       | US06          | Monitoreo de alimentos                 | Como usuario doméstico, quiero que el sensor mida temperatura, humedad y etileno. | 5 |
+| 7       | US07          | Visualización de inventario            | Como usuario, quiero ver el estado de cada alimento e identificar riesgos. | 3 |
+| 8       | US08          | Alertas anticipadas                    | Como usuario, quiero recibir alertas cuando un alimento esté por vencer. | 5 |
+| 9       | US09          | Configuración de notificaciones        | Como usuario, quiero configurar hora y frecuencia de notificaciones. | 3 |
+| 10      | US10          | Registro automático de alimentos       | Como usuario, quiero registrar alimentos por voz o escaneo. | 5 |
+| 11      | US11          | Edición de inventario                  | Como usuario, quiero editar manualmente mi inventario. | 2 |
+| 12      | US12          | Resumen semanal                        | Como usuario, quiero recibir un reporte semanal de consumo y desperdicio. | 3 |
+| 13      | US13          | Recetas personalizadas                 | Como usuario, quiero recetas basadas en alimentos próximos a caducar. | 5 |
+| 14      | US14          | Filtros de recetas                     | Como usuario, quiero filtrar recetas por dificultad, tiempo o dieta. | 3 |
+| 15      | US15          | Tutorial interactivo                   | Como usuario nuevo, quiero un tutorial inicial y repetible. | 2 |
+| 16      | US16          | Interfaz atractiva                     | Como usuario, quiero una interfaz sencilla y motivadora. | 3 |
+| 17      | US17          | Análisis detallado de inventario       | Como usuario premium, quiero análisis detallado para optimizar compras. | 5 |
+| 18      | US18          | Estadísticas de ahorro                 | Como usuario premium, quiero ver ahorro económico y reducción de desperdicio. | 3 |
+| 19      | US19          | Recetas exclusivas premium             | Como usuario premium, quiero recetas avanzadas. | 2 |
+| 20      | US20          | Reporte de impacto ambiental           | Como usuario, quiero ver reporte mensual de impacto ambiental evitado. | 3 |
+| 21      | US21          | Compartir logros en redes              | Como usuario, quiero compartir mis logros en redes sociales. | 2 |
+| 22      | US22          | Sincronización con smart fridges       | Como usuario, quiero integrar refrigeradores inteligentes. | 8 |
+| 23      | US23          | Control por voz con asistentes         | Como usuario, quiero controlar funciones con Alexa/Google Assistant. | 5 |
+| 24      | US24          | Notificaciones personalizadas          | Como usuario, quiero configurar qué notificaciones recibir y a qué dispositivo. | 3 |
+| 25      | US25          | Logros y recompensas                   | Como usuario, quiero ganar logros por uso y reducción de desperdicio. | 3 |
+| 26      | US26          | Compartir en redes sociales            | Como usuario, quiero compartir mis logros para inspirar a otros. | 2 |
+| 27      | US27          | Retos y competencias                   | Como usuario, quiero participar en retos para reducir desperdicio. | 5 |
+| 28      | US28          | Categorías personalizadas              | Como usuario, quiero crear y asignar categorías propias. | 3 |
+| 29      | US29          | Historial de consumo                   | Como usuario, quiero consultar historial para analizar hábitos. | 5 |
+| 30      | US30          | Sugerencias de compra                  | Como usuario, quiero sugerencias basadas en inventario y consumo. | 5 |
+| 31      | TS31          | API para registro de sensores          | Como developer, necesito una API que reciba y almacene datos de sensores. | 5 |
+| 32      | TS32          | API para envío de notificaciones       | Como developer, necesito un endpoint para enviar notificaciones basadas en alertas. | 3 |
+| 33      | TS33          | API para gestión de usuarios           | Como developer, necesito que el API permita administrar roles y permisos. | 5 |
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
