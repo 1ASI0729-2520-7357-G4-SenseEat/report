@@ -599,11 +599,44 @@ Se utilizó el patrón de lectura Z para guiar la atención del usuario en la ve
 En la versión móvil, se aplicó el patrón de lectura F, estructurando el contenido en bloques horizontales que se escanean de arriba hacia abajo. Comienza con la barra de navegación y el logo, seguido del mensaje principal y las llamadas a la acción, continúa con los segmentos y beneficios, y termina en la sección de contacto. Este orden favorece una lectura jerárquica y natural en pantallas pequeñas, optimizando la experiencia de desplazamiento vertical.
 
 ## 4.2. Information Architecture
+La arquitectura de la información en **FreshSense** se ha diseñado para garantizar que los usuarios puedan encontrar rápidamente lo que buscan y navegar de forma intuitiva tanto en la landing page como en la aplicación web. Las decisiones tomadas responden a la necesidad de minimizar la carga cognitiva, facilitar la interacción y ofrecer una experiencia fluida que refleje los valores de sostenibilidad y eficiencia del producto.
 ### 4.2.1. Organization Systems
+Para **FreshSense** se aplican diferentes sistemas de organización según el tipo de contenido:
+
+- **Organización jerárquica (Visual Hierarchy):** en la landing page se estructura la información en niveles, destacando primero el valor principal de la propuesta, seguido de beneficios, testimonios, segmentos y finalmente la sección de contacto.  
+- **Organización secuencial (Step-by-step):** en la aplicación web, ciertas funciones como el registro de alimentos o configuración de notificaciones siguen un flujo paso a paso que guía al usuario de forma clara.  
+- **Organización por tópicos:** dentro de la aplicación, el inventario de alimentos se categoriza según estado de conservación (frescos, próximos a vencer, vencidos) y tipo de producto (frutas, verduras, carnes).  
+- **Organización según audiencia:** en la landing page se diferencian bloques dirigidos a adultos jóvenes y pequeños negocios, con mensajes y beneficios adaptados a cada segmento.  
 ### 4.2.2. Labeling Systems
+El sistema de etiquetado en **FreshSense** busca simplicidad y claridad para que los usuarios comprendan de inmediato el contenido. Se han definido etiquetas cortas y directas como:  
+
+- **Aplicación:** Inventario, Recetas, Alertas, Historial, Premium  
+- **Landing Page:** Inicio, Beneficios, Segmentos, Contacto, Suscripción  
+
+Además, en botones y CTAs se utilizan verbos de acción como:  
+“**Suscríbete**”, “**Explora recetas**”, “**Ver inventario**”.
 ### 4.2.3. SEO Tags and Meta Tags
+Para optimizar la visibilidad en motores de búsqueda, se han definido los siguientes meta elementos principales:  
+
+- **Title (Landing Page):** FreshSense | Reduce el desperdicio de alimentos con tecnología inteligente  
+- **Meta Description:** FreshSense combina sensores y una app web para monitorear alimentos, prevenir desperdicios y ahorrar dinero en casa o negocio.  
+- **Meta Keywords:** desperdicio de alimentos, sostenibilidad, recetas personalizadas, inventario inteligente, sensores de refrigerador  
+- **Author:** Equipo FreshSense – SenseEat Startup 
 ### 4.2.4. Searching Systems
+En la aplicación web se incluyen sistemas de búsqueda que ayudan al usuario a localizar información sin esfuerzo:  
+
+- **Búsqueda en inventario:** encontrar rápidamente un alimento por nombre o categoría.  
+- **Filtros avanzados:** ordenar productos por estado (fresco, próximo a vencer, vencido), fecha de registro o categoría personalizada.  
+- **Búsqueda en recetas:** filtros por ingredientes, tiempo de preparación, dificultad y tipo de dieta (vegetariana, vegana, sin gluten).  
 ### 4.2.5. Navigation Systems
+La navegación en **FreshSense** combina claridad y fluidez, guiando al usuario hacia la consecución de sus metas:  
+
+- **Landing Page (Desktop):** menú superior con navegación anclada (Inicio, Beneficios, Segmentos, Contacto, Suscripción).  
+- **Landing Page (Móvil):** menú tipo “hamburguesa” con navegación vertical, simplificada para pantallas pequeñas.  
+- **Aplicación Web:** navegación lateral (sidebar) con funciones principales: Inventario, Recetas, Alertas, Historial, Premium.  
+- **CTAs estratégicos:** botones visibles y consistentes que llevan al usuario a acciones críticas como suscripción, registro de alimentos o activación de alertas.
+  
+En conjunto, el sistema de navegación asegura que tanto visitantes como usuarios recurrentes encuentren el contenido y funcionalidades de forma rápida y eficiente.
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
