@@ -518,10 +518,86 @@ En conclusión, el Impact Mapping permitió establecer una trazabilidad clara en
 | 23 | US23| Categorías personalizadas   | Como usuario, quiero crear y asignar categorías propias para organizar mis alimentos según mi preferencia. | 3 |
 | 24 | US24| Historial de consumo| Como usuario, quiero consultar un historial de consumo para analizar mis hábitos alimenticios y ajustar compras. | 5 |
 | 25 | US25| Sugerencias de compra  | Como usuario, quiero recibir sugerencias de compra basadas en inventario y consumo para evitar faltantes o exceso. | 5 |
+| 26      | US26          | Compartir en redes sociales            | Como usuario, quiero compartir mis logros para inspirar a otros. | 2 |
+| 27      | US27          | Retos y competencias                   | Como usuario, quiero participar en retos para reducir desperdicio. | 5 |
+| 28      | US28          | Categorías personalizadas              | Como usuario, quiero crear y asignar categorías propias. | 3 |
+| 29      | US29          | Historial de consumo                   | Como usuario, quiero consultar historial para analizar hábitos. | 5 |
+| 30      | US30          | Sugerencias de compra                  | Como usuario, quiero sugerencias basadas en inventario y consumo. | 5 |
+| 31      | TS31          | API para registro de sensores          | Como developer, necesito una API que reciba y almacene datos de sensores. | 5 |
+| 32      | TS32          | API para envío de notificaciones       | Como developer, necesito un endpoint para enviar notificaciones basadas en alertas. | 3 |
+| 33      | TS33          | API para gestión de usuarios           | Como developer, necesito que el API permita administrar roles y permisos. | 5 |
+
 # Capítulo IV: Product Design
+
+El desarrollo de FreshSense requiere establecer un conjunto de lineamientos visuales y de interacción que aseguren la coherencia de la experiencia en todas sus interfaces. Para ello, se definen estándares generales aplicables a todo el ecosistema del producto, así como guías específicas para la aplicación web. Estos lineamientos están inspirados en principios de diseño como consistencia, simplicidad, accesibilidad y comunicación clara, garantizando una experiencia confiable y atractiva para los usuarios finales.
+
 ## 4.1. Style Guidelines
+
+Los lineamientos generales proporcionan una base visual y comunicacional uniforme que sirve como referencia para cualquier pieza del producto FreshSense.
+
 ### 4.1.1. General Style Guidelines
+
+Los lineamientos generales proporcionan una base visual y comunicacional uniforme que sirve como referencia para cualquier pieza del producto FreshSense, ya sea en medios digitales, impresos o presentaciones institucionales.
+
+**Branding:**
+
+El logo de FreshSense transmite innovación y sostenibilidad, con un estilo limpio que simboliza frescura y control. Se privilegia el uso de elementos visuales asociados a alimentos, frescura y naturaleza, lo cual refuerza la misión de reducir el desperdicio de alimentos mediante tecnología.
+
+![alt text](assets/FreshSense.jpg)
+
+**Typography:**
+
+La tipografía de FreshSense fue seleccionada con el objetivo de transmitir modernidad, simplicidad y legibilidad en cualquier dispositivo digital. Se adoptó la familia Poppins, ampliamente utilizada en interfaces web por su estilo limpio y adaptable. La definición de jerarquías tipográficas claras (H1, H2, H3 y párrafo) asegura una correcta organización de la información, permitiendo que los títulos resalten con fuerza mientras los textos de párrafo mantienen una lectura cómoda y fluida.
+
+![alt text](assets/Typography_FreshSense.jpg)
+
+**Colors:**
+
+La paleta cromática de FreshSense refleja los valores de frescura, sostenibilidad y confianza que inspiran al producto. Los tonos verdes y azules transmiten vitalidad y dinamismo, mientras que los grises y el blanco generan equilibrio, limpieza y contraste. Esta selección no solo aporta coherencia visual a la marca, sino que también mejora la accesibilidad y la experiencia del usuario en diferentes contextos y dispositivos.
+
+![alt text](assets/Colors_FreshSense.jpg)
+
+Uso de colores:
+
+- Green (Prymary): Botones primarios, acentos principales
+- Blue (Secondary): fondos de tarjetas y secciones suaves
+- Gray 500 (Neutral Text / Secondary): textos secundarios, íconos, labels
+- White (Background / Contrast): fondo principal, tarjetas, espacios en blanco
+- Text (Base): color de texto principal
+
+**Spacing & Layout:**
+
+La organización del espacio en FreshSense se fundamenta en una estructura modular que garantiza orden, coherencia y equilibrio visual en todas las interfaces. El uso de un sistema de grillas y una unidad base de espaciado permite mantener consistencia entre secciones, componentes y tipografías, asegurando una experiencia clara y agradable para el usuario. Asimismo, la aplicación de márgenes amplios y paddings uniformes favorece la legibilidad y resalta los elementos clave, transmitiendo una sensación de limpieza y simplicidad.
+
+Base Unit
+- Size: 8 px
+- Uso: unidad mínima para márgenes, paddings y separación entre elementos.
+
+Grid System
+- Grid: 12 columnas
+- Gutter: 22 px
+- Margins: proporcionales a la unidad base (múltiplos de 8 px)
+
+Section Spacing
+- Padding vertical: 56 px (sección estándar)
+- Hero section: 72 px
+- Footer: 36–56 px
+
+Cards & Components
+- Padding interno: 18–22 px
+- Border-radius: 16 px (estándar)
+- Elevation: sombra suave 0 10px 25px rgba(0,0,0,.08)
+
+Alignment
+- Contenido centrado en un contenedor máximo de 1120 px o 92% del ancho de pantalla.
+- Texto alineado a la izquierda para mejorar legibilidad.
+- Uso de espacios amplios para separar secciones y resaltar contenido clave.
+
 ### 4.1.2. Web Style Guidelines
+Se utilizó el patrón de lectura Z para guiar la atención del usuario en la versión desktop. El recorrido inicia en el logo y menú superior, continúa hacia el llamado a la acción principal en el centro de la pantalla, y finaliza en la imagen ilustrativa del producto. Este flujo visual facilita una comprensión inmediata del mensaje y promueve la interacción con los botones principales en cuestión de segundos.
+
+En la versión móvil, se aplicó el patrón de lectura F, estructurando el contenido en bloques horizontales que se escanean de arriba hacia abajo. Comienza con la barra de navegación y el logo, seguido del mensaje principal y las llamadas a la acción, continúa con los segmentos y beneficios, y termina en la sección de contacto. Este orden favorece una lectura jerárquica y natural en pantallas pequeñas, optimizando la experiencia de desplazamiento vertical.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
