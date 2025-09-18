@@ -287,9 +287,69 @@ del ABET – EAC - Student Outcome 3.
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
+
 #### 5.2.1.1. Sprint Planning 1
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. La estructura a utilizar se presenta a continuación.
+
+| Campo                               | Detalle                                                                                |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| **Date**                            | 2025-09-09                                                                             |
+| **Time**                            | 10:00 AM                                                                               |
+| **Location**                        | Sala virtual – Google Meet                                                             |
+| **Prepared By**                     |  Vega Coronado, Fabricio Samir                                                         |
+| **Attendees (to planning meeting)** | Romina Tuesta Marin / Vega Coronado, Fabricio Samir  / Villanueva Andrade, Ysaac Ligorio / Tumi Oliden, Manuel Ignacio / Valverde Portuguez, Natalia Ximena |
+| **Sprint 1 – 1 Review Summary** | Este es el primer sprint, por lo que no hay resultados anteriores a revisar. El equipo está iniciando el desarrollo de la landing page de FreshSense.|
+| **Sprint 1 – 1 Retrospective Summary** | No aplica, al ser el primer sprint. Se acordó establecer prácticas de comunicación diaria y seguimiento mediante Trello y reuniones cortas cada mañana.|
+
+| Campo                   | Detalle                                                                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint 1 Goal**       | Nuestro enfoque está en entregar una versión inicial de la landing page de FreshSense que muestre su propuesta de valor y beneficios principales. Creemos que esto generará claridad y confianza en los usuarios potenciales (jóvenes adultos y pequeños emprendedores de alimentos). Esto se confirmará cuando los visitantes puedan navegar la página, entender la solución y enviar un formulario de contacto. |
+| **Sprint 1 Velocity**   | 26 Story Points (capacidad estimada para este sprint inicial)                                                                                                                  |
+| **Sum of Story Points** | 26 Story Points                                                                                                                                                                |
+
+**User Stories incluidas:**
+
+HU01: Header con logo y nombre de FreshSense (2 SP)
+
+HU02: Descripción breve de la plataforma (3 SP)
+
+HU03: Sección de beneficios (5 SP)
+
+HU04: Formulario de contacto (8 SP)
+
+HU05: Diseño responsive (8 SP)
+
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name)   | Github Username        | Diseño, wireframes landing Leader (L), Collaborator (C)    | Desarrollo estatico HTML, CSS, JS Leader (L), Collaborator (C)   | Desplegar el servicio Leader (L), Collaborator (C)    |
+|-----------|----------------------|-----------|----------------------|-----------|
+| Valverde Portuguez Natalia Ximena |        |    (L)   |     (C)     |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     |    (L)   |     (L)     |    (L)      |
+|  Tumi Oliden Manuel Ignacio      |     |    (C)   |     (C)     |    (C)      |
+|  Vega Coronado Fabricio Samir    |     |    (C)   |     (C)     |    (C)      |
+|  Villanueva Andrade Ysaac Ligorio |     |    (C)   |     (C)     |    (C)      |
+
 #### 5.2.1.3. Sprint Backlog 1
+En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que servirá como punto de presentación del producto. Se crearán las secciones informativas clave (propuesta de valor, explicación del producto, beneficios, planes y precios, formulario de contacto y testimonios), estableciendo así las bases visuales y funcionales del proyecto.
+
+Herramienta de control: Trello
+URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
+
+| User Story |                                | Work-Item / Task |                                 |                                                                           |                        |                     |                                                    |
+| ---------- | ------------------------------ | ---------------- | ------------------------------- | ------------------------------------------------------------------------- | ---------------------- | ------------------- | -------------------------------------------------- |
+| **Id**     | **Title**                      | **Id**           | **Title**                       | **Description**                                                           | **Estimation (Hours)** | **Assigned To**     | **Status** (To-do / In-Process / To-Review / Done) |
+| US01       | Visualización propuesta        | T01              | Diseño del mensaje principal    | Redactar y diseñar mensaje principal y valor de la solución               | 3                      | Romina    | Done                                               |
+|            |                                | T02              | Desarrollo del encabezado       | Implementar sección superior con mensaje y valor destacado                | 4                      |   Manuel     | In-Process                                         |
+| US02       | Sección para pequeños negocios | T03              | Contenido de beneficios         | Redactar y diseñar beneficios específicos para emprendedores              | 3                      | Romina | To-Review                                          |
+|            |                                | T04              | Desarrollo de sección           | Implementar sección con beneficios específicos para el perfil emprendedor | 4                      | Natalia    | To-do                                              |
+| US03       | Formulario de contacto         | T05              | Diseño del formulario           | Diseñar formulario simple con campos mínimos requeridos                   | 2                      | Romina    | Done                                               |                                     
+| US04       | CTA para suscripción           | T07              | Diseño del botón CTA            | Diseñar botón llamativo para suscripción o prueba                         | 2                      | Fabricio   | Done                                               |
+|            |                                | T08              | Implementación del botón        | Añadir botón funcional que redirija a formulario o registro de prueba     | 3                      | Fabricio    | To-do                                              |
+| US05       | Compatibilidad móvil           | T09              | Adaptación responsive           | Configurar CSS responsive para toda la landing page                       | 5                      | Ysaac      | In-Process                                         |
+|            |                                | T10              | Pruebas en dispositivos móviles | Realizar pruebas de compatibilidad en distintos tamaños de pantalla       | 3                      | Natalia    | To-do                                              |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
