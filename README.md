@@ -393,7 +393,10 @@ En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de l
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
+![diagrama-contexto](assets/diagrama-contexto.png)
+
 ### 4.6.2. Software Architecture Container Diagrams
+![diagrama-contenedores](assets/diagrama-contenedores.png)
 ### 4.6.3. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
