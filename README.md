@@ -1022,13 +1022,184 @@ erDiagram
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
+
 #### 5.2.1.1. Sprint Planning 1
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. La estructura a utilizar se presenta a continuación.
+
+| Campo                               | Detalle                                                                                |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| **Date**                            | 2025-09-09                                                                             |
+| **Time**                            | 10:00 AM                                                                               |
+| **Location**                        | Sala virtual – Google Meet                                                             |
+| **Prepared By**                     |  Vega Coronado, Fabricio Samir                                                         |
+| **Attendees (to planning meeting)** | Romina Tuesta Marin / Vega Coronado, Fabricio Samir  / Villanueva Andrade, Ysaac Ligorio / Tumi Oliden, Manuel Ignacio / Valverde Portuguez, Natalia Ximena |
+| **Sprint 1 – 1 Review Summary** | Este es el primer sprint, por lo que no hay resultados anteriores a revisar. El equipo está iniciando el desarrollo de la landing page de FreshSense.|
+| **Sprint 1 – 1 Retrospective Summary** | No aplica, al ser el primer sprint. Se acordó establecer prácticas de comunicación diaria y seguimiento mediante Trello y reuniones cortas cada mañana.|
+
+| Campo                   | Detalle                                                                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint 1 Goal**       | Nuestro enfoque está en entregar una versión inicial de la landing page de FreshSense que muestre su propuesta de valor y beneficios principales. Creemos que esto generará claridad y confianza en los usuarios potenciales (jóvenes adultos y pequeños emprendedores de alimentos). Esto se confirmará cuando los visitantes puedan navegar la página, entender la solución y enviar un formulario de contacto. |
+| **Sprint 1 Velocity**   | 26 Story Points (capacidad estimada para este sprint inicial)                                                                                                                  |
+| **Sum of Story Points** | 26 Story Points                                                                                                                                                                |
+
+**User Stories incluidas:**
+
+HU01: Header con logo y nombre de FreshSense (2 SP)
+
+HU02: Descripción breve de la plataforma (3 SP)
+
+HU03: Sección de beneficios (5 SP)
+
+HU04: Formulario de contacto (8 SP)
+
+HU05: Diseño responsive (8 SP)
+
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+
+| Team Member (Last Name, First Name)   | Github Username        | wireframes y MockUps landing |  Visualización beneficios y características | Consultar planes y precios | Formulario de contacto | Sección de testimonios | Despliegue de servicio | Cambio de idioma |
+|-----------|----------------------|-----------|----------------------|-----------|----------------------|-----------|-----------|-----------|
+| Valverde Portuguez Natalia Ximena |        |    (L)   |     (C)     |    (C)      |   (L)   |     (C)     |    (C)      |   (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     |    (L)   |     (C)     |    (L)      |   (L)   |     (C)     |    (L)      |   (C)      |
+|  Tumi Oliden Manuel Ignacio      |     |      (C)   |     (C)     |    (C)      |   (L)   |     (C)     |    (C)      |   (C)      |
+|  Vega Coronado Fabricio Samir    |     |      (C)   |     (C)     |    (C)      |   (C)   |     (L)     |    (C)      |   (C)      |
+|  Villanueva Andrade Ysaac Ligorio |     |      (C)   |     (C)     |    (C)      |   (L)   |     (C)     |    (C)      |   (L)      |
+
 #### 5.2.1.3. Sprint Backlog 1
+En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que servirá como punto de presentación del producto. Se crearán las secciones informativas clave (propuesta de valor, explicación del producto, beneficios, planes y precios, formulario de contacto y testimonios), estableciendo así las bases visuales y funcionales del proyecto.
+
+Herramienta de control: Trello
+<img alt="Trello" src="/assets/Trello_sprint1.PNG" /><br>
+URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
+
+| User Story |                                | Work-Item / Task |                                 |                                                                           |                        |                     |                                                    |
+| ---------- | ------------------------------ | ---------------- | ------------------------------- | ------------------------------------------------------------------------- | ---------------------- | ------------------- | -------------------------------------------------- |
+| **Id**     | **Title**                      | **Id**           | **Title**                       | **Description**                                                           | **Estimation (Hours)** | **Assigned To**     | **Status** (To-do / In-Process / To-Review / Done) |
+| US01       | Visualización propuesta        | T01              | Diseño del mensaje principal    | Redactar y diseñar mensaje principal y valor de la solución               | 3                      | Romina    | Done                                               |
+|            |                                | T02              | Desarrollo del encabezado       | Implementar sección superior con mensaje y valor destacado                | 4                      |   Manuel     | In-Process                                         |
+| US02       | Sección para pequeños negocios | T03              | Contenido de beneficios         | Redactar y diseñar beneficios específicos para emprendedores              | 3                      | Romina | To-Review                                          |
+|            |                                | T04              | Desarrollo de sección           | Implementar sección con beneficios específicos para el perfil emprendedor | 4                      | Natalia    | To-do                                              |
+| US03       | Formulario de contacto         | T05              | Diseño del formulario           | Diseñar formulario simple con campos mínimos requeridos                   | 2                      | Romina    | Done                                               |                                     
+| US04       | CTA para suscripción           | T07              | Diseño del botón CTA            | Diseñar botón llamativo para suscripción o prueba                         | 2                      | Fabricio   | Done                                               |
+|            |                                | T08              | Implementación del botón        | Añadir botón funcional que redirija a formulario o registro de prueba     | 3                      | Fabricio    | To-do                                              |
+| US05       | Compatibilidad móvil           | T09              | Adaptación responsive           | Configurar CSS responsive para toda la landing page                       | 5                      | Ysaac      | In-Process                                         |
+|            |                                | T10              | Pruebas en dispositivos móviles | Realizar pruebas de compatibilidad en distintos tamaños de pantalla       | 3                      | Natalia    | To-do                                              |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución FreshSense, considerando los productos contemplados en el alcance del Sprint: Landing Page. Durante este periodo se trabajó principalmente en el desarrollo de la Landing Page, incorporando mejoras visuales, de usabilidad y funcionalidad. Entre los principales avances se encuentran la creación de la página principal, la integración de estilos y animaciones, la optimización del comportamiento de la navegación y la incorporación de nuevas funciones interactivas.
+
+A continuación, se detallan los commits realizados en los repositorios vinculados a la implementación:
+
+| Repository |   Branch    | Commit Id |  Commit Message  |   Commit Message Body    |   Commited on (Date)  |        
+| ---------- | ----------- | --------- | ---------------- | ------------------------ | --------------------- | 
+| Romini1/github.com/1ASI0729-2520-7357-G4-SenseEat/Landing-page-FreshSense/tree/develop | develop     |   d201420  |    chore: upload initial landingpage    |  Se creó el archivo index.html, css y main.js como la página principal de la landing, estructurando la base inicial del proyecto.                        |    18/09/25     | 
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat/Landing-page-FreshSense/tree/develop | develop     |  e44f923  |    feat: add translate.js        | Se creó la funcionalidad dinámica del cambio de idioma en la landing                         |    19/09/25     | 
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/Landing-page-FreshSense/tree/develop  | develop     |  c5cfc27   |  feat: Updated Footer and Plans |  Se actualizó la sección planes y subscripciones            |   19/09/25       | 
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat/Landing-page-FreshSense/tree/develop | develop     |  827e63c |    Merge pull request #1 from 1ASI0729-2520-7357-G4-SenseEat/feature/sprint1-Ysaac         |   Se hizo un merge y pull request opara las secciones actualizadas en todos los archivos         |     19/09/25    | 
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+
+Durante este Sprint se avanzó de manera significativa en el desarrollo de la Landing Page del proyecto FreshSense, la cual constituye el primer punto de contacto con los usuarios. Se implementó la estructura base con la página principal, se integraron estilos y animaciones, y se añadieron funcionalidades interactivas como el slider y un scroll más fluido. Asimismo, se realizaron correcciones en la navegación para garantizar una experiencia más clara e intuitiva, además se implementó exitosamente la funcionalidad del cambio de idioma, de español a ingles.
+
+Con estos avances, se ha logrado contar con una primera versión navegable de la landing page, lo que permite mostrar la propuesta de valor de FreshSense y establecer la base para siguientes mejoras visuales y técnicas.
+
+<br>
+
+*Figura 1.* Página principal con navbar y sección de bienvenida.
+
+![Hero](assets/LP_1.PNG) 
+
+
+*Figura 2.* Sección acerca de FreshSense.
+
+![About](assets/LP2.PNG) 
+
+
+*Figura 3.* Sección acerca de beneficios.
+
+![Services](assets/LP_3.PNG) 
+
+
+*Figura 4.* Sección de planes de subscripción.
+
+![Testimonials](assets/LP4.PNG) 
+
+
+*Figura 5.* Sección de testimonios.
+
+![Plans](assets/LP5.PNG) 
+
+
+*Figura 6.* Sección de formulario de contacto.
+
+![Form](assets/LP6.PNG) 
+
+#### Video demostrativo
+
+Se preparó un video donde se ilustra la navegación en la landing page y se explican las funcionalidades desarrolladas en este Sprint:
+![Form](link) 
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, el trabajo realizado se centró en el desarrollo de la Landing Page de FreshSense, implementada únicamente con HTML, CSS y JavaScript. Dado que se trata de una página estática cuyo alcance se limita a la presentación de información y a la interacción en el lado del cliente, no se definieron ni consumieron Web Services.
+
+En consecuencia, durante este Sprint no corresponde la elaboración de documentación con OpenAPI (Swagger), ya que esta herramienta se utiliza exclusivamente para describir y documentar APIs REST que exponen endpoints de un backend. La integración con Web Services y su respectiva documentación será abordada en Sprints posteriores, cuando la solución incluya funcionalidades dinámicas que requieran intercambio de datos entre frontend y backend.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se avanzó en los procesos de Deployment relacionados con la solución EcoTrack, con el objetivo de asegurar la disponibilidad de los productos desarrollados para su validación y demostración. Dentro de este Sprint, el esfuerzo principal estuvo orientado al despliegue de la Landing Page, que fue implementada con HTML, CSS y JavaScript.
+
+El despliegue se realizó utilizando GitHub Pages, lo que permitió contar con un entorno accesible de manera pública sin necesidad de un proveedor de cloud externo. Esta estrategia fue seleccionada por su facilidad de integración con los repositorios de GitHub y por brindar un proceso automatizado de publicación a partir de la rama develop del proyecto.
+
+Acciones realizadas en el proceso de Deployment
+
+1. Creación y configuración del repositorio en GitHub.
+Se configuró el repositorio ecotrack-landingpage en la cuenta de GitHub del equipo.
+
+2. Configuración de GitHub Pages.
+
+- Se habilitó la opción de GitHub Pages en la sección de Settings.
+
+- Se seleccionó la rama develop como fuente de publicación.
+
+- Se configuró la carpeta raíz del proyecto como directorio base de la publicación.
+
+3. Automatización de despliegue.
+Gracias a la integración nativa de GitHub Pages, cada nuevo commit realizado en la rama develop se despliega automáticamente en la URL pública asignada.
+
+4. Validación del despliegue.
+Se realizó la verificación de la publicación, comprobando que la landing page se visualiza correctamente en la dirección generada por GitHub Pages.
+
+#### Evidencia del Deployment
+
+*Figura 1.* Configuración de GitHub Pages en el repositorio de la landing page.
+
+![dev1](assets/dv_1.PNG) 
+
+
+*Figura 2.* Se ingresó a setting y luego a pages.
+
+![dev2](assets/dv_2.PNG) 
+
+*Figura 3.* seleccionamos la rama en la que se encuentre alojado el proyecto.
+
+![dev3](assets/dv3.PNG) 
+
+
+*Figura 4.* Esperamos la URL autogenerada por githubpages.
+
+![dev4](assets/dv_4.PNG) 
+
+
+#### Link a continuación: 
+
+https://1asi0729-2520-7357-g4-senseeat.github.io/Landing-page-FreshSense/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
 
 
