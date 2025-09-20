@@ -648,8 +648,8 @@ Para este apartado, el wireflow se diseñó para representar de forma detallada 
 
 ![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
 
-### 4.4.2. Web Applications Mock-ups
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.3. Web Applications Mock-ups
+### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
@@ -1016,10 +1016,106 @@ erDiagram
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
+
+En esta sección se detalla cómo se implementa, organiza y publica **FreshSense** en su estado actual (Landing estática con **HTML, CSS y JavaScript**). No se utiliza aún backend ni base de datos; la publicación se realiza con **GitHub Pages**. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
+
+---
+
+### 5.1.1. Software Development Environment Configuration  
+**Implementado (estado actual):**
+
+- **Frontend (Landing):** HTML5, CSS3, JavaScript (vanilla).  
+- **Responsive Web Design:** únicamente con CSS (Flexbox/Grid).  
+- **Editor recomendado:** Visual Studio Code.  
+- **Control de versiones y colaboración:** Git + GitHub.  
+- **Gestión de tareas:** Trello (board de sprints).  
+
+**Estructura de archivos (referencial):**
+```
+Landing-page-FreshSense/
+├─ index.html
+├─ css/
+│ └─ styles.css
+├─ js/
+│ └─ main.js
+├─ assets/
+│ ├─ img/
+│ └─ ...
+└─ i18n/
+└─ translate.js
+```
+
+> Nota: En esta entrega no se ha implementado servidor, API ni base de datos.
+
+---
+
+### 5.1.2. Source Code Management  
+
+**Repositorio GitHub (actual):**  
+`https://github.com/1ASI0729-2520-7357-G4-SenseEat/Landing-page-FreshSense`
+
+**Flujo de trabajo (GitFlow ligero):**
+
+- **Ramas principales**
+  - `main`: versión estable publicada.  
+  - `develop`: integración previa a publicación.  
+
+- **Ramas de apoyo**
+  - `feature/*`: nuevas secciones o mejoras.  
+    Ejemplo: `feature/sprint1-[nombre]`
+
+**Conventional Commits (ejemplos):**
+```
+feat: agregar sección de planes con cards responsivas
+fix(navbar): corregir overflow en versión móvil
+docs(readme): actualizar pasos de despliegue en GitHub Pages
+```
+
+---
+
+### 5.1.3. Source Code Style Guide & Conventions  
+
+**HTML**
+- Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.  
+- Imágenes con atributo `alt`.  
+- Enlaces relativos y consistentes entre páginas.  
+- Scripts al final del `body` cuando corresponda.  
+
+**CSS**
+- Variables CSS en `:root` (`--color-primario`, `--spacing`, etc.).  
+- Convención de clases en *kebab-case* (`.hero-title`, `.card-grid`).  
+- Layout con Flexbox y/o Grid.  
+- Media queries para puntos de quiebre (`960px`, `760px`, `560px`).  
+- Accesibilidad: estados `:hover`, `:focus-visible`, contraste adecuado.  
+
+**JavaScript (vanilla)**
+- Uso de `const` / `let` (evitar `var`).  
+- Funciones pequeñas y claras.  
+- Separar lógica del DOM cuando sea posible.  
+- Uso moderado de `localStorage` (solo para idioma o preferencias del cliente).  
+
+---
+
+### 5.1.4. Software Deployment Configuration  
+
+**Despliegue actual — GitHub Pages (Landing estática):**
+
+**Pasos:**
+1. Subir el código al repositorio `Landing-page-FreshSense` en la rama `main`.  
+2. En GitHub: ir a **Settings → Pages**.  
+3. En **Build and deployment**, seleccionar **Deploy from a branch**.  
+4. Elegir **Branch:** `main` y **Folder:** `/ (root)`. Guardar.  
+5. Esperar a que GitHub procese el sitio y obtener la URL pública.  
+
+**Landing Page FreshSense:**  
+[https://1asi0729-2520-7357-g4-senseeat.github.io/Landing-page-FreshSense/](https://1asi0729-2520-7357-g4-senseeat.github.io/Landing-page-FreshSense/)
+
+**Validación post-despliegue:**
+- Navegación entre páginas y secciones (`index.html`, beneficios, planes, contacto, etc.).  
+- Verificación de rutas relativas a hojas de estilo, imágenes y scripts.  
+- Pruebas responsive en móvil y escritorio.  
+- Revisión de accesibilidad básica (focus, contraste, alt text).  
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
