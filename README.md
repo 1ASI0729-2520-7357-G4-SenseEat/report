@@ -366,9 +366,29 @@ Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alime
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
+En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de la interfaz y la experiencia de usuario de la aplicación web de FreshSenser, donde incluimos una visualización funcional por cada parte del aplicativo con sus flujos de interacción completos. Se elaboraron wireframes en formato mobile que facilitan la disposición de las funciones de la plataforma a través de su dispositivo móvil frecuente, con elementos en pantallas que son la introducción al app, el login up, el sign up, el home o dashboard, el menú, el inventario de insumos, el detalle de cada insumo, el monitoreo de insumos, alertas, recetas, reportes, logros y soporte. En base a estos esquemas se diseñaron los mockups con alta fidelidad. En los siguientes sprints se muestra el desarrollo de cada vista de la app y cómo estas interactúan.
 ### 4.4.1. Web Applications Wireframes
+![wireframeapp1](assets/wireframeapp1.png)
+![wireframeapp2](assets/wireframeapp2.png)
+![wireframeapp3](assets/wireframeapp3.png)
+![wireframeapp4](assets/wireframeapp4.png)
+![wireframeapp5](assets/wireframeapp5.png)
+![wireframeapp6](assets/wireframeapp6.png)
+![wireframeapp7](assets/wireframeapp7.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+
 ### 4.4.2. Web Applications Mock-ups
+
+![mockupapp1](assets/mockupapp1.png)
+![mockupapp2](assets/mockupapp2.png)
+![mockupapp3](assets/mockupapp3.png)
+![mockupapp4](assets/mockupapp4.png)
+![mockupapp5](assets/mockupapp5.png)
+![mockupapp6](assets/mockupapp6.png)
+![mockupapp7](assets/mockupapp7.png)
+
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
