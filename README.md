@@ -646,7 +646,7 @@ En conjunto, el sistema de navegación asegura que tanto visitantes como usuario
 
 Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
 
-![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams..jpg)
+![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
 
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
@@ -1202,10 +1202,33 @@ https://1asi0729-2520-7357-g4-senseeat.github.io/Landing-page-FreshSense/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
 
+La colaboración del equipo se evidenció en la distribución equitativa de tareas y en la constante comunicación a través de reuniones y canales digitales.
 
+Se trabajó con GitHub para la gestión de ramas y pull requests, lo cual permitió mantener la trazabilidad del proyecto y asegurar revisiones por pares antes de integrar código.
+
+Asimismo, se promovió un ambiente de retroalimentación positiva que facilitó la resolución de problemas técnicos.
+
+El nivel de compromiso y coordinación alcanzado fue fundamental para cumplir con los objetivos planteados en este Sprint.
 
 # Conclusiones
 
+- El desarrollo del proyecto **FreshSense**, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de **Desarrollo de Aplicaciones Open Source**. 
+
+- A través de la identificación de problemas relacionados con el desperdicio de alimentos y la necesidad de una gestión eficiente de la frescura, se diseñó una solución tecnológica basada en sensores inteligentes con una paginas web para su control.  
+
+- Durante el proceso se implementaron metodologías ágiles que facilitaron la organización del equipo y la priorización de tareas.
+
+- El trabajo en equipo fue esencial para cumplir los objetivos planteados. La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguraron la calidad del producto. Además, se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.  
+
+- **FreshSense representa un avance hacia soluciones innovadoras para el sector alimentario**, alineadas con los Objetivos de Desarrollo Sostenible (ODS), contribuyendo a la reducción del desperdicio y promoviendo un consumo más responsable mediante la tecnología.
+
 # Bibliografía
+
+- Beck, K., & Fowler, M. (2000). *Planning Extreme Programming*. Addison-Wesley.  
+- Cockburn, A. (2002). *Agile Software Development*. Addison-Wesley.  
+- Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.  
+- Fowler, M. (2003). *Patterns of Enterprise Application Architecture*. Addison-Wesley.  
+- Sommerville, I. (2011). *Software Engineering* (9th ed.). Addison-Wesley.
+- Organización de las Naciones Unidas. (2015). *Objetivos de Desarrollo Sostenible*. Disponible en: [https://www.un.org/sustainabledevelopment/es/](https://www.un.org/sustainabledevelopment/es/)
 
 # Anexos
