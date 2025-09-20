@@ -657,9 +657,362 @@ Para este apartado, el wireflow se diseñó para representar de forma detallada 
 ### 4.6.3. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+
+```mermaid
+classDiagram
+  class Product {
+      +UUID id
+      +string name
+      +Description description
+      +StockQuantity stock
+      +Price price
+      +Category category
+      +updateStock(StockQuantity amount)
+  }
+
+  class Category {
+      +UUID id
+      +string name
+      +string description
+  }
+
+  class Description {
+      -string value
+      +string getValue()
+  }
+
+  class StockQuantity {
+      -int value
+      +int getValue()
+      +isGreaterThan(StockQuantity): bool
+      +add(StockQuantity): StockQuantity
+      +subtract(StockQuantity): StockQuantity
+  }
+
+  class Price {
+      -float value
+      +float getValue()
+      +withDiscount(float percentage): Price
+  }
+
+  class Inventory {
+      +UUID id
+      +List~Product~ products
+      +addProduct(Product p)
+      +removeProduct(UUID id)
+      +findProduct(UUID id): Product
+      +updateStock(UUID productId, StockQuantity newQty)
+  }
+
+  class IInventoryRepository {
+      +Inventory getById(UUID id)
+      +void save(Inventory inventory)
+  }
+
+  class StockService {
+      +void adjustStock(UUID productId, StockQuantity qty)
+  }
+
+  class InventoryApplicationService {
+      +DTOInventory getInventory(UUID id)
+      +void addProduct(DTOProduct product)
+      +void adjustStock(UUID productId, int quantity)
+  }
+
+  class DTOProduct {
+      +UUID id
+      +string name
+      +string description
+      +float price
+      +string category
+      +int stock
+  }
+
+  class DTOInventory {
+      +UUID id
+      +List~DTOProduct~ products
+  }
+
+  class InventoryRepositorySQL {
+      +Inventory getById(UUID id)
+      +void save(Inventory inventory)
+  }
+
+  Product --> Description
+  Product --> StockQuantity
+  Product --> Price
+  Product --> Category
+  Inventory --> Product
+  StockService --> Inventory
+  StockService --> IInventoryRepository
+
+  InventoryApplicationService --> StockService
+  InventoryApplicationService --> IInventoryRepository
+  InventoryApplicationService --> DTOProduct
+  InventoryApplicationService --> DTOInventory
+
+  InventoryRepositorySQL ..|> IInventoryRepository
+
+```
 ### 4.7.2. Class Dictionary
+| **Class**                       | **Definition**                                                                                        |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Product**                     | Entity that represents a product, with details such as name, description, stock, price, and category. |
+| **Category**                    | Entity that groups products under a specific name and description.                                    |
+| **Description**                 | Value Object that encapsulates the textual description of a product.                                  |
+| **StockQuantity**               | Value Object that manages the stock quantity of a product and its operations.                         |
+| **Price**                       | Value Object that represents the price of a product and allows discounts to be applied.               |
+| **Inventory**                   | Aggregate that manages a collection of products, allowing adding, removing, and updating their stock. |
+| **IInventoryRepository**        | Interface that defines persistence operations for the Inventory.                                      |
+| **StockService**                | Domain service that adjusts the stock of products within the Inventory.                               |
+| **InventoryApplicationService** | Application service that orchestrates high-level operations over the Inventory.                       |
+| **DTOProduct**                  | Data Transfer Object that represents the structure of a product in the application layer.             |
+| **DTOInventory**                | Data Transfer Object that represents a complete Inventory in the application layer.                   |
+| **InventoryRepositorySQL**      | Concrete implementation of the repository using SQL to persist the Inventory.                         |
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
+
+```mermaid
+erDiagram
+  Organizations ||--o{ Locations : "owns"
+  Organizations ||--o{ Users : "groups"
+  Organizations ||--o{ Plans : "subscribed to"
+  Clients ||--o{ Sales : "makes"
+  Products ||--o{ Sales : "sold in"
+  Products ||--o{ Product_Locations : "stored in"
+  Locations ||--o{ Product_Locations : "contains"
+  Categories ||--o{ Products : "classifies"
+  Products ||--o{ Lots : "tracked in"
+  Purchases ||--o{ Lots : "sources"
+  Products ||--o{ Product_Prices : "priced in"
+  Suppliers ||--o{ Purchase_Orders : "receives"
+  Users ||--o{ Purchase_Orders : "creates"
+  Locations ||--o{ Purchase_Orders : "destined to"
+  Purchase_Orders ||--o{ Purchase_Order_Items : "includes"
+  Products ||--o{ Purchase_Order_Items : "ordered in"
+  Products ||--o{ Sales : "sold in"
+  Lots ||--o{ Sales : "tracked in"
+  Users ||--o{ Sales : "records"
+  Locations ||--o{ Sales : "occurs at"
+  Users ||--o{ Activities : "generates"
+  Users ||--o{ Reports : "creates"
+  Suppliers ||--o{ Purchases : "supplies"
+  Products ||--o{ Purchases : "purchased in"
+  Purchase_Orders ||--o{ Purchases : "fulfilled by"
+  Users ||--o{ Purchases : "records"
+  Locations ||--o{ Purchases : "destined to"
+  Products ||--o{ Product_Suppliers : "supplied by"
+  Suppliers ||--o{ Product_Suppliers : "supplies"
+  Products ||--o{ Inventory_Adjustments : "adjusted in"
+  Locations ||--o{ Inventory_Adjustments : "adjusted at"
+  Users ||--o{ Inventory_Adjustments : "performs"
+  Users ||--o{ Audit_Logs : "logs"
+
+  Organizations {
+      int organization_id PK
+      string name
+      string contact_email UK
+      int plan_id FK
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Plans {
+      int plan_id PK
+      string name
+      string description
+      enum features "basic, premium"
+      decimal price
+      timestamp created_at
+  }
+
+  Clients {
+      int client_id PK
+      string first_name
+      string last_name
+      string phone
+      string email UK
+      date registration_date
+      string dni UK
+      enum status
+      string company
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Products {
+      int product_id PK
+      string name
+      string image_url
+      int category_id FK
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Locations {
+      int location_id PK
+      int organization_id FK
+      string name
+      string address
+      string city
+      string country
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Product_Locations {
+      int product_id PK,FK
+      int location_id PK,FK
+      int stock
+      timestamp updated_at
+  }
+
+  Categories {
+      int category_id PK
+      string name
+      string description
+      timestamp created_at
+  }
+
+  Lots {
+      int lot_id PK
+      int product_id FK
+      int purchase_id FK
+      string lot_number UK
+      date purchase_date
+      date expiration_date
+      timestamp created_at
+  }
+
+  Product_Prices {
+      int price_id PK
+      int product_id FK
+      decimal price
+      decimal discount
+      date effective_date
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Purchase_Orders {
+      int order_id PK
+      int supplier_id FK
+      int user_id FK
+      int location_id FK
+      date order_date
+      enum status "pending, approved, shipped, canceled"
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Purchase_Order_Items {
+      int order_id PK,FK
+      int product_id PK,FK
+      int quantity
+      decimal unit_price
+      timestamp created_at
+  }
+
+  Sales {
+      int sale_id PK
+      date sale_date
+      int product_id FK
+      int lot_id FK
+      int quantity
+      enum status
+      int customer_id FK
+      int user_id FK
+      int location_id FK
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Users {
+      int user_id PK
+      int organization_id FK
+      string username UK
+      string email UK
+      string password_hash
+      string first_name
+      string last_name
+      string profile_image_url
+      enum role "admin, user"
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Activities {
+      int activity_id PK
+      int user_id FK
+      enum activity_type
+      string description
+      timestamp activity_date
+  }
+
+  Reports {
+      int report_id PK
+      int user_id FK
+      enum report_type
+      timestamp generated_date
+      string file_url
+      json parameters
+      timestamp created_at
+  }
+
+  Suppliers {
+      int supplier_id PK
+      string name
+      string contact_name
+      string phone
+      string email
+      string address
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Product_Suppliers {
+      int product_id PK,FK
+      int supplier_id PK,FK
+      decimal supply_price
+      timestamp created_at
+  }
+
+  Purchases {
+      int purchase_id PK
+      int supplier_id FK
+      int product_id FK
+      int order_id FK
+      int quantity
+      date purchase_date
+      enum status
+      int user_id FK
+      int location_id FK
+      timestamp created_at
+      timestamp updated_at
+  }
+
+  Inventory_Adjustments {
+      int adjustment_id PK
+      int product_id FK
+      int location_id FK
+      int quantity
+      string reason
+      int user_id FK
+      date adjustment_date
+      timestamp created_at
+  }
+
+  Audit_Logs {
+      int audit_id PK
+      int user_id FK
+      string entity_type
+      int entity_id
+      string action
+      json details
+      timestamp audit_date
+  }
+```
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
