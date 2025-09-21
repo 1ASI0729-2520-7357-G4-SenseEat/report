@@ -473,7 +473,7 @@ Segmento 2:
 Mediante este artefacto, se ha llevado a cabo la elaboración del As-is Scenario Mapping para el segundo segmento (Emprendedores de alimentos caseros). Este escenario refleja cómo los usuarios que producen y venden alimentos gestionan sus insumos de manera manual, utilizando cuadernos o archivos de Excel para llevar el control de su inventario. Se identifican las dificultades que enfrentan por pérdidas de productos caducados, la incertidumbre al no contar con alertas oportunas y el impacto económico negativo en su negocio. Asimismo, se destacan las percepciones y emociones que surgen en cada etapa, como el estrés por la gestión manual, la preocupación por mantener la calidad y la satisfacción de los clientes, y la presión constante de evitar pérdidas que afectan sus ingresos.
 ![alt text](assets/Segmento2_AsIs_Open.png)
 
-## 2.4. Ubiquitous Language
+## 2.5. Ubiquitous Language
 
 | Ubiquos Term          | Definition of Functional Domain                                                         | 
 |-----------------------|-----------------------------------------------------------------------------------------|
