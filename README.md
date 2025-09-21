@@ -399,6 +399,41 @@ Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alime
 - Estaría dispuesta a pagar bajo un modelo **familiar** (~30 soles compartidos, estilo Spotify).  
 ---
 ### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
+---  
+### Hallazgos :  
+---
+## 👩 Gladys Portuguez (52 años)  
+
+Ingeniera que los fines de semana apoya en el negocio familiar de almuerzos. Manejan carnes, pollo, verduras y hierbas, siendo estas últimas las que más rápido se malogran. Enfrentan pérdidas casi todas las semanas porque no siempre logran vender toda la comida preparada o se malogra algún producto. El control de insumos lo hacen de memoria o con apuntes en una libreta, de forma muy básica. Las pérdidas afectan lo económico y también desmotivan, ya que representan tiempo y esfuerzo invertidos por su mamá. Le gustaría recibir alertas sobre ingredientes próximos a vencer y reportes simples. Un dispositivo de monitoreo le parecería útil, siempre que sea sencillo y accesible. Prefiere un pago único, ya que una suscripción mensual sería difícil de sostener.  
+
+**Puntos clave:**  
+- Control actual **manual y básico**, sin herramientas tecnológicas.  
+- Pérdidas **frecuentes y desmotivadoras**, tanto en lo económico como en lo emocional.  
+- Necesita **alertas sencillas y reportes claros**.  
+- Prefiere **pago único** en lugar de suscripción.  
+
+
+## 👩 Vanessa Choy (25 años)  
+
+Estudiante universitaria que vende frutos secos (almendras, maní, pasas, pecanas, castañas) en la universidad y en la tienda donde trabaja para apoyar en los gastos de estudios que paga su familia. Su mayor problema son las pecanas y castañas, que se rancean si no se almacenan bien. Las pérdidas ocurren cada dos o tres meses, pero son significativas porque compra al por mayor. No utiliza un sistema formal de control, solo su memoria y la revisión de fechas de empaque. Para ella, las pérdidas tienen un impacto directamente económico. Considera que la frescura es clave porque los clientes notan el sabor. Necesita reportes de stock, alertas de fechas de vencimiento y proyecciones de compras. Preferiría pagar una suscripción mensual baja que le permita acceder a datos y mejoras continuas.  
+
+**Puntos clave:**  
+- Pérdidas **espaciadas pero significativas** por compras al por mayor.  
+- Importancia de la **frescura como valor de venta**.  
+- Requiere **reportes de stock, alertas y proyecciones**.  
+- Dispuesta a un **modelo de suscripción económica**.  
+
+
+## 👩 Rosa Ramos (42 años)  
+
+Contadora con un emprendimiento chico de repostería. Trabaja con insumos como frutas, cremas, mantequilla y huevos, siendo las frutas frescas y la crema chantilly los productos más propensos a malograrse. Sufre pérdidas ocasionales, aproximadamente una vez al mes, principalmente por un mal cálculo en los pedidos. Su control lo hace con listas en papel o Excel, pero en la práctica se basa en la memoria. La pérdida de insumos impacta tanto en lo económico como en la reputación, ya que puede retrasar la entrega de pedidos. Para ella, la calidad y frescura son esenciales. Le gustaría recibir alertas de caducidad y reportes de consumo semanal. Estaría interesada en un dispositivo que monitoree automáticamente la frescura, siempre que sea confiable y fácil de usar. Prefiere un pago único, aunque consideraría una suscripción si le brinda estadísticas y proyecciones claras.  
+
+**Puntos clave:**  
+- Pérdidas **mensuales por mala planificación**.  
+- Control con **papel/Excel poco eficiente**.  
+- Necesita **alertas de caducidad y reportes de consumo**.  
+- Interés en un **dispositivo confiable y simple**.  
+- Preferencia por **pago único**, aunque abierta a suscripción con valor agregado.  
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
