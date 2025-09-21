@@ -164,7 +164,7 @@ El modelo del negocio de Sense Eat está basado en la venta directa del disposit
 |  |  <br>  |
 |         | |   
 |         | | 
-|         | | 
+| Fabricio Samir Vega Coronado        | Actualmente tengo 19 años y curso el cuarto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
 |         | | 
 
 ## 1.2. Solution Profile
@@ -650,7 +650,34 @@ Para este apartado, el wireflow se diseñó para representar de forma detallada 
 
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
+![alt text](assets/cuadritosFLOW.jpg)
+
+Cada figura del diagrama tiene un significado específico dentro del flujo de usuario:
+
+- Start: punto de inicio del recorrido.
+
+- Page: pantalla normal de la aplicación.
+
+- Option Page: menú o sección con varias opciones.
+
+- End: final del flujo o salida de la app.
+
+- Input: ingreso de datos por parte del usuario.
+
+- Decision: condición que define diferentes caminos.
+
+- Result: acción realizada con éxito.
+
+- Notification: mensaje o alerta mostrado al usuario.
+
+![alt text](<assets/Web Applications User Flow Diagrams.jpg>)
+
+Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
+
 ## 4.5. Web Applications Prototyping
+
+Link al prototip: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-LandingPage?node-id=159-1605&p=f&t=tnVLge8rsFfHhU1S-1&scaling=min-zoom&content-scaling=fixed&page-id=159%3A1603
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 ### 4.6.2. Software Architecture Container Diagrams
@@ -1328,3 +1355,4 @@ El nivel de compromiso y coordinación alcanzado fue fundamental para cumplir co
 - Organización de las Naciones Unidas. (2015). *Objetivos de Desarrollo Sostenible*. Disponible en: [https://www.un.org/sustainabledevelopment/es/](https://www.un.org/sustainabledevelopment/es/)
 
 # Anexos
+
