@@ -489,6 +489,15 @@ Mediante este artefacto se explicará y comprenderá cómo los usuarios del segm
 ![alt text](assets/Luisa_Segmento2_Map.png)
 
 ### 2.3.4. Empathy Mapping
+Segmento 1:
+
+El mapa de empatía de José muestra a un profesional joven y ocupado que busca automatizar el control de sus alimentos para ahorrar tiempo y dinero. Se siente frustrado al desperdiciar comida sin darse cuenta y valora soluciones tecnológicas simples que le permitan optimizar sus compras y hábitos de consumo.
+![alt text](assets/Empathymap_Segmento1.png)
+
+Segmento 2:
+
+El mapa de empatía de Luisa refleja a una emprendedora responsable que necesita mantener la frescura de sus insumos para garantizar la calidad de sus productos. Busca una herramienta accesible y práctica que reduzca pérdidas económicas, la ayude a organizar su inventario y refuerce la confianza de sus clientes.
+![alt text](assets/Empathymap_Segmento2.png)
 ### 2.3.5. As-is Scenario Mapping
 Segmento 1:
 
