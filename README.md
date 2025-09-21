@@ -75,6 +75,7 @@
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
         - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+        - 2.4. Big Picture EventStorming
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -473,6 +474,10 @@ Segmento 2:
 Mediante este artefacto, se ha llevado a cabo la elaboración del As-is Scenario Mapping para el segundo segmento (Emprendedores de alimentos caseros). Este escenario refleja cómo los usuarios que producen y venden alimentos gestionan sus insumos de manera manual, utilizando cuadernos o archivos de Excel para llevar el control de su inventario. Se identifican las dificultades que enfrentan por pérdidas de productos caducados, la incertidumbre al no contar con alertas oportunas y el impacto económico negativo en su negocio. Asimismo, se destacan las percepciones y emociones que surgen en cada etapa, como el estrés por la gestión manual, la preocupación por mantener la calidad y la satisfacción de los clientes, y la presión constante de evitar pérdidas que afectan sus ingresos.
 ![alt text](assets/Segmento2_AsIs_Open.png)
 
+## 2.4. Big Picture EventStorming
+
+
+
 ## 2.5. Ubiquitous Language
 
 | Ubiquos Term          | Definition of Functional Domain                                                         | 
@@ -794,6 +799,10 @@ Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los
 Link al prototip: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-LandingPage?node-id=159-1605&p=f&t=tnVLge8rsFfHhU1S-1&scaling=min-zoom&content-scaling=fixed&page-id=159%3A1603
 
 ## 4.6. Domain-Driven Software Architecture
+### 4.6. Design-Level EventStorming
+
+
+
 ### 4.6.1. Software Architecture Context Diagram
 ### 4.6.2. Software Architecture Container Diagrams
 ### 4.6.3. Software Architecture Components Diagrams
