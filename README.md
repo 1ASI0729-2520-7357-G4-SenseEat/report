@@ -1115,8 +1115,14 @@ Link al prototip: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
+![diagrama-contexto](assets/diagrama-contexto.png)
+
 ### 4.6.2. Software Architecture Container Diagrams
+![diagrama-contenedores](assets/diagrama-contenedores.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+![diagrama-componentes](assets/diagrama-componentes.png)
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
