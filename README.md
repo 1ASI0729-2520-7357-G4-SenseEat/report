@@ -153,7 +153,7 @@ del ABET – EAC - Student Outcome 3.
 
 |                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
 |:---------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![About](assets/foto_romina.PNG)  |  Romina Tuesta Marin - u202211706 <br> Mi nombre es Romina Tuesta, tengo 20 años, estudio ingeniería de software y me encuentro en 7mo ciclo. Me considero una persona responsable y dispuesta a ayudar a quien necesite en mi grupo, tengo conocimiento en algunos lenguajes de programación como Python, C++, etc. Creo que la mejor manera de desarrollar un proyecto grupal es mantener buena comunicación y que todos se dediquen enteramente a entregar un buenproducto.  |
+| <img src="assets/foto_romina.jpeg" width="700"/><br>  |  Romina Tuesta Marin - u202211706 <br> Mi nombre es Romina Tuesta, tengo 20 años y estudio ingeniería de software. Me considero una persona responsable, honesta y dispuesta a ayudar a quien lo necesite cuando trabajamos en grupo, tengo conocimiento en lenguajes de programación como Python, C++, etc. También manejo HTML, CSS y JavaScript y siempre intento aprender algo nuevo de forma autodidacta. |
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
@@ -234,10 +234,10 @@ del ABET – EAC - Student Outcome 3.
 ### 2.3.1. User Personas
 
 #### SEGMENTO 1: Adultos jóvenes
-<img alt="upc-logo" src="assets/José_userP1.png" width="600"/><br>
+<img alt="User Person1" src="assets/José_userP1.png" width="600"/><br>
 
 ### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
-<img alt="upc-logo" src="assets/Luisa_userP2.png" width="600"/><br>
+<img alt="User Person2" src="assets/Luisa_userP2.png" width="600"/><br>
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
@@ -262,7 +262,50 @@ del ABET – EAC - Student Outcome 3.
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+A continuación se realizaron los wireframes de la landing page de FreshSense, siguiendo los user stories como referencia, para conocer las necesidades y preferencias de los usuarios visitantes:
+
+*Figura 1.* Wireframe de la página principal 
+![Hero](assets/LP_HERO.PNG) 
+
+*Figura 2.* Como funciona FreshSense
+![Hero](assets/LP_HTW.PNG) 
+
+*Figura 3.* Vistazo inicial a los beneficios 
+![Hero](assets/LP_BENEFITS.PNG) 
+
+*Figura 4.* Modelo inicial para los planes de subscripción.
+![Hero](assets/LP_PLANS.PNG) 
+
+*Figura 5.* Wireframe para los testimonios
+![Hero](assets/LP_TESTIMONIALS.PNG) 
+
+*Figura 6.* Wireframe para el formulario y se incluye el footer
+![Hero](assets/LP_FORM.PNG) 
+
+
 ### 4.3.2. Landing Page Mock-up
+
+Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrollar el siguiente paso, los mock ups, utilizamos los colores y modelos referidos en los guidelines, los colores verdes y azules predominantes en el diseño, aluden a la escencia de la aplicación:
+
+*Figura 7.* Mock-Up de la página principal 
+![Hero](assets/MK_LP_HERO.PNG) 
+
+*Figura 8.* Mock-Up se muestra las funciones de FreshSense
+![Hero](assets/MK_LP_HTW.PNG) 
+
+*Figura 9.* Vistazo inicial a los beneficios 
+![Hero](assets/MK_LP_BENEFITS.PNG) 
+
+*Figura 10.* Mock-Up para los planes de subscripción.
+![Hero](assets/MK_LP_PLANS.PNG) 
+
+*Figura 11.* Mock-Up para los testimonios
+![Hero](assets/MK_LP_TESTIMONIALS.PNG) 
+
+*Figura 12.* Mock-Up para el formulario y se incluye el footer
+![Hero](assets/MK_LP_FORM.PNG) 
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
@@ -407,7 +450,9 @@ Con estos avances, se ha logrado contar con una primera versión navegable de la
 #### Video demostrativo
 
 Se preparó un video donde se ilustra la navegación en la landing page y se explican las funcionalidades desarrolladas en este Sprint:
-![Form](link) 
+![Video_recorrido](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/EbiyfxOB6e9FteIuNTOmoioBHUcBXfgY5-pCSjEH9UJx-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=njAFe7) 
+
+(en caso de que el link no funciones: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/EbiyfxOB6e9FteIuNTOmoioBHUcBXfgY5-pCSjEH9UJx-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=njAFe7)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
