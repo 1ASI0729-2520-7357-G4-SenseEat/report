@@ -1450,6 +1450,11 @@ Asimismo, se promovió un ambiente de retroalimentación positiva que facilitó 
 
 El nivel de compromiso y coordinación alcanzado fue fundamental para cumplir con los objetivos planteados en este Sprint.
 
+![Colaborations](assets/contri.PNG) 
+
+En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuentra Romina, después se encuentra manuel con la misma cantidad de commits, luego Ysaac y finalmente Fabricio.
+
+
 # Conclusiones
 
 - El desarrollo del proyecto **FreshSense**, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de **Desarrollo de Aplicaciones Open Source**. 
