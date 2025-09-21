@@ -156,10 +156,10 @@ del ABET – EAC - Student Outcome 3.
 |                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |  |  <br>  |
+| Natalia Ximena Valverde Portuguez    ![natalia-valverde](assets/natalia-valverde.png)  |   Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.   | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|  |  | 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -397,7 +397,10 @@ En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de l
 
 ### 4.6.2. Software Architecture Container Diagrams
 ![diagrama-contenedores](assets/diagrama-contenedores.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+![diagrama-componentes](assets/diagrama-componentes.png)
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ### 4.7.2. Class Dictionary
