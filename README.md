@@ -618,7 +618,6 @@ En conclusión, el Impact Mapping permitió establecer una trazabilidad clara en
 
 
 # Capítulo IV: Product Design
-# Capítulo IV: Product Design
 
 El desarrollo de FreshSense requiere establecer un conjunto de lineamientos visuales y de interacción que aseguren la coherencia de la experiencia en todas sus interfaces. Para ello, se definen estándares generales aplicables a todo el ecosistema del producto, así como guías específicas para la aplicación web. Estos lineamientos están inspirados en principios de diseño como consistencia, simplicidad, accesibilidad y comunicación clara, garantizando una experiencia confiable y atractiva para los usuarios finales.
 
@@ -744,8 +743,11 @@ En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de l
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
 
-### 4.4.2. Web Applications Mock-ups
+![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
+
+### 4.4.3. Web Applications Mock-ups
 
 ![mockupapp1](assets/mockupapp1.png)
 ![mockupapp2](assets/mockupapp2.png)
@@ -755,7 +757,31 @@ En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de l
 ![mockupapp6](assets/mockupapp6.png)
 ![mockupapp7](assets/mockupapp7.png)
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
+![alt text](assets/cuadritosFLOW.jpg)
+
+Cada figura del diagrama tiene un significado específico dentro del flujo de usuario:
+
+- Start: punto de inicio del recorrido.
+
+- Page: pantalla normal de la aplicación.
+
+- Option Page: menú o sección con varias opciones.
+
+- End: final del flujo o salida de la app.
+
+- Input: ingreso de datos por parte del usuario.
+
+- Decision: condición que define diferentes caminos.
+
+- Result: acción realizada con éxito.
+
+- Notification: mensaje o alerta mostrado al usuario.
+
+![alt text](<assets/Web Applications User Flow Diagrams.jpg>)
+
+Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
