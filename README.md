@@ -162,25 +162,6 @@ del ABET – EAC - Student Outcome 3.
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
-
-    
-
-|                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
-|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|  |  <br>  |
-| Natalia Ximena Valverde Portuguez    ![natalia-valverde](assets/natalia-valverde.png)  |   Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.   | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|  |  | 
-
-## 1.2. Solution Profile
-### 1.2.1. Antecedentes y problemática
-##### 1.2.2.1. Lean UX Problem Statements
-##### 1.2.2.2. Lean UX Assumptions
-##### 1.2.2.3. Lean UX Hypothesis Statements
-##### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
 
 =======
 
