@@ -503,6 +503,16 @@ Segmento 2:
 Mediante este artefacto, se ha llevado a cabo la elaboración del As-is Scenario Mapping para el segundo segmento (Emprendedores de alimentos caseros). Este escenario refleja cómo los usuarios que producen y venden alimentos gestionan sus insumos de manera manual, utilizando cuadernos o archivos de Excel para llevar el control de su inventario. Se identifican las dificultades que enfrentan por pérdidas de productos caducados, la incertidumbre al no contar con alertas oportunas y el impacto económico negativo en su negocio. Asimismo, se destacan las percepciones y emociones que surgen en cada etapa, como el estrés por la gestión manual, la preocupación por mantener la calidad y la satisfacción de los clientes, y la presión constante de evitar pérdidas que afectan sus ingresos.
 ![alt text](assets/Segmento2_AsIs_Open.png)
 
+## 2.4. Big Picture EventStorming
+
+En este espacio veremos la lluvia de ideas que tuvo el grupo para poder llegar a una solución estructurada:
+
+![event storming1](assets/Event1.PNG)
+![event storming2](assets/Event2.PNG)
+![event storming3](assets/Event3.PNG)
+![event storming4](assets/Event4.PNG)
+![event storming5](assets/Event5.jpeg)
+
 ## 2.5. Ubiquitous Language
 
 | Ubiquos Term          | Definition of Functional Domain                                                         | 
@@ -742,7 +752,49 @@ La navegación en **FreshSense** combina claridad y fluidez, guiando al usuario 
 En conjunto, el sistema de navegación asegura que tanto visitantes como usuarios recurrentes encuentren el contenido y funcionalidades de forma rápida y eficiente.
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+A continuación se realizaron los wireframes de la landing page de FreshSense, siguiendo los user stories como referencia, para conocer las necesidades y preferencias de los usuarios visitantes:
+
+*Figura 1.* Wireframe de la página principal 
+![Hero](assets/LP_HERO.PNG) 
+
+*Figura 2.* Como funciona FreshSense
+![Hero](assets/LP_HTW.PNG) 
+
+*Figura 3.* Vistazo inicial a los beneficios 
+![Hero](assets/LP_BENEFITS.PNG) 
+
+*Figura 4.* Modelo inicial para los planes de subscripción.
+![Hero](assets/LP_PLANS.PNG) 
+
+*Figura 5.* Wireframe para los testimonios
+![Hero](assets/LP_TESTIMONIALS.PNG) 
+
+*Figura 6.* Wireframe para el formulario y se incluye el footer
+![Hero](assets/LP_FORM.PNG) 
+
+
 ### 4.3.2. Landing Page Mock-up
+
+Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrollar el siguiente paso, los mock ups, utilizamos los colores y modelos referidos en los guidelines, los colores verdes y azules predominantes en el diseño, aluden a la escencia de la aplicación:
+
+*Figura 7.* Mock-Up de la página principal 
+![Hero](assets/MK_LP_HERO.PNG) 
+
+*Figura 8.* Mock-Up se muestra las funciones de FreshSense
+![Hero](assets/MK_LP_HTW.PNG) 
+
+*Figura 9.* Vistazo inicial a los beneficios 
+![Hero](assets/MK_LP_BENEFITS.PNG) 
+
+*Figura 10.* Mock-Up para los planes de subscripción.
+![Hero](assets/MK_LP_PLANS.PNG) 
+
+*Figura 11.* Mock-Up para los testimonios
+![Hero](assets/MK_LP_TESTIMONIALS.PNG) 
+
+*Figura 12.* Mock-Up para el formulario y se incluye el footer
+![FORM](assets/MK_LP_FORM.PNG) 
 ## 4.4. Web Applications UX/UI Design
 En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de la interfaz y la experiencia de usuario de la aplicación web de FreshSenser, donde incluimos una visualización funcional por cada parte del aplicativo con sus flujos de interacción completos. Se elaboraron wireframes en formato mobile que facilitan la disposición de las funciones de la plataforma a través de su dispositivo móvil frecuente, con elementos en pantallas que son la introducción al app, el login up, el sign up, el home o dashboard, el menú, el inventario de insumos, el detalle de cada insumo, el monitoreo de insumos, alertas, recetas, reportes, logros y soporte. En base a estos esquemas se diseñaron los mockups con alta fidelidad. En los siguientes sprints se muestra el desarrollo de cada vista de la app y cómo estas interactúan.
 ### 4.4.1. Web Applications Wireframes
@@ -796,14 +848,24 @@ Cada figura del diagrama tiene un significado específico dentro del flujo de us
 Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
 
 ## 4.5. Web Applications Prototyping
+Link al prototipo: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-LandingPage?node-id=159-1605&p=f&t=tnVLge8rsFfHhU1S-1&scaling=min-zoom&content-scaling=fixed&page-id=159%3A1603
+
+
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
+### 4.6.1. Design-Level EventStorming
+
+![event storming6](assets/Event6.jpeg)
+![event storming7](assets/Event7.jpeg)
+![event storming8](assets/Event8.jpeg)
+![event storming9](assets/Event9.jpeg)
+![event storming10](assets/Event10.jpeg)
+### 4.6.2. Software Architecture Context Diagram
 ![diagrama-contexto](assets/diagrama-contexto.png)
 
-### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 ![diagrama-contenedores](assets/diagrama-contenedores.png)
 
-### 4.6.3. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 ![diagrama-componentes](assets/diagrama-componentes.png)
 
 ## 4.7. Software Object-Oriented Design
