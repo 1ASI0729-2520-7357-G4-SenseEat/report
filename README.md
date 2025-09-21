@@ -476,6 +476,13 @@ Mediante este artefacto, se ha llevado a cabo la elaboración del As-is Scenario
 
 ## 2.4. Big Picture EventStorming
 
+En este espacio veremos la lluvia de ideas que tuvo el grupo para poder llegar a una solución estructurada:
+
+![event storming1](assets/Event1.PNG)
+![event storming2](assets/Event2.PNG)
+![event storming3](assets/Event3.PNG)
+![event storming4](assets/Event4.PNG)
+![event storming5](assets/Event5.jpeg)
 
 
 ## 2.5. Ubiquitous Language
@@ -758,7 +765,7 @@ Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrol
 ![Hero](assets/MK_LP_TESTIMONIALS.PNG) 
 
 *Figura 12.* Mock-Up para el formulario y se incluye el footer
-![Hero](assets/MK_LP_FORM.PNG) 
+![FORM](assets/MK_LP_FORM.PNG) 
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -801,6 +808,11 @@ Link al prototip: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6. Design-Level EventStorming
 
+![event storming6](assets/Event6.jpeg)
+![event storming7](assets/Event7.jpeg)
+![event storming8](assets/Event8.jpeg)
+![event storming9](assets/Event9.jpeg)
+![event storming10](assets/Event10.jpeg)
 
 
 ### 4.6.1. Software Architecture Context Diagram
