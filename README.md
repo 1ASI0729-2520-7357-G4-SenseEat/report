@@ -21,7 +21,7 @@
 
 ### Team Members:
 
-|Member |   Code    |
+|             Member              |   Code    |
 |:-------------------------------:|:---------:|
 |  Valverde Portuguez Natalia Ximena  | u20231a816 |
 |  Tumi Oliden Manuel Ignacio  |    u20241c134    |
@@ -34,14 +34,15 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor        | Descripción de modificación|
+| Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 05/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte |
-|         |  | |         |
-|         |  | |         |
-|         |  | |         |
-|         |  | |         |
-|         |  | |         |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+
 
 # Project Report Collaboration Insights
 
@@ -56,10 +57,11 @@
     - [1.2. Solution Profile](#12-solution-profile)
         - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
         - [1.2.2. Lean UX Process](#122-lean-ux-process)
-  - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-  - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-  - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-  - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
@@ -76,6 +78,8 @@
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
         - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+      
+
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
@@ -117,6 +121,15 @@
         - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
         - [5.2.1. Sprint 1](#521-sprint-1)
+            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+=======
   - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
   - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
   - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
@@ -139,6 +152,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
+
 | Criterio específico   | Acciones realizadas | Conclusiones |
 |--------------------------------------------------------------------------------------------------|---------------------|--------------|
 | Comunica oralmente con efectividad a diferentes rangos de audiencia.  |  | |
@@ -148,6 +162,27 @@ del ABET – EAC - Student Outcome 3.
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+### 1.1.2. Perfiles de integrantes del equipo
+
+    
+
+|                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
+|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  |  <br>  |
+| Natalia Ximena Valverde Portuguez    ![natalia-valverde](assets/natalia-valverde.png)  |   Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.   | 
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|  |  | 
+
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
+##### 1.2.2.1. Lean UX Problem Statements
+##### 1.2.2.2. Lean UX Assumptions
+##### 1.2.2.3. Lean UX Hypothesis Statements
+##### 1.2.2.4. Lean UX Canvas
+## 1.3. Segmentos objetivo
+
+=======
 
 Sense Eat es una startup enfocada en el desarrollo de soluciones tecnológicas para reducir el desperdicio de alimentos en los hogares. A través de la innovación, busca generar un impacto positivo en el cuidado del medio ambiente y la economía familiar, facilitando un mejor control y gestión del inventario alimenticio.
 
@@ -335,6 +370,20 @@ Estas estrategias buscan posicionar a FreshSense no solo como un producto tecnol
 ### 2.2.2. Registro de entrevistas
 ### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
 
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 1                     | **Nombre:** Piero Tapia  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Piero Tapia, trabajador del sector salud, comentó que revisa el refrigerador un par de veces por semana, pero aun así suele botar embutidos y nuggets que no consume a tiempo. Su mayor preocupación es el impacto económico y la incomodidad de desperdiciar comida que otros podrían aprovechar. No utiliza ninguna aplicación ni listas, y reconoce que muchas veces termina comprando lo mismo y aburriéndose de su dieta. Cree que una aplicación le sería útil si cuenta con tutoriales accesibles en cualquier momento, alertas de alimentos por vencer y recetas que le ayuden a variar. Considera justo un costo entre 15 y 25 soles mensuales, similar a una plataforma de streaming, aunque advierte que las notificaciones excesivas podrían volverse molestas | ![Evidencia](assets/Entrevista%20Piero.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1ds2HwtLlN2qdSDsHA3fB1maRVExLGLSn/view?usp=drive_link) |
+
+
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 2                     | **Nombre:** Alvaro Yagui  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Álvaro Yagui, dedicado al área de ventas, señaló que la falta de tiempo y el cansancio hacen que olvide cocinar lo que compra, lo que provoca que carnes, plátanos y paltas se malogren con frecuencia. Asocia estas pérdidas con frustración y descuido, pues implican desperdicio de dinero. No usa aplicaciones para control, salvo alarmas en el celular, pero reconoce que resulta tedioso. Valora la idea de una aplicación que facilite el registro de alimentos mediante voz o escáner, acompañada de notificaciones claras y recetas para combinar los ingredientes disponibles. Está dispuesto a pagar entre 15 y 20 soles mensuales, un rango que equipara al de una suscripción de Spotify | ![Evidencia](assets/Entrevista%20Yagui.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1BW0g2O54GD13gXBsNcTrhmmlvwBqTeFc/view?usp=drive_link) |
+
+
+| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 3                     | **Nombre:** Gabriela Vasquez  <br> **Edad:** 25  <br> **Distrito:** Pueblo Libre <br><br> **Resumen:** Gabriela Vázquez, de 25 años, reconoció que suele revisar el refrigerador solo una vez por semana, lo que la lleva a olvidar alimentos y desperdiciar principalmente frutas y verduras. Este hábito le genera frustración y la sensación de estar perdiendo dinero. Aunque utiliza notas y calendario para organizarse, no aplica ninguna herramienta específica para gestionar la comida. Considera valiosa una aplicación siempre que sea intuitiva, atractiva y con recordatorios confiables, además de que le ofrezca recetas para aprovechar mejor lo que ya tiene. En cuanto al costo, ve razonable un plan grupal parecido al de Spotify, alrededor de 30 soles compartidos entre varias personas | ![Evidencia](assets/Entrevista%20Gabriela.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1zAOWVJjCjoiuuvE4Mp8h9_h-m27QpLtD/view?usp=drive_link) |
+=======
 | Número de entrevista | Datos del entrevistado         | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 1  | **Nombre:** Piero Tapia  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Piero Tapia, trabajador del sector salud, comentó que revisa el refrigerador un par de veces por semana, pero aun así suele botar embutidos y nuggets que no consume a tiempo. Su mayor preocupación es el impacto económico y la incomodidad de desperdiciar comida que otros podrían aprovechar. No utiliza ninguna aplicación ni listas, y reconoce que muchas veces termina comprando lo mismo y aburriéndose de su dieta. Cree que una aplicación le sería útil si cuenta con tutoriales accesibles en cualquier momento, alertas de alimentos por vencer y recetas que le ayuden a variar. Considera justo un costo entre 15 y 25 soles mensuales, similar a una plataforma de streaming, aunque advierte que las notificaciones excesivas podrían volverse molestas | ![Evidencia](assets/Entrevista%20Piero.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/15M_YnFO5NuGaYNpKAQJbU-r_Xq8Rc27l/view?usp=drive_link) 0-5:36 |
@@ -400,6 +449,14 @@ Revisa el refrigerador solo una vez por semana, lo que ocasiona que olvide alime
 - Estaría dispuesta a pagar bajo un modelo **familiar** (~30 soles compartidos, estilo Spotify).  
 ---
 ### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. As-is Scenario Mapping
+## 2.4. Ubiquitous Language
+=======
 ---  
 ### Hallazgos :  
 ---
@@ -496,6 +553,83 @@ Mediante este artefacto, se ha llevado a cabo la elaboración del As-is Scenario
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+## 3.2. User Stories
+## 3.3. Impact Mapping
+## 3.4. Product Backlog
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+### 4.1.2. Web Style Guidelines
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Mock-up
+## 4.4. Web Applications UX/UI Design
+En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de la interfaz y la experiencia de usuario de la aplicación web de FreshSenser, donde incluimos una visualización funcional por cada parte del aplicativo con sus flujos de interacción completos. Se elaboraron wireframes en formato mobile que facilitan la disposición de las funciones de la plataforma a través de su dispositivo móvil frecuente, con elementos en pantallas que son la introducción al app, el login up, el sign up, el home o dashboard, el menú, el inventario de insumos, el detalle de cada insumo, el monitoreo de insumos, alertas, recetas, reportes, logros y soporte. En base a estos esquemas se diseñaron los mockups con alta fidelidad. En los siguientes sprints se muestra el desarrollo de cada vista de la app y cómo estas interactúan.
+### 4.4.1. Web Applications Wireframes
+![wireframeapp1](assets/wireframeapp1.png)
+![wireframeapp2](assets/wireframeapp2.png)
+![wireframeapp3](assets/wireframeapp3.png)
+![wireframeapp4](assets/wireframeapp4.png)
+![wireframeapp5](assets/wireframeapp5.png)
+![wireframeapp6](assets/wireframeapp6.png)
+![wireframeapp7](assets/wireframeapp7.png)
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+
+### 4.4.2. Web Applications Mock-ups
+
+![mockupapp1](assets/mockupapp1.png)
+![mockupapp2](assets/mockupapp2.png)
+![mockupapp3](assets/mockupapp3.png)
+![mockupapp4](assets/mockupapp4.png)
+![mockupapp5](assets/mockupapp5.png)
+![mockupapp6](assets/mockupapp6.png)
+![mockupapp7](assets/mockupapp7.png)
+
+### 4.4.3. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+![diagrama-contexto](assets/diagrama-contexto.png)
+
+### 4.6.2. Software Architecture Container Diagrams
+![diagrama-contenedores](assets/diagrama-contenedores.png)
+
+### 4.6.3. Software Architecture Components Diagrams
+![diagrama-componentes](assets/diagrama-componentes.png)
+
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+### 4.7.2. Class Dictionary
+## 4.8. Database Design
+### 4.8.1. Database Diagram
+
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Environment Configuration
+### 5.1.2. Source Code Management
+### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.4. Software Deployment Configuration
+## 5.2. Landing Page, Services & Applications Implementation
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+=======
 ### Segmento #1 : Adultos jóvenes
 ![alt text](assets/ToBe_Scenario_Seg1.jpeg)
 ### Segmento #2 : Pequeños negocios / emprendedores de alimentos caseros
@@ -757,6 +891,7 @@ Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrol
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
@@ -1457,6 +1592,10 @@ En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuen
 
 # Conclusiones
 
+# Bibliografía
+
+# Anexos
+=======
 - El desarrollo del proyecto **FreshSense**, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de **Desarrollo de Aplicaciones Open Source**. 
 
 - A través de la identificación de problemas relacionados con el desperdicio de alimentos y la necesidad de una gestión eficiente de la frescura, se diseñó una solución tecnológica basada en sensores inteligentes con una paginas web para su control.  
