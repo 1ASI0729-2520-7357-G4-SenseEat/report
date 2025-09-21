@@ -166,6 +166,8 @@ El modelo del negocio de Sense Eat está basado en la venta directa del disposit
 |         | | 
 | Fabricio Samir Vega Coronado        | Actualmente tengo 19 años y curso el cuarto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
 |         | | 
+| ![alt text](assets/perfil-ysaac.png)| Soy Villanueva Andrade Ysaac Ligorio, tengo 20 años y actualmente curso el sexto ciclo de Ingeniería de Software. He adquirido experiencia en diversos lenguajes y tecnologías como C++, Python, Java, C#, HTML y MySQL, además del uso de servicios en la nube mediante Azure. Estas competencias me han permitido desarrollar proyectos académicos y personales donde aplico la programación para resolver problemas de manera eficiente. Mi enfoque combina la parte técnica con una mentalidad creativa e innovadora, buscando siempre optimizar procesos y proponer soluciones escalables. Aspiro a seguir fortaleciendo mi perfil profesional, aportando iniciativas que destaquen tanto por su solidez técnica como por su valor diferencia l.| 
+|         | | 
 
 ## 1.2. Solution Profile
 
