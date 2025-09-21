@@ -397,7 +397,10 @@ En la sección de Web Applications UX/UI Design nos enfocamos en el diseño de l
 
 ### 4.6.2. Software Architecture Container Diagrams
 ![diagrama-contenedores](assets/diagrama-contenedores.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+![diagrama-componentes](assets/diagrama-componentes.png)
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ### 4.7.2. Class Dictionary
