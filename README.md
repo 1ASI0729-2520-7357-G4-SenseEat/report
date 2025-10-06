@@ -55,11 +55,13 @@
 |1.16|20/09/2025|Fabricio Vega|Añadió conclusiones, bibliografia y realizó el reporte de versiones|
 |1.17|20/09/2025|Todo el equipo| Realizó aportes en el landing page |
 |1.18|20/09/2025|Todo el equipo| Realizó el big event storming |
-
+|1.19|5/10/2025|Fabricio Vega| Realizó actualizaciones en el registro de versiones del informe| 
+|1.20|5/10/2025| Fabricio Vega | Orginizó el Sprint Planning 2 para proceder con la codificacion en la web | 
+|1.x|x/10/2025| | |
 
 # Project Report Collaboration Insights
 
-![natalia-valverde](assets/CollabCommits.jpg)
+---
 
 ## Contenido
 - [Student Outcome](#student-outcome)
@@ -130,16 +132,24 @@
         - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
         - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-  - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-  - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-  - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-  - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-  - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-  - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-  - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-  - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
+    - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)          
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)            
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 ---
 
 ## Student Outcome
@@ -178,7 +188,7 @@ El modelo del negocio de Sense Eat está basado en la venta directa del disposit
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="assets/foto_romina.jpeg" width="700"/> | Romina Tuesta Marin - u202211706  <br> Mi nombre es Romina, tengo 20 años y estudio ingeniería de software. Me considero una persona responsable, honesta y dispuesta a ayudar a quien lo necesite cuando trabajamos en grupo, tengo conocimiento en lenguajes de programación como Python, C++, etc. También manejo HTML, CSS y JavaScript y siempre intento aprender algo nuevo de forma autodidacta. |
 | Natalia Ximena Valverde Portuguez    ![natalia-valverde](assets/natalia-valverde.png)        | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.   |   
-| ![alt text](assets/foto1erCiclo_Fabricio.jpg) | Soy Fabricio Samir Vega Coronado - U202317000. Actualmente tengo 19 años y curso el sexto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
+| | Soy Fabricio Samir Vega Coronado - U202317000. Actualmente tengo 19 años y curso el sexto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
 | ![alt text](assets/perfil-ysaac.png)| Soy Villanueva Andrade Ysaac Ligorio, tengo 20 años y actualmente curso el sexto ciclo de Ingeniería de Software. He adquirido experiencia en diversos lenguajes y tecnologías como C++, Python, Java, C#, HTML y MySQL, además del uso de servicios en la nube mediante Azure. Estas competencias me han permitido desarrollar proyectos académicos y personales donde aplico la programación para resolver problemas de manera eficiente. Mi enfoque combina la parte técnica con una mentalidad creativa e innovadora, buscando siempre optimizar procesos y proponer soluciones escalables. Aspiro a seguir fortaleciendo mi perfil profesional, aportando iniciativas que destaquen tanto por su solidez técnica como por su valor diferencia.| 
 | ![alt text](assets/perfil_Manuel.jpeg)| Soy Tumi Oliden Manuel Ignacio, tengo 26 años y curso el sexto ciclo de Ingeniería de Software. A lo largo de mi formación he trabajado con distintos lenguajes como C++, Java, C#, HTML y MySQL, que utilizo para el desarrollo de proyectos académicos y personales. Me considero una persona innovadora, con interés en proponer nuevas ideas y en mantener una comunicación constante con mi equipo para alcanzar objetivos comunes. Mi meta es seguir fortaleciendo mis capacidades y aportar soluciones que destaquen por ser prácticas, creativas y bien estructuradas.| 
 
@@ -1236,7 +1246,7 @@ erDiagram
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
-En esta sección se detalla cómo se implementa, organiza y publica **FreshSense** en su estado actual (Landing estática con **HTML, CSS y JavaScript**). No se utiliza aún backend ni base de datos; la publicación se realiza con **GitHub Pages**. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
+En esta sección se detalla cómo se implementa, organiza y publica FreshSense en su estado actual (Landing estática con HTML, CSS y JavaScript). No se utiliza aún backend ni base de datos; la publicación se realiza con GitHub Pages. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
 
 ---
 
@@ -1317,13 +1327,13 @@ docs(readme): actualizar pasos de despliegue en GitHub Pages
 
 ### 5.1.4. Software Deployment Configuration  
 
-**Despliegue actual — GitHub Pages (Landing estática):**
+Despliegue actual — GitHub Pages (Landing estática):
 
 **Pasos:**
 1. Subir el código al repositorio `Landing-page-FreshSense` en la rama `main`.  
-2. En GitHub: ir a **Settings → Pages**.  
-3. En **Build and deployment**, seleccionar **Deploy from a branch**.  
-4. Elegir **Branch:** `main` y **Folder:** `/ (root)`. Guardar.  
+2. En GitHub: ir a Settings → Pages.  
+3. En Build and deployment, seleccionar Deploy from a branch.  
+4. Elegir Branch: `main` y Folder: `/ (root)`. Guardar.  
 5. Esperar a que GitHub procese el sitio y obtener la URL pública.  
 
 **Landing Page FreshSense:**  
@@ -1532,8 +1542,115 @@ El nivel de compromiso y coordinación alcanzado fue fundamental para cumplir co
 En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuentra Romina, después se encuentra manuel con la misma cantidad de commits, luego Ysaac y finalmente Fabricio.
 
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+Mostramos en este apartado el cuadro correspondiente al Sprint Planning 2 para nuestro startup, donde rescatamos los aspectos más importantes del Sprint Planning Meeting.
+
+<div>
+   <table>
+     <thead>
+       <tr>
+         <th># Número</th>
+         <th>Sprint 2</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-10-05 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 1:25PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Remote mode through the GitHub platform </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Vega Coronado, Fabricio Samir </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Tuesta Marin, Romina <br> Valverde Portuguez, Natalia Ximena <br> Tumi Oliden, Manuel Ignacio <br> Vega Coronado, Fabricio Samir	<br> Villanueva Andrade, Ysaac Ligorio </td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Review Summary</td>
+       <td> Durante este sprint, el equipo revisó los avances obtenidos en el Sprint 1, especialmente en la implementación de la Landing Page. Se identificaron mejoras necesarias en la estructura del código y la organización de los archivos. También se planificó el inicio del desarrollo de la aplicación web complementaria y la integración con funcionalidades dinámicas.</td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Retrospective Summary</td>
+       <td>El equipo acordó mantener una mejor gestión del tiempo mediante la asignación semanal de tareas y revisiones intermedias. Se destacó la buena comunicación en Trello y las reuniones virtuales. Se decidió documentar mejor los cambios en los repositorios.</td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 2 Goal</td>
+        <td> Desarrollar la primera versión funcional de la Web Application de FreshSense, que permita gestionar y visualizar datos de usuarios, junto con la mejora visual y técnica de la landing page. </td>
+      </tr>
+      <tr>
+        <td>Sprint 2 velocity</td>
+        <td> 12 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 30 Story Points</td>
+      </tr>
+
+   </table>
+</div>
+
+User Stories incluidas:
+
+- HU06: Creación de la página de registro de usuario (8 SP)
+
+- HU07: Implementación de la página de inicio de sesión (6 SP)
+
+- HU08: Dashboard inicial para usuarios registrados (10 SP)
+
+- HU09: Optimización y refactorización del código del frontend (6 SP)
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Team Member	GitHub Username	Registro/Login	Dashboard	Optimización Frontend	Documentación	Deployment
+Romina Tuesta	Romimi1	(L)	(C)	(C)	(L)	(C)
+Fabricio Vega	FabricioVegaC	(C)	(L)	(L)	(C)	(L)
+Ysaac Villanueva	YsaacVillanueva	(C)	(L)	(C)	(C)	(C)
+Manuel Tumi	ManuelTumi2224	(L)	(C)	(C)	(C)	(C)
+Natalia Valverde	NataliaValverdeP	(C)	(C)	(L)	(L)	(C)
+
+#### 5.2.2.3. Sprint Backlog 2
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+Below are the members of the SenseEat team with their respective leadership (L) and collaboration (C) roles assigned for the Sprint 2 tasks.
+
+| **Team Member** | **GitHub Username** | **Registro/Login** | **Dashboard** | **Optimización Frontend** | **Documentación** | **Deployment** |
+|------------------|---------------------|--------------------|----------------|----------------------------|-------------------|----------------|
+| **Romina Tuesta** | Romimi1 | (L) | (C) | (C) | (L) | (C) |
+| **Fabricio Vega** | Fabricio1v | (C) | (L) | (L) | (C) | (L) |
+| **Ysaac Villanueva** | YsaacVillanueva | (C) | (L) | (C) | (C) | (C) |
+| **Manuel Tumi** | ManuelTumi2224 | (L) | (C) | (C) | (C) | (C) |
+| **Natalia Valverde** | NataliaValverdeP | (C) | (C) | (L) | (L) | (C) |
+
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
 # Conclusiones
-- El desarrollo del proyecto **FreshSense**, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de **Desarrollo de Aplicaciones Open Source**. 
+- El desarrollo del proyecto FreshSense, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de Desarrollo de Aplicaciones Open Source. 
 
 - A través de la identificación de problemas relacionados con el desperdicio de alimentos y la necesidad de una gestión eficiente de la frescura, se diseñó una solución tecnológica basada en sensores inteligentes con una paginas web para su control.  
 
@@ -1541,7 +1658,7 @@ En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuen
 
 - El trabajo en equipo fue esencial para cumplir los objetivos planteados. La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguraron la calidad del producto. Además, se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.  
 
-- **FreshSense representa un avance hacia soluciones innovadoras para el sector alimentario**, alineadas con los Objetivos de Desarrollo Sostenible (ODS), contribuyendo a la reducción del desperdicio y promoviendo un consumo más responsable mediante la tecnología.
+- FreshSense representa un avance hacia soluciones innovadoras para el sector alimentario, alineadas con los Objetivos de Desarrollo Sostenible (ODS), contribuyendo a la reducción del desperdicio y promoviendo un consumo más responsable mediante la tecnología.
 
 # Bibliografía
 
