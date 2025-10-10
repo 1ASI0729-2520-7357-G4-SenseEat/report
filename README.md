@@ -889,98 +889,122 @@ Link al prototipo: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames
 
 ```mermaid
 classDiagram
-  class Product {
-      +UUID id
-      +string name
-      +Description description
-      +StockQuantity stock
-      +Price price
-      +Category category
-      +updateStock(StockQuantity amount)
+  %% === Bounded Context: Monitoring ===
+  class SensorDevice {
+    +UUID id
+    +string model
+    +string firmwareVersion
+    +DeviceStatus status
+    +register()
+    +pairToHousehold(Household)
   }
 
-  class Category {
-      +UUID id
-      +string name
-      +string description
+  class SensorReading {
+    +UUID id
+    +DateTime timestamp
+    +float temperatureC
+    +float humidityPct
+    +float ethylenePpm
   }
 
-  class Description {
-      -string value
-      +string getValue()
+  class Household {
+    +UUID id
+    +string name
   }
 
-  class StockQuantity {
-      -int value
-      +int getValue()
-      +isGreaterThan(StockQuantity): bool
-      +add(StockQuantity): StockQuantity
-      +subtract(StockQuantity): StockQuantity
+  SensorDevice "1" --> "0..*" SensorReading : produces >
+  Household "1" --> "0..*" SensorDevice : owns >
+
+  %% === Bounded Context: Inventory ===
+  class PantryItem {
+    +UUID id
+    +string name
+    +Quantity quantity
+    +Unit unit
+    +DateTime addedAt
+    +DateTime? bestBefore
+    +FreshnessStatus status  %% fresh | atRisk | spoiled
+    +markConsumed()
+    +markDiscarded(reason)
   }
 
-  class Price {
-      -float value
-      +float getValue()
-      +withDiscount(float percentage): Price
+  class FoodModel {
+    +UUID id
+    +string category    %% e.g., Fruta, Verdura, Lácteo
+    +ShelfLifeRules rules
   }
 
-  class Inventory {
-      +UUID id
-      +List~Product~ products
-      +addProduct(Product p)
-      +removeProduct(UUID id)
-      +findProduct(UUID id): Product
-      +updateStock(UUID productId, StockQuantity newQty)
+  PantryItem "*" --> "1" FoodModel : isA >
+
+  class FreshnessService {
+    +FreshnessStatus evaluate(PantryItem, SensorReading*)
+    +DateTime estimateBestBefore(PantryItem, FoodModel, SensorReading*)
   }
 
-  class IInventoryRepository {
-      +Inventory getById(UUID id)
-      +void save(Inventory inventory)
+  %% === Alerts & Notifications ===
+  class ExpirationAlert {
+    +UUID id
+    +DateTime raisedAt
+    +AlertType type      %% nearing_expiry | high_ethylene | temp_risk
+    +AlertStatus status  %% open | sent | snoozed | resolved
+    +resolve()
   }
 
-  class StockService {
-      +void adjustStock(UUID productId, StockQuantity qty)
+  class NotificationPreference {
+    +UUID id
+    +bool email
+    +bool push
+    +TimeWindow quietHours
   }
 
-  class InventoryApplicationService {
-      +DTOInventory getInventory(UUID id)
-      +void addProduct(DTOProduct product)
-      +void adjustStock(UUID productId, int quantity)
+  PantryItem "1" --> "0..*" ExpirationAlert : triggers >
+  User "1" --> "1" NotificationPreference
+
+  class Recipe {
+    +UUID id
+    +string title
+    +int prepMinutes
+    +Difficulty difficulty
+    +string instructions
   }
 
-  class DTOProduct {
-      +UUID id
-      +string name
-      +string description
-      +float price
-      +string category
-      +int stock
+  class RecipeIngredient {
+    +UUID id
+    +string name
+    +Quantity qty
+    +Unit unit
+    +bool optional
   }
 
-  class DTOInventory {
-      +UUID id
-      +List~DTOProduct~ products
+  Recipe "1" --> "1..*" RecipeIngredient
+  PantryItem "0..*" --> "0..*" Recipe : suggests *based on atRisk items*
+
+  class ConsumptionReport {
+    +UUID id
+    +Period period
+    +Money savedAmount
+    +float wasteReducedKgCO2
   }
 
-  class InventoryRepositorySQL {
-      +Inventory getById(UUID id)
-      +void save(Inventory inventory)
+  class Subscription {
+    +UUID id
+    +PlanType plan      %% free | premium
+    +DateTime startedAt
+    +DateTime? endsAt
+    +isActive(): bool
   }
 
-  Product --> Description
-  Product --> StockQuantity
-  Product --> Price
-  Product --> Category
-  Inventory --> Product
-  StockService --> Inventory
-  StockService --> IInventoryRepository
+  User "1" --> "0..*" ConsumptionReport
+  User "1" --> "0..1" Subscription
 
-  InventoryApplicationService --> StockService
-  InventoryApplicationService --> IInventoryRepository
-  InventoryApplicationService --> DTOProduct
-  InventoryApplicationService --> DTOInventory
+  class User {
+    +UUID id
+    +string email
+    +string fullName
+  }
 
-  InventoryRepositorySQL ..|> IInventoryRepository
+  Household "1" --> "1..*" User : members >
+  User "1" --> "0..*" PantryItem : owns/maintains >
 
 ```
 ### 4.7.2. Class Dictionary
@@ -1004,243 +1028,154 @@ classDiagram
 
 ```mermaid
 erDiagram
-  Organizations ||--o{ Locations : "owns"
-  Organizations ||--o{ Users : "groups"
-  Organizations ||--o{ Plans : "subscribed to"
-  Clients ||--o{ Sales : "makes"
-  Products ||--o{ Sales : "sold in"
-  Products ||--o{ Product_Locations : "stored in"
-  Locations ||--o{ Product_Locations : "contains"
-  Categories ||--o{ Products : "classifies"
-  Products ||--o{ Lots : "tracked in"
-  Purchases ||--o{ Lots : "sources"
-  Products ||--o{ Product_Prices : "priced in"
-  Suppliers ||--o{ Purchase_Orders : "receives"
-  Users ||--o{ Purchase_Orders : "creates"
-  Locations ||--o{ Purchase_Orders : "destined to"
-  Purchase_Orders ||--o{ Purchase_Order_Items : "includes"
-  Products ||--o{ Purchase_Order_Items : "ordered in"
-  Products ||--o{ Sales : "sold in"
-  Lots ||--o{ Sales : "tracked in"
-  Users ||--o{ Sales : "records"
-  Locations ||--o{ Sales : "occurs at"
-  Users ||--o{ Activities : "generates"
-  Users ||--o{ Reports : "creates"
-  Suppliers ||--o{ Purchases : "supplies"
-  Products ||--o{ Purchases : "purchased in"
-  Purchase_Orders ||--o{ Purchases : "fulfilled by"
-  Users ||--o{ Purchases : "records"
-  Locations ||--o{ Purchases : "destined to"
-  Products ||--o{ Product_Suppliers : "supplied by"
-  Suppliers ||--o{ Product_Suppliers : "supplies"
-  Products ||--o{ Inventory_Adjustments : "adjusted in"
-  Locations ||--o{ Inventory_Adjustments : "adjusted at"
-  Users ||--o{ Inventory_Adjustments : "performs"
-  Users ||--o{ Audit_Logs : "logs"
+  %% ========= CORE IDENTIDAD / HOGAR =========
+  USERS ||--o{ HOUSEHOLD_MEMBERS : "pertenece a"
+  HOUSEHOLDS ||--o{ HOUSEHOLD_MEMBERS : "tiene miembros"
+  HOUSEHOLDS ||--o{ DEVICES : "posee"
 
-  Organizations {
-      int organization_id PK
-      string name
-      string contact_email UK
-      int plan_id FK
-      timestamp created_at
-      timestamp updated_at
+  %% ========= MONITOREO =========
+  DEVICES ||--o{ SENSOR_READINGS : "genera"
+
+  %% ========= INVENTARIO =========
+  USERS ||--o{ PANTRY_ITEMS : "registra"
+  FOOD_MODELS ||--o{ PANTRY_ITEMS : "clasifica"
+  PANTRY_ITEMS ||--o{ EXPIRATION_ALERTS : "dispara"
+
+  %% ========= NOTIFICACIONES =========
+  USERS ||--o| NOTIFICATION_PREFERENCES : "configura"
+
+  %% ========= RECETAS =========
+  RECIPES ||--o{ RECIPE_INGREDIENTS : "incluye"
+  PANTRY_ITEMS }o--o{ RECIPES : "sugiere uso en"
+
+  %% ========= (OPCIONAL) =========
+  USERS ||--o| SUBSCRIPTIONS : "suscripción"
+  USERS ||--o{ CONSUMPTION_REPORTS : "recibe"
+
+  USERS {
+    string id PK
+    string email
+    string full_name
+    string password_hash
+    datetime created_at
+    datetime updated_at
   }
 
-  Plans {
-      int plan_id PK
-      string name
-      string description
-      enum features "basic, premium"
-      decimal price
-      timestamp created_at
+  HOUSEHOLDS {
+    string id PK
+    string name
+    datetime created_at
+    datetime updated_at
   }
 
-  Clients {
-      int client_id PK
-      string first_name
-      string last_name
-      string phone
-      string email UK
-      date registration_date
-      string dni UK
-      enum status
-      string company
-      timestamp created_at
-      timestamp updated_at
+  HOUSEHOLD_MEMBERS {
+    string id PK
+    string household_id
+    string user_id
+    string role
+    datetime joined_at
   }
 
-  Products {
-      int product_id PK
-      string name
-      string image_url
-      int category_id FK
-      timestamp created_at
-      timestamp updated_at
+  DEVICES {
+    string id PK
+    string household_id
+    string model
+    string firmware_version
+    string status
+    datetime registered_at
+    datetime updated_at
   }
 
-  Locations {
-      int location_id PK
-      int organization_id FK
-      string name
-      string address
-      string city
-      string country
-      timestamp created_at
-      timestamp updated_at
+  SENSOR_READINGS {
+    string id PK
+    string device_id
+    datetime ts
+    float temperature_c
+    float humidity_pct
+    float ethylene_ppm
+    string meta
   }
 
-  Product_Locations {
-      int product_id PK,FK
-      int location_id PK,FK
-      int stock
-      timestamp updated_at
+  FOOD_MODELS {
+    string id PK
+    string name
+    string category
+    int shelf_life_days
+    string rules_json
+    datetime created_at
+    datetime updated_at
   }
 
-  Categories {
-      int category_id PK
-      string name
-      string description
-      timestamp created_at
+  PANTRY_ITEMS {
+    string id PK
+    string user_id
+    string food_model_id
+    string name
+    float quantity
+    string unit
+    datetime added_at
+    date best_before
+    string status
+    string notes
   }
 
-  Lots {
-      int lot_id PK
-      int product_id FK
-      int purchase_id FK
-      string lot_number UK
-      date purchase_date
-      date expiration_date
-      timestamp created_at
+  EXPIRATION_ALERTS {
+    string id PK
+    string pantry_item_id
+    datetime raised_at
+    string type
+    string status
+    string meta
   }
 
-  Product_Prices {
-      int price_id PK
-      int product_id FK
-      decimal price
-      decimal discount
-      date effective_date
-      timestamp created_at
-      timestamp updated_at
+  NOTIFICATION_PREFERENCES {
+    string id PK
+    string user_id
+    boolean email_enabled
+    boolean push_enabled
+    string quiet_start
+    string quiet_end
+    datetime updated_at
   }
 
-  Purchase_Orders {
-      int order_id PK
-      int supplier_id FK
-      int user_id FK
-      int location_id FK
-      date order_date
-      enum status "pending, approved, shipped, canceled"
-      timestamp created_at
-      timestamp updated_at
+  RECIPES {
+    string id PK
+    string title
+    int prep_minutes
+    string difficulty
+    string instructions
+    datetime created_at
+    datetime updated_at
   }
 
-  Purchase_Order_Items {
-      int order_id PK,FK
-      int product_id PK,FK
-      int quantity
-      decimal unit_price
-      timestamp created_at
+  RECIPE_INGREDIENTS {
+    string id PK
+    string recipe_id
+    string name
+    float qty
+    string unit
+    boolean optional
   }
 
-  Sales {
-      int sale_id PK
-      date sale_date
-      int product_id FK
-      int lot_id FK
-      int quantity
-      enum status
-      int customer_id FK
-      int user_id FK
-      int location_id FK
-      timestamp created_at
-      timestamp updated_at
+  SUBSCRIPTIONS {
+    string id PK
+    string user_id
+    string plan
+    datetime started_at
+    datetime ends_at
+    boolean active
   }
 
-  Users {
-      int user_id PK
-      int organization_id FK
-      string username UK
-      string email UK
-      string password_hash
-      string first_name
-      string last_name
-      string profile_image_url
-      enum role "admin, user"
-      timestamp created_at
-      timestamp updated_at
+  CONSUMPTION_REPORTS {
+    string id PK
+    string user_id
+    date period_start
+    date period_end
+    float saved_amount
+    float waste_reduced_kgco2
+    datetime created_at
   }
 
-  Activities {
-      int activity_id PK
-      int user_id FK
-      enum activity_type
-      string description
-      timestamp activity_date
-  }
-
-  Reports {
-      int report_id PK
-      int user_id FK
-      enum report_type
-      timestamp generated_date
-      string file_url
-      json parameters
-      timestamp created_at
-  }
-
-  Suppliers {
-      int supplier_id PK
-      string name
-      string contact_name
-      string phone
-      string email
-      string address
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Product_Suppliers {
-      int product_id PK,FK
-      int supplier_id PK,FK
-      decimal supply_price
-      timestamp created_at
-  }
-
-  Purchases {
-      int purchase_id PK
-      int supplier_id FK
-      int product_id FK
-      int order_id FK
-      int quantity
-      date purchase_date
-      enum status
-      int user_id FK
-      int location_id FK
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Inventory_Adjustments {
-      int adjustment_id PK
-      int product_id FK
-      int location_id FK
-      int quantity
-      string reason
-      int user_id FK
-      date adjustment_date
-      timestamp created_at
-  }
-
-  Audit_Logs {
-      int audit_id PK
-      int user_id FK
-      string entity_type
-      int entity_id
-      string action
-      json details
-      timestamp audit_date
-  }
 ```
 
 # Capítulo V: Product Implementation, Validation & Deployment
