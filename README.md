@@ -1576,6 +1576,29 @@ Below are the members of the SenseEat team with their respective leadership (L) 
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
+En esta sección se presentan los avances en la implementación de la solución FreshSense, considerando los productos contemplados en el alcance del Sprint: FrontEnd. Durante este periodo se trabajó principalmente en el desarrollo de la Landing Page, incorporando mejoras visuales, de usabilidad y funcionalidad. Entre los principales avances se encuentran la creación de la página principal, la integración de estilos y animaciones, la optimización del comportamiento de la navegación y la incorporación de nuevas funciones interactivas.
+
+A continuación, se detallan los commits realizados en los repositorios vinculados a la implementación:
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ----------- | --------- | ---------------- | ------------------------ | --------------------- |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 2c378f2 | feat: create code in bounded context accounts. | Se desarrolló el código base del contexto “Accounts”, incluyendo las entidades y casos de uso principales. | 07/10/25 |
+| Fabriciovb/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | b1ff772 | feat: update initial dashboard | Se actualizó el dashboard inicial con nuevos componentes y organización visual. | 08/10/25 |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 8fb4aec | feat: reports and achievements | Se añadieron los módulos de reportes y logros al sistema. | 08/10/25 |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 78880e7 | fix: update achievements | Se corrigieron errores en la lógica de logros del módulo de reportes. | 08/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 13e0892 | feat: Created Alerts and Monitoring | Se implementó el módulo de alertas y monitoreo de datos. | 08/10/25 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 859fc1d | Merge remote-tracking branch 'origin/feature/sprint2-Ysaac' into feature/sprint2-Nat | Se fusionaron los avances del módulo de login y register con el contexto de cuentas. | 08/10/25 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 1ae2131 | feat: create code in register view and login view of bounded context accounts | Se crearon las vistas y lógica de registro e inicio de sesión del contexto “Accounts”. | 08/10/25 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 894fe3a | feat: create code in payment view and plan view of bounded context billing | Se añadieron las vistas de planes y pagos dentro del contexto “Billing”. | 08/10/25 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | b3c20e5 | feat: create code in settings view of bounded context accounts | Se implementó la vista de configuración del usuario dentro del contexto “Accounts”. | 08/10/25 |
+| Fabriciovb/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 9bcc67c | feat: update settings, i18n and small adjustments | Se mejoraron configuraciones y se implementó soporte multilenguaje (i18n). | 08/10/25 |
+| Fabriciovb/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | a961b8e | feat: update all recipes and db.json | Se actualizó la base de datos local (db.json) y recetas del sistema. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | d58fb33 | docs: Updated Diagrams | Se actualizaron los diagramas UML del sistema y sus interacciones. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | e861140 | docs: Updated Members and versions | Se actualizó la lista de miembros y versiones en la documentación del proyecto. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 0e60dfe | Merge pull request #36 from 1ASI0729-2520-7357-G4-SenseEat/feature/sprint2-Manuel | Se integraron cambios de documentación y mejoras generales del sprint 2. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | f8f5f93 | Merge pull request #42 from 1ASI0729-2520-7357-G4-SenseEat/feature/sprint2-Manuel | Se integró la rama del sprint 2 con los últimos ajustes al branch develop. | 10/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | d58fb33 | docs: Updated Diagrams | Se actualizaron los diagramas UML del sistema y sus interacciones. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | e861140 | docs: Updated Members and versions | Se actualizó la lista de miembros y versiones en la documentación del proyecto. | 09/10/25 |
+| ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 0e60dfe | Merge pull request #36 from 1ASI0729-2520-7357-G4-SenseEat/feature/sprint2-Manuel | Se integraron cambios de documentación y mejoras generales del sprint 2. | 09/10/25 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
