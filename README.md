@@ -1562,6 +1562,29 @@ Natalia Valverde	NataliaValverdeP	(C)	(C)	(L)	(L)	(C)
 
 #### 5.2.2.3. Sprint Backlog 2
 
+Herramienta de control: Trello
+<img alt="Trello" src="/assets/trello-sprint2.PNG" /><br>
+URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
+
+
+| **User Story** |                                 | **Work-Item / Task** |                                           |                                                                            |                        |                 |                                                    |
+| -------------- | ------------------------------- | -------------------- | ----------------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
+| **Id**         | **Title**                       | **Id**               | **Title**                                 | **Description**                                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01           | Monitoreo de alimentos          | T01                  | Monitoreo de alimentos                    | Implementar módulo para registrar y visualizar alimentos en inventario.    | 5                      | Manuel              | To-Do                                              |
+| US02           | Configuración de notificaciones | T02                  | Configuración de notificaciones           | Crear sistema de notificaciones para alertas de estado de alimentos.       | 4                      | Fabrizio              | To-Do                                              |
+| US03           | Registro de alimentos           | T03                  | Registro de nuevos alimentos a inventario | Desarrollar formulario para agregar nuevos alimentos al sistema.           | 6                      | Romina              | In-Process                                         |
+| US04           | Visualización de inventario     | T04                  | Visualización de inventario de alimentos  | Implementar vista que muestre el inventario actual con detalles y alertas. | 5                      | Romina              | In-Review                                          |
+| US05           | Login de usuarios               | T05                  | Login de usuarios                         | Implementar autenticación para acceso seguro al sistema.                   | 3                      | Natalia        | In-Review                                          |
+| US06           | Estado de alimentos             | T06                  | Monitoreo de estado de alimentos          | Mostrar estado actual de alimentos (frescos, próximos a vencer, vencidos). | 4                      | Manuel              | Done                                               |
+| US07           | Alertas anticipadas             | T07                  | Visualización de alertas anticipadas      | Mostrar alertas sobre alimentos próximos a vencer.                         | 3                      | Manuel              | Done                                               |
+| US08           | Sign in de usuarios             | T08                  | Sign in de usuarios                       | Crear e integrar formulario de inicio de sesión funcional.                 | 2                      | Natalia               | Done                                               |
+| US09           | Metas cumplidas                 | T09                  | Visualización de metas cumplidas          | Mostrar progreso del usuario en metas de reducción de desperdicio.         | 3                      | Ysaac               | Done                                               |
+| US10           | Planes de suscripción           | T10                  | Visualización de planes de suscripción    | Implementar vista de planes y beneficios de suscripción.                   | 4                      | Natalia              | Done                                               |
+| US11           | Pantalla inicial                | T11                  | Visualización de pantalla inicial         | Diseñar la pantalla de inicio con acceso a las funciones principales.      | 3                      | Natalia               | Done                                               |
+| US12           | Recetas personalizadas          | T12                  | Generar recetas personalizadas            | Desarrollar sistema para sugerir recetas según los alimentos disponibles.  | 5                      | Fabrizio              | Done                                               |
+| US13           | Reportes personalizados         | T13                  | Generación de reportes personalizados     | Crear módulo de generación de reportes de inventario y alertas.            | 6                      | Ysaac               | Done                                               |
+
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
 Below are the members of the SenseEat team with their respective leadership (L) and collaboration (C) roles assigned for the Sprint 2 tasks.
 
