@@ -55,11 +55,14 @@
 |1.16|20/09/2025|Fabricio Vega|Añadió conclusiones, bibliografia y realizó el reporte de versiones|
 |1.17|20/09/2025|Todo el equipo| Realizó aportes en el landing page |
 |1.18|20/09/2025|Todo el equipo| Realizó el big event storming |
-
+|1.19|5/10/2025|Fabricio Vega| Realizó actualizaciones en el registro de versiones del informe| 
+|1.20|5/10/2025| Fabricio Vega | Orginizó el Sprint Planning 2 para proceder con la codificacion en la web | 
+|1.21|9/10/2025| Manuel Tumi | Mejoró el Class Diagram y el Database Diagram |
+|1.x|x/10/2025| | |
 
 # Project Report Collaboration Insights
 
-![natalia-valverde](assets/CollabCommits.jpg)
+---
 
 ## Contenido
 - [Student Outcome](#student-outcome)
@@ -130,16 +133,24 @@
         - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
         - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-  - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-  - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-  - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-  - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-  - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-  - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-  - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-  - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
+    - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)          
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)            
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 ---
 
 ## Student Outcome
@@ -178,7 +189,7 @@ El modelo del negocio de Sense Eat está basado en la venta directa del disposit
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="assets/foto_romina.jpeg" width="700"/> | Romina Tuesta Marin - u202211706  <br> Mi nombre es Romina, tengo 20 años y estudio ingeniería de software. Me considero una persona responsable, honesta y dispuesta a ayudar a quien lo necesite cuando trabajamos en grupo, tengo conocimiento en lenguajes de programación como Python, C++, etc. También manejo HTML, CSS y JavaScript y siempre intento aprender algo nuevo de forma autodidacta. |
 | Natalia Ximena Valverde Portuguez    ![natalia-valverde](assets/natalia-valverde.png)        | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.   |   
-| ![alt text](assets/foto1erCiclo_Fabricio.jpg) | Soy Fabricio Samir Vega Coronado - U202317000. Actualmente tengo 19 años y curso el sexto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
+|![alt text](assets/foto1erCiclo_Fabricio.jpg) | Soy Fabricio Samir Vega Coronado - U202317000. Actualmente tengo 19 años y curso el sexto ciclo de Ingeniería de Software. Manejo lenguajes de programación como C++, HTML, Python y MySQL, que aplico en la resolución de problemas y desarrollo de proyectos. Me esfuerzo por combinar mis habilidades técnicas con una mentalidad orientada a la innovación, siempre buscando nuevas formas de mejorar y optimizar procesos. Mi objetivo es seguir creciendo en este campo, aportando soluciones que no solo sean funcionales, sino también creativas y bien fundamentadas.| 
 | ![alt text](assets/perfil-ysaac.png)| Soy Villanueva Andrade Ysaac Ligorio, tengo 20 años y actualmente curso el sexto ciclo de Ingeniería de Software. He adquirido experiencia en diversos lenguajes y tecnologías como C++, Python, Java, C#, HTML y MySQL, además del uso de servicios en la nube mediante Azure. Estas competencias me han permitido desarrollar proyectos académicos y personales donde aplico la programación para resolver problemas de manera eficiente. Mi enfoque combina la parte técnica con una mentalidad creativa e innovadora, buscando siempre optimizar procesos y proponer soluciones escalables. Aspiro a seguir fortaleciendo mi perfil profesional, aportando iniciativas que destaquen tanto por su solidez técnica como por su valor diferencia.| 
 | ![alt text](assets/perfil_Manuel.jpeg)| Soy Tumi Oliden Manuel Ignacio, tengo 26 años y curso el sexto ciclo de Ingeniería de Software. A lo largo de mi formación he trabajado con distintos lenguajes como C++, Java, C#, HTML y MySQL, que utilizo para el desarrollo de proyectos académicos y personales. Me considero una persona innovadora, con interés en proponer nuevas ideas y en mantener una comunicación constante con mi equipo para alcanzar objetivos comunes. Mi meta es seguir fortaleciendo mis capacidades y aportar soluciones que destaquen por ser prácticas, creativas y bien estructuradas.| 
 
@@ -879,98 +890,122 @@ Link al prototipo: https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames
 
 ```mermaid
 classDiagram
-  class Product {
-      +UUID id
-      +string name
-      +Description description
-      +StockQuantity stock
-      +Price price
-      +Category category
-      +updateStock(StockQuantity amount)
+  %% === Bounded Context: Monitoring ===
+  class SensorDevice {
+    +UUID id
+    +string model
+    +string firmwareVersion
+    +DeviceStatus status
+    +register()
+    +pairToHousehold(Household)
   }
 
-  class Category {
-      +UUID id
-      +string name
-      +string description
+  class SensorReading {
+    +UUID id
+    +DateTime timestamp
+    +float temperatureC
+    +float humidityPct
+    +float ethylenePpm
   }
 
-  class Description {
-      -string value
-      +string getValue()
+  class Household {
+    +UUID id
+    +string name
   }
 
-  class StockQuantity {
-      -int value
-      +int getValue()
-      +isGreaterThan(StockQuantity): bool
-      +add(StockQuantity): StockQuantity
-      +subtract(StockQuantity): StockQuantity
+  SensorDevice "1" --> "0..*" SensorReading : produces >
+  Household "1" --> "0..*" SensorDevice : owns >
+
+  %% === Bounded Context: Inventory ===
+  class PantryItem {
+    +UUID id
+    +string name
+    +Quantity quantity
+    +Unit unit
+    +DateTime addedAt
+    +DateTime? bestBefore
+    +FreshnessStatus status  %% fresh | atRisk | spoiled
+    +markConsumed()
+    +markDiscarded(reason)
   }
 
-  class Price {
-      -float value
-      +float getValue()
-      +withDiscount(float percentage): Price
+  class FoodModel {
+    +UUID id
+    +string category    %% e.g., Fruta, Verdura, Lácteo
+    +ShelfLifeRules rules
   }
 
-  class Inventory {
-      +UUID id
-      +List~Product~ products
-      +addProduct(Product p)
-      +removeProduct(UUID id)
-      +findProduct(UUID id): Product
-      +updateStock(UUID productId, StockQuantity newQty)
+  PantryItem "*" --> "1" FoodModel : isA >
+
+  class FreshnessService {
+    +FreshnessStatus evaluate(PantryItem, SensorReading*)
+    +DateTime estimateBestBefore(PantryItem, FoodModel, SensorReading*)
   }
 
-  class IInventoryRepository {
-      +Inventory getById(UUID id)
-      +void save(Inventory inventory)
+  %% === Alerts & Notifications ===
+  class ExpirationAlert {
+    +UUID id
+    +DateTime raisedAt
+    +AlertType type      %% nearing_expiry | high_ethylene | temp_risk
+    +AlertStatus status  %% open | sent | snoozed | resolved
+    +resolve()
   }
 
-  class StockService {
-      +void adjustStock(UUID productId, StockQuantity qty)
+  class NotificationPreference {
+    +UUID id
+    +bool email
+    +bool push
+    +TimeWindow quietHours
   }
 
-  class InventoryApplicationService {
-      +DTOInventory getInventory(UUID id)
-      +void addProduct(DTOProduct product)
-      +void adjustStock(UUID productId, int quantity)
+  PantryItem "1" --> "0..*" ExpirationAlert : triggers >
+  User "1" --> "1" NotificationPreference
+
+  class Recipe {
+    +UUID id
+    +string title
+    +int prepMinutes
+    +Difficulty difficulty
+    +string instructions
   }
 
-  class DTOProduct {
-      +UUID id
-      +string name
-      +string description
-      +float price
-      +string category
-      +int stock
+  class RecipeIngredient {
+    +UUID id
+    +string name
+    +Quantity qty
+    +Unit unit
+    +bool optional
   }
 
-  class DTOInventory {
-      +UUID id
-      +List~DTOProduct~ products
+  Recipe "1" --> "1..*" RecipeIngredient
+  PantryItem "0..*" --> "0..*" Recipe : suggests *based on atRisk items*
+
+  class ConsumptionReport {
+    +UUID id
+    +Period period
+    +Money savedAmount
+    +float wasteReducedKgCO2
   }
 
-  class InventoryRepositorySQL {
-      +Inventory getById(UUID id)
-      +void save(Inventory inventory)
+  class Subscription {
+    +UUID id
+    +PlanType plan      %% free | premium
+    +DateTime startedAt
+    +DateTime? endsAt
+    +isActive(): bool
   }
 
-  Product --> Description
-  Product --> StockQuantity
-  Product --> Price
-  Product --> Category
-  Inventory --> Product
-  StockService --> Inventory
-  StockService --> IInventoryRepository
+  User "1" --> "0..*" ConsumptionReport
+  User "1" --> "0..1" Subscription
 
-  InventoryApplicationService --> StockService
-  InventoryApplicationService --> IInventoryRepository
-  InventoryApplicationService --> DTOProduct
-  InventoryApplicationService --> DTOInventory
+  class User {
+    +UUID id
+    +string email
+    +string fullName
+  }
 
-  InventoryRepositorySQL ..|> IInventoryRepository
+  Household "1" --> "1..*" User : members >
+  User "1" --> "0..*" PantryItem : owns/maintains >
 
 ```
 ### 4.7.2. Class Dictionary
@@ -994,249 +1029,160 @@ classDiagram
 
 ```mermaid
 erDiagram
-  Organizations ||--o{ Locations : "owns"
-  Organizations ||--o{ Users : "groups"
-  Organizations ||--o{ Plans : "subscribed to"
-  Clients ||--o{ Sales : "makes"
-  Products ||--o{ Sales : "sold in"
-  Products ||--o{ Product_Locations : "stored in"
-  Locations ||--o{ Product_Locations : "contains"
-  Categories ||--o{ Products : "classifies"
-  Products ||--o{ Lots : "tracked in"
-  Purchases ||--o{ Lots : "sources"
-  Products ||--o{ Product_Prices : "priced in"
-  Suppliers ||--o{ Purchase_Orders : "receives"
-  Users ||--o{ Purchase_Orders : "creates"
-  Locations ||--o{ Purchase_Orders : "destined to"
-  Purchase_Orders ||--o{ Purchase_Order_Items : "includes"
-  Products ||--o{ Purchase_Order_Items : "ordered in"
-  Products ||--o{ Sales : "sold in"
-  Lots ||--o{ Sales : "tracked in"
-  Users ||--o{ Sales : "records"
-  Locations ||--o{ Sales : "occurs at"
-  Users ||--o{ Activities : "generates"
-  Users ||--o{ Reports : "creates"
-  Suppliers ||--o{ Purchases : "supplies"
-  Products ||--o{ Purchases : "purchased in"
-  Purchase_Orders ||--o{ Purchases : "fulfilled by"
-  Users ||--o{ Purchases : "records"
-  Locations ||--o{ Purchases : "destined to"
-  Products ||--o{ Product_Suppliers : "supplied by"
-  Suppliers ||--o{ Product_Suppliers : "supplies"
-  Products ||--o{ Inventory_Adjustments : "adjusted in"
-  Locations ||--o{ Inventory_Adjustments : "adjusted at"
-  Users ||--o{ Inventory_Adjustments : "performs"
-  Users ||--o{ Audit_Logs : "logs"
+  %% ========= CORE IDENTIDAD / HOGAR =========
+  USERS ||--o{ HOUSEHOLD_MEMBERS : "pertenece a"
+  HOUSEHOLDS ||--o{ HOUSEHOLD_MEMBERS : "tiene miembros"
+  HOUSEHOLDS ||--o{ DEVICES : "posee"
 
-  Organizations {
-      int organization_id PK
-      string name
-      string contact_email UK
-      int plan_id FK
-      timestamp created_at
-      timestamp updated_at
+  %% ========= MONITOREO =========
+  DEVICES ||--o{ SENSOR_READINGS : "genera"
+
+  %% ========= INVENTARIO =========
+  USERS ||--o{ PANTRY_ITEMS : "registra"
+  FOOD_MODELS ||--o{ PANTRY_ITEMS : "clasifica"
+  PANTRY_ITEMS ||--o{ EXPIRATION_ALERTS : "dispara"
+
+  %% ========= NOTIFICACIONES =========
+  USERS ||--o| NOTIFICATION_PREFERENCES : "configura"
+
+  %% ========= RECETAS =========
+  RECIPES ||--o{ RECIPE_INGREDIENTS : "incluye"
+  PANTRY_ITEMS }o--o{ RECIPES : "sugiere uso en"
+
+  %% ========= (OPCIONAL) =========
+  USERS ||--o| SUBSCRIPTIONS : "suscripción"
+  USERS ||--o{ CONSUMPTION_REPORTS : "recibe"
+
+  USERS {
+    string id PK
+    string email
+    string full_name
+    string password_hash
+    datetime created_at
+    datetime updated_at
   }
 
-  Plans {
-      int plan_id PK
-      string name
-      string description
-      enum features "basic, premium"
-      decimal price
-      timestamp created_at
+  HOUSEHOLDS {
+    string id PK
+    string name
+    datetime created_at
+    datetime updated_at
   }
 
-  Clients {
-      int client_id PK
-      string first_name
-      string last_name
-      string phone
-      string email UK
-      date registration_date
-      string dni UK
-      enum status
-      string company
-      timestamp created_at
-      timestamp updated_at
+  HOUSEHOLD_MEMBERS {
+    string id PK
+    string household_id
+    string user_id
+    string role
+    datetime joined_at
   }
 
-  Products {
-      int product_id PK
-      string name
-      string image_url
-      int category_id FK
-      timestamp created_at
-      timestamp updated_at
+  DEVICES {
+    string id PK
+    string household_id
+    string model
+    string firmware_version
+    string status
+    datetime registered_at
+    datetime updated_at
   }
 
-  Locations {
-      int location_id PK
-      int organization_id FK
-      string name
-      string address
-      string city
-      string country
-      timestamp created_at
-      timestamp updated_at
+  SENSOR_READINGS {
+    string id PK
+    string device_id
+    datetime ts
+    float temperature_c
+    float humidity_pct
+    float ethylene_ppm
+    string meta
   }
 
-  Product_Locations {
-      int product_id PK,FK
-      int location_id PK,FK
-      int stock
-      timestamp updated_at
+  FOOD_MODELS {
+    string id PK
+    string name
+    string category
+    int shelf_life_days
+    string rules_json
+    datetime created_at
+    datetime updated_at
   }
 
-  Categories {
-      int category_id PK
-      string name
-      string description
-      timestamp created_at
+  PANTRY_ITEMS {
+    string id PK
+    string user_id
+    string food_model_id
+    string name
+    float quantity
+    string unit
+    datetime added_at
+    date best_before
+    string status
+    string notes
   }
 
-  Lots {
-      int lot_id PK
-      int product_id FK
-      int purchase_id FK
-      string lot_number UK
-      date purchase_date
-      date expiration_date
-      timestamp created_at
+  EXPIRATION_ALERTS {
+    string id PK
+    string pantry_item_id
+    datetime raised_at
+    string type
+    string status
+    string meta
   }
 
-  Product_Prices {
-      int price_id PK
-      int product_id FK
-      decimal price
-      decimal discount
-      date effective_date
-      timestamp created_at
-      timestamp updated_at
+  NOTIFICATION_PREFERENCES {
+    string id PK
+    string user_id
+    boolean email_enabled
+    boolean push_enabled
+    string quiet_start
+    string quiet_end
+    datetime updated_at
   }
 
-  Purchase_Orders {
-      int order_id PK
-      int supplier_id FK
-      int user_id FK
-      int location_id FK
-      date order_date
-      enum status "pending, approved, shipped, canceled"
-      timestamp created_at
-      timestamp updated_at
+  RECIPES {
+    string id PK
+    string title
+    int prep_minutes
+    string difficulty
+    string instructions
+    datetime created_at
+    datetime updated_at
   }
 
-  Purchase_Order_Items {
-      int order_id PK,FK
-      int product_id PK,FK
-      int quantity
-      decimal unit_price
-      timestamp created_at
+  RECIPE_INGREDIENTS {
+    string id PK
+    string recipe_id
+    string name
+    float qty
+    string unit
+    boolean optional
   }
 
-  Sales {
-      int sale_id PK
-      date sale_date
-      int product_id FK
-      int lot_id FK
-      int quantity
-      enum status
-      int customer_id FK
-      int user_id FK
-      int location_id FK
-      timestamp created_at
-      timestamp updated_at
+  SUBSCRIPTIONS {
+    string id PK
+    string user_id
+    string plan
+    datetime started_at
+    datetime ends_at
+    boolean active
   }
 
-  Users {
-      int user_id PK
-      int organization_id FK
-      string username UK
-      string email UK
-      string password_hash
-      string first_name
-      string last_name
-      string profile_image_url
-      enum role "admin, user"
-      timestamp created_at
-      timestamp updated_at
+  CONSUMPTION_REPORTS {
+    string id PK
+    string user_id
+    date period_start
+    date period_end
+    float saved_amount
+    float waste_reduced_kgco2
+    datetime created_at
   }
 
-  Activities {
-      int activity_id PK
-      int user_id FK
-      enum activity_type
-      string description
-      timestamp activity_date
-  }
-
-  Reports {
-      int report_id PK
-      int user_id FK
-      enum report_type
-      timestamp generated_date
-      string file_url
-      json parameters
-      timestamp created_at
-  }
-
-  Suppliers {
-      int supplier_id PK
-      string name
-      string contact_name
-      string phone
-      string email
-      string address
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Product_Suppliers {
-      int product_id PK,FK
-      int supplier_id PK,FK
-      decimal supply_price
-      timestamp created_at
-  }
-
-  Purchases {
-      int purchase_id PK
-      int supplier_id FK
-      int product_id FK
-      int order_id FK
-      int quantity
-      date purchase_date
-      enum status
-      int user_id FK
-      int location_id FK
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Inventory_Adjustments {
-      int adjustment_id PK
-      int product_id FK
-      int location_id FK
-      int quantity
-      string reason
-      int user_id FK
-      date adjustment_date
-      timestamp created_at
-  }
-
-  Audit_Logs {
-      int audit_id PK
-      int user_id FK
-      string entity_type
-      int entity_id
-      string action
-      json details
-      timestamp audit_date
-  }
 ```
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
-En esta sección se detalla cómo se implementa, organiza y publica **FreshSense** en su estado actual (Landing estática con **HTML, CSS y JavaScript**). No se utiliza aún backend ni base de datos; la publicación se realiza con **GitHub Pages**. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
+En esta sección se detalla cómo se implementa, organiza y publica FreshSense en su estado actual (Landing estática con HTML, CSS y JavaScript). No se utiliza aún backend ni base de datos; la publicación se realiza con GitHub Pages. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
 
 ---
 
@@ -1317,13 +1263,13 @@ docs(readme): actualizar pasos de despliegue en GitHub Pages
 
 ### 5.1.4. Software Deployment Configuration  
 
-**Despliegue actual — GitHub Pages (Landing estática):**
+Despliegue actual — GitHub Pages (Landing estática):
 
 **Pasos:**
 1. Subir el código al repositorio `Landing-page-FreshSense` en la rama `main`.  
-2. En GitHub: ir a **Settings → Pages**.  
-3. En **Build and deployment**, seleccionar **Deploy from a branch**.  
-4. Elegir **Branch:** `main` y **Folder:** `/ (root)`. Guardar.  
+2. En GitHub: ir a Settings → Pages.  
+3. En Build and deployment, seleccionar Deploy from a branch.  
+4. Elegir Branch: `main` y Folder: `/ (root)`. Guardar.  
 5. Esperar a que GitHub procese el sitio y obtener la URL pública.  
 
 **Landing Page FreshSense:**  
@@ -1532,8 +1478,115 @@ El nivel de compromiso y coordinación alcanzado fue fundamental para cumplir co
 En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuentra Romina, después se encuentra manuel con la misma cantidad de commits, luego Ysaac y finalmente Fabricio.
 
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+Mostramos en este apartado el cuadro correspondiente al Sprint Planning 2 para nuestro startup, donde rescatamos los aspectos más importantes del Sprint Planning Meeting.
+
+<div>
+   <table>
+     <thead>
+       <tr>
+         <th># Número</th>
+         <th>Sprint 2</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-10-05 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 1:25PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Remote mode through the GitHub platform </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Vega Coronado, Fabricio Samir </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Tuesta Marin, Romina <br> Valverde Portuguez, Natalia Ximena <br> Tumi Oliden, Manuel Ignacio <br> Vega Coronado, Fabricio Samir	<br> Villanueva Andrade, Ysaac Ligorio </td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Review Summary</td>
+       <td> Durante este sprint, el equipo revisó los avances obtenidos en el Sprint 1, especialmente en la implementación de la Landing Page. Se identificaron mejoras necesarias en la estructura del código y la organización de los archivos. También se planificó el inicio del desarrollo de la aplicación web complementaria y la integración con funcionalidades dinámicas.</td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Retrospective Summary</td>
+       <td>El equipo acordó mantener una mejor gestión del tiempo mediante la asignación semanal de tareas y revisiones intermedias. Se destacó la buena comunicación en Trello y las reuniones virtuales. Se decidió documentar mejor los cambios en los repositorios.</td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 2 Goal</td>
+        <td> Desarrollar la primera versión funcional de la Web Application de FreshSense, que permita gestionar y visualizar datos de usuarios, junto con la mejora visual y técnica de la landing page. </td>
+      </tr>
+      <tr>
+        <td>Sprint 2 velocity</td>
+        <td> 12 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 30 Story Points</td>
+      </tr>
+
+   </table>
+</div>
+
+User Stories incluidas:
+
+- HU06: Creación de la página de registro de usuario (8 SP)
+
+- HU07: Implementación de la página de inicio de sesión (6 SP)
+
+- HU08: Dashboard inicial para usuarios registrados (10 SP)
+
+- HU09: Optimización y refactorización del código del frontend (6 SP)
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Team Member	GitHub Username	Registro/Login	Dashboard	Optimización Frontend	Documentación	Deployment
+Romina Tuesta	Romimi1	(L)	(C)	(C)	(L)	(C)
+Fabricio Vega	FabricioVegaC	(C)	(L)	(L)	(C)	(L)
+Ysaac Villanueva	YsaacVillanueva	(C)	(L)	(C)	(C)	(C)
+Manuel Tumi	ManuelTumi2224	(L)	(C)	(C)	(C)	(C)
+Natalia Valverde	NataliaValverdeP	(C)	(C)	(L)	(L)	(C)
+
+#### 5.2.2.3. Sprint Backlog 2
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+Below are the members of the SenseEat team with their respective leadership (L) and collaboration (C) roles assigned for the Sprint 2 tasks.
+
+| **Team Member** | **GitHub Username** | **Registro/Login** | **Dashboard** | **Optimización Frontend** | **Documentación** | **Deployment** |
+|------------------|---------------------|--------------------|----------------|----------------------------|-------------------|----------------|
+| **Romina Tuesta** | Romimi1 | (L) | (C) | (C) | (L) | (C) |
+| **Fabricio Vega** | Fabricio1v | (C) | (L) | (L) | (C) | (L) |
+| **Ysaac Villanueva** | YsaacVillanueva | (C) | (L) | (C) | (C) | (C) |
+| **Manuel Tumi** | ManuelTumi2224 | (L) | (C) | (C) | (C) | (C) |
+| **Natalia Valverde** | NataliaValverdeP | (C) | (C) | (L) | (L) | (C) |
+
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
 # Conclusiones
-- El desarrollo del proyecto **FreshSense**, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de **Desarrollo de Aplicaciones Open Source**. 
+- El desarrollo del proyecto FreshSense, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de Desarrollo de Aplicaciones Open Source. 
 
 - A través de la identificación de problemas relacionados con el desperdicio de alimentos y la necesidad de una gestión eficiente de la frescura, se diseñó una solución tecnológica basada en sensores inteligentes con una paginas web para su control.  
 
@@ -1541,7 +1594,7 @@ En la imagen se puede ser a 4 colaboradores, primero, con más commits se encuen
 
 - El trabajo en equipo fue esencial para cumplir los objetivos planteados. La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguraron la calidad del producto. Además, se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.  
 
-- **FreshSense representa un avance hacia soluciones innovadoras para el sector alimentario**, alineadas con los Objetivos de Desarrollo Sostenible (ODS), contribuyendo a la reducción del desperdicio y promoviendo un consumo más responsable mediante la tecnología.
+- FreshSense representa un avance hacia soluciones innovadoras para el sector alimentario, alineadas con los Objetivos de Desarrollo Sostenible (ODS), contribuyendo a la reducción del desperdicio y promoviendo un consumo más responsable mediante la tecnología.
 
 # Bibliografía
 
