@@ -58,9 +58,8 @@
 |1.19|5/10/2025|Fabricio Vega| Realizó actualizaciones en el registro de versiones del informe| 
 |1.20|5/10/2025| Fabricio Vega | Orginizó el Sprint Planning 2 para proceder con la codificacion en la web | 
 |1.21|9/10/2025| Manuel Tumi | Mejoró el Class Diagram y el Database Diagram |
+|1.22|10/10/2025| Fabricio Vega | Terminó la documentación para el sprint 2 |
 |1.x|x/10/2025| | |
-
-# Project Report Collaboration Insights
 
 ---
 
@@ -166,8 +165,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | - **Pitch y defensa** del proyecto (3–5 min) ante profesor y jurado, con adaptación de lenguaje técnico/no técnico.<br>- **Demostración guiada** de la Landing y wireflow (navegación, beneficios, CTA), resolviendo preguntas en vivo.<br>- **Entrevistas a usuarios** (2 segmentos): apertura, preguntas, cierre y síntesis de hallazgos; tono accesible y empático.<br>- **Ceremonias ágiles** (planning, review, retro) con **roles rotativos de speaker**, uso de agenda y timeboxing. | - Se evidenció **claridad, ritmo y adaptación** del mensaje a profesor, compañeros y usuarios finales.<br>- Las dudas fueron atendidas con **argumentos y evidencias** (capturas, wireflows, backlog).<br>- Mejoras identificadas: pulir **storytelling** (problema → solución → impacto) y cerrar siempre con **CTA** y métricas.<br>- Para siguientes sprints se mantendrá **guion de pitch**, check-list de demo y límite de tiempo (**3:00 ± 10 s**). |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | - **Informe estructurado** (Introducción → Elicitación → Especificación → Diseño → Implementación) con títulos, tablas y figuras.<br>- **Ubiquitous Language** EN/ES y **User Stories** con criterios Gherkin; **Product Backlog** priorizado con SP.<br>- **Diagramas** (Mermaid: class/ER; wireflow/user flow) con pies de figura y texto alternativo (accesibilidad).<br>- **Guías de estilo** (tipografía, colores, SEO/meta tags) y **evidencia de commits** con Conventional Commits.<br>- **Redacción y revisión cruzada** (ortografía, consistencia terminológica, formato APA en bibliografía). | - El documento es **coherente y escaneable** para públicos técnico y no técnico; mantiene **tono consistente** y referencias claras.<br>- Las definiciones y criterios de aceptación facilitan la **trazabilidad** problema → requisito → diseño.<br>- Mejoras: uniformizar algunos **estilos de tablas**, agregar **resumen ejecutivo** y **abstract en inglés**.<br>- Se continuará con **lista de control editorial**, glosario vivo y plantilla de secciones para mantener consistencia. |
+| *Comunica oralmente con efectividad a diferentes rangos de audiencia.* | TB1: - *Pitch y defensa* del proyecto (3–5 min) ante profesor y jurado, con adaptación de lenguaje técnico/no técnico.<br>- *Demostración guiada* de la Landing y wireflow (navegación, beneficios, CTA), resolviendo preguntas en vivo.<br>- *Entrevistas a usuarios* (2 segmentos): apertura, preguntas, cierre y síntesis de hallazgos; tono accesible y empático.<br>- *Ceremonias ágiles* (planning, review, retro) con *roles rotativos de speaker, uso de agenda y timeboxing. TP1: - **Presentación del Sprint Backlog (FreshSense)* explicando la estructura de *User Stories, tareas y responsables, destacando avances y bloqueos.<br>- **Revisión de sprint* con demostración en vivo del progreso (por ejemplo, Registro de alimentos, Visualización de inventario, Alertas anticipadas), explicando decisiones técnicas.<br>- *Daily meetings breves (≤10 min)* donde cada miembro comunicó avances y próximos pasos con lenguaje claro y conciso.<br>- *Retro de Sprint 1* moderada por un integrante distinto, promoviendo participación y comunicación efectiva del aprendizaje.| TB1: - Se evidenció *claridad, ritmo y adaptación* del mensaje a profesor, compañeros y usuarios finales.<br>- Las dudas fueron atendidas con *argumentos y evidencias* (capturas, wireflows, backlog).<br>- Mejoras identificadas: pulir *storytelling* (problema → solución → impacto) y cerrar siempre con *CTA* y métricas.<br>- Para siguientes sprints se mantendrá *guion de pitch, check-list de demo y límite de tiempo (3:00 ± 10 s). TP1:  - Se observó **comunicación efectiva y coordinación fluida* en la exposición del backlog y la demo técnica.<br>- Los integrantes demostraron *capacidad de síntesis y claridad* al explicar los componentes de la aplicación (To-Do → In-Process → Done).<br>- Mejoras: fortalecer el *uso de métricas de sprint* (horas estimadas vs. reales) al presentar resultados y practicar *transiciones de turnos orales* en la demo.    |
+| *Comunica por escrito con efectividad a diferentes rangos de audiencia.* | TB1: - *Informe estructurado* (Introducción → Elicitación → Especificación → Diseño → Implementación) con títulos, tablas y figuras.<br>- *Ubiquitous Language* EN/ES y *User Stories* con criterios Gherkin; *Product Backlog* priorizado con SP.<br>- *Diagramas* (Mermaid: class/ER; wireflow/user flow) con pies de figura y texto alternativo (accesibilidad).<br>- *Guías de estilo* (tipografía, colores, SEO/meta tags) y *evidencia de commits* con Conventional Commits.<br>- *Redacción y revisión cruzada* (ortografía, consistencia terminológica, formato APA en bibliografía). TP1: - *Documentación del Sprint Backlog en formato tabla Markdown, con identificación de *User Stories, tareas (T01–T13), descripción, responsables y estatus.<br>- *Etiquetado y orden en Trello, empleando colores por estado y responsable, con títulos claros y descripciones precisas.<br>- Registro de **evidencias escritas de progreso* (notas, comentarios y commits) en herramientas colaborativas.<br>- Redacción de *conclusiones de sprint* en lenguaje técnico formal, integradas al informe principal del TP1.               | TB1: - El documento es *coherente y escaneable* para públicos técnico y no técnico; mantiene *tono consistente* y referencias claras.<br>- Las definiciones y criterios de aceptación facilitan la *trazabilidad* problema → requisito → diseño.<br>- Mejoras: uniformizar algunos *estilos de tablas, agregar **resumen ejecutivo* y *abstract en inglés.<br>- Se continuará con **lista de control editorial, glosario vivo y plantilla de secciones para mantener consistencia. TP1:  - La comunicación escrita permitió **trazabilidad y claridad* en el seguimiento del sprint.<br>- Los tableros y backlog reflejan *organización visual y consistencia terminológica.<br>- Se evidenció mejora en la **redacción técnica* y en la *documentación de tareas ágiles.<br>- Se recomienda mantener un formato unificado de redacción en Trello y ampliar el detalle en la descripción de *acceptance criteria por tarea.|
 
 > **Evidencias clave (resumen):** informe completo con tablas/figuras, wireflows y user flows, video demo corto, guion de pitch, guiones de entrevista, backlog priorizado y commits con convenciones.
 
@@ -1624,13 +1623,96 @@ A continuación, se detallan los commits realizados en los repositorios vinculad
 | ManuelTumi2224/github.com/1ASI0729-2520-7357-G4-SenseEat/tree/develop | develop | 0e60dfe | Merge pull request #36 from 1ASI0729-2520-7357-G4-SenseEat/feature/sprint2-Manuel | Se integraron cambios de documentación y mejoras generales del sprint 2. | 09/10/25 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+Lo que se logró para este Sprint 2 es el peliegue de la primera versión de la aplicación web. En esta logramos desarrollar el dashboard, footer, la vista principal, food inventory, recipes, food monitoring, alertas, metodo de pago, login, register, ajustes y planes. Esto fue realizado mediante la aplicacion webStorm y su complemento de git, con esto cada integrante pudo realizar cambios y versiones en sus ramas para luego mandarlas a la rama principal y no tener ningun inconveniente. A continuación se mostrarán las evidencias de ejecución.
+
+Iniciar sesion:
+![alt text](assets/iniciarSesionFS.jpg)
+
+Registro:
+![alt text](assets/registerFS.jpg)
+
+Metodo de pago:
+![alt text](assets/metodoPago.jpg)
+
+Home:
+![alt text](assets/home.jpg)
+
+Food inventory:
+![alt text](assets/foodInventory.jpg)
+
+Food monitoring:
+![alt text](assets/foodMonitoring.jpg)
+
+Alerts:
+![alt text](assets/Alerts.jpg)
+
+Recipes:
+![alt text](assets/Recipes.jpg)
+
+Reports:
+![alt text](assets/reports.jpg)
+
+Achievement:
+![alt text](assets/achievement.jpg)
+
+Settings:
+![alt text](assets/settings.jpg)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta la lista de los endpoints documentados. A continuación se presenta el proyecto que muestra el despliegue de la web.
+
+Service:
+![alt text](assets/JsonServer.jpg)
+
+Deployment:
+![alt text](assets/DeployVercer.jpg)
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+Link hacia el deployment: https://front-end-fresh-sense.vercel.app/ 
 
+Iniciar sesion:
+![alt text](assets/loginDeploy.jpg)
+
+Registro:
+
+Metodo de pago:
+![alt text](assets/metodoPagoDeploy.jpg)
+
+Home:
+![alt text](assets/home.jpg)
+
+Food inventory:
+![alt text](assets/foodInventoryDeploy.jpg)
+
+Register food:
+![alt text](assets/registrarFoodDeploy.jpg)
+
+Food monitoring:
+![alt text](assets/monitoreoDeploy.jpg)
+
+Alerts:
+![alt text](assets/alertsDeploy.jpg)
+
+Recipes:
+![alt text](assets/recipesDeploy.jpg)
+
+Reports:
+![alt text](assets/reports.jpg)
+
+Achievement:
+![alt text](assets/achievement.jpg)
+
+Settings:
+![alt text](assets/settingsDeploy.jpg)
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+El equipo mantuvo una colaboración constante y una comunicación efectiva a través de plataformas como Meet y Discord. Se implementaron tableros Kanban para el control del progreso y ramas por funcionalidad para gestionar los cambios de forma ordenada. Cada integrante asumió responsabilidades definidas y brindó apoyo en las revisiones, lo que facilitó alcanzar las metas del sprint sin contratiempos.
+
+![alt text](assets/usersCommits.jpg)
+
+![alt text](assets/lineCommits.jpg)
 # Conclusiones
 - El desarrollo del proyecto FreshSense, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de Desarrollo de Aplicaciones Open Source. 
 
