@@ -1734,13 +1734,86 @@ El equipo mantuvo una colaboración constante y una comunicación efectiva a tra
 # 5.2.3. Sprint 3
 
 ## 5.2.3.1. Sprint Planning 3
+Mostramos en este apartado el cuadro correspondiente al Sprint Planning 2 para nuestro startup, donde rescatamos los aspectos más importantes del Sprint Planning Meeting.
 
+<div>
+   <table>
+     <thead>
+       <tr>
+         <th># Número</th>
+         <th>Sprint 3</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-11-08 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 2:05PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Remote mode through the GitHub platform </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Vega Coronado, Fabricio Samir </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Tuesta Marin, Romina <br> Valverde Portuguez, Natalia Ximena <br> Tumi Oliden, Manuel Ignacio <br> Vega Coronado, Fabricio Samir	<br> Villanueva Andrade, Ysaac Ligorio </td>
+     </tr>
+     <tr>
+       <td>Sprint n-2 Review Summary</td>
+       <td> Durante la revisión del Sprint 2 se validó la estructura base de la Web Application, incluyendo 
+        los primeros componentes funcionales, el enrutamiento principal y la integración inicial con 
+        servicios simulados. La Landing Page fue mejorada en diseño y responsividad. También se corrigieron 
+        problemas de navegación, estilos inconsistentes y ajustes de arquitectura sugeridos por el profesor.</td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Retrospective Summary</td>
+       <td>El equipo acordó mantener una mejor gestión del tiempo mediante la asignación semanal de tareas y revisiones intermedias. Se destacó la buena comunicación en Trello y las reuniones virtuales. Se decidió documentar mejor los cambios en los repositorios.</td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 3 Goal</td>
+        <td> Desarrollar la segunda versión funcional de la Web Application de FreshSense, que permita gestionar y visualizar datos de usuarios, junto con la mejora visual y técnica de la landing page. </td>
+      </tr>
+      <tr>
+        <td>Sprint 2 velocity</td>
+        <td> 12 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 28 Story Points</td>
+      </tr>
+
+   </table>
+</div>
 
 ## 5.2.3.2. Aspect Leaders and Collaborators
 
+En esta sección se incluye la elaboración de el artefacto Leadership-andCollaboration Matrix (LACX), con este metodología se dará a cononcer quién es el líder y quiénes lo apoyaran con el rol de colaboradores para este entregable del Sprint 3.
+
+| Team Member (Last Name, First Name)     | GitHub Username    | Notifications | MONITORING | PREFERENCES | ANALYTICS | SUBSCRIPTIONS |
+|-----------------------------------------|--------------------|-----|------------|-------------|-----------|---------------|
+| Vega Coronado, Fabricio Samir           | Fabricio1v         | L   | C          | C           | C         | C             |
+| Tumi Oliden, Manuel Ignacio             |ManuelTumi2224      | C   | C          | C           | L         | C             |
+| Villanueva Andrade, Ysaac Ligorio       | YsaacVillanueva    | C   | C          | L           | C         | C             |
+| Valverde Portuguez, Natalia Ximena      | NataliaValverdeP   | C   | C          | C           | C         | L             |
+| Tuesta Marin, Romina Alejandra          | Romimi1	           | C   | L          | C           | C         | C             |
 
 ## 5.2.3.3. Sprint Backlog 3
 
+Nuestro objetivo principal sprint 3 es realizar la segunda version de la aplicacion web por parte del frontend y la primera version de el backend, culminando con todas las vistas principales que contiene diferentes componentes para el análisis y las operaciones de nuestros clientes.
+
+URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 
 ## 5.2.3.4. Development Evidence for Sprint Review
 
