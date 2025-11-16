@@ -1667,62 +1667,10 @@ Below are the members of the SenseEat team with their respective leadership (L) 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-## Segmento 1: 
-### Adultos jóvenes (25-40 años, dinámicos y ocupados)
 
 
 
-## Segmento 2: 
-### Pequeños negocios / emprendedores de alimentos caseros
 
-#### 1. Primera impresión
-- ¿Qué fue lo primero que pensaste al ver o probar la aplicación?
-- ¿Qué parte te pareció más útil o interesante para tu negocio?
-
-#### 2. Facilidad de uso
-- ¿Qué tan fácil te resultó usar la app? (1 Muy difícil – 5 Muy fácil)
-- ¿Hubo algo que te haya resultado confuso o poco claro?
-
-#### 3. Aplicación en tu negocio
-- ¿Crees que esta app te ayudaría a tener un mejor control de tus insumos o evitar pérdidas? ¿Por qué?
-- ¿Qué función consideras más práctica: las alertas, los reportes, el registro de productos o el control de estados?
-- Si la usas con frecuencia, ¿qué beneficio principal esperas obtener? (Ej. ahorrar tiempo, mejorar control, evitar desperdicios, mejorar calidad)
-
-#### 4. Valor y percepción
-- ¿Qué tan importante es para ti mantener la calidad y frescura de tus productos?
-- ¿Estarías dispuesta a pagar por una app que te ayude con eso?
-
-#### 5. Uso y recomendación
-- ¿Con qué frecuencia crees que la usarías? (Diario / Semanal / Ocasionalmente)
-- ¿La recomendarías a otros emprendedores o negocios pequeños? ¿Por qué?
-
-#### 6. Opinión final
-- ¿Qué te gustaría que la aplicación hiciera para adaptarse mejor a la forma en que trabajas cada día?
-
-### 5.3.2. Registro de Entrevistas. 
-
-### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
-
-### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
-
-| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
-|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 4                     | **Nombre:** Gladys Portuguez  <br> **Edad:** 52  <br> **Distrito:** San Miguel <br><br> **Resumen:** Gladys vio la app como una herramienta útil para evitar desperdicios y controlar mejor los ingredientes que usa cada fin de semana. Le pareció fácil aunque requiere mejor legibilidad. Las alertas y el registro de productos fueron sus funciones favoritas. Da importancia absoluta a la frescura de la comida y usaría la app constantemente, pero necesita que funcione sin internet. | ![Evidencia](assets/segmento2gladys.png) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1lnxNk991o7L4A7Oe8-RH7hhXXqXb6TDR/view?usp=sharing) |
-
-| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
-|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 5                     | **Nombre:** Vanessa Choy  <br> **Edad:** 25  <br> **Distrito:** Jesús María <br><br> **Resumen:** Vannessa consideró la app profesional y muy útil para controlar inventario y planificar compras. Le gustaron los reportes y estadísticas porque vende a diario y necesita saber cuánto stock tiene. Valora la frescura de los frutos secos y usaría la app todos los días. No encontró la app confusa y está dispuesta a pagar por una suscripción si incluye funciones avanzadas. | ![Evidencia](assets/segmento2vanessa.png) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1wtwC9srbUrm8J4lgfLQviwWnFiXVL3-H/view?usp=sharing) |
-
-| Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
-|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 6                     | **Nombre:** Rosa Ramos  <br> **Edad:** 42  <br> **Distrito:** Los Olivos <br><br> **Resumen:** Rosa percibe la app como una herramienta moderna y práctica para su negocio de repostería. Valora especialmente las alertas de vencimiento porque maneja insumos delicados y costosos como cremas y frutas. Le resultó muy fácil de usar y considera que la ayudaría a reducir pérdidas y organizar mejor su producción semanal. Le interesa recibir notificaciones y conectarla con su celular. | ![Evidencia](assets/segmento2rosa.png) <br> [📂 Ver entrevista](https://drive.google.com/file/d/17P6tts0iM54OaPlN4nevutPCTTHTKXQC/view?usp=sharing) |
-
-
-### 5.3.3. Evaluaciones según heurísticas.
 
 ## 5.4. Video About-the-Product. 
 
