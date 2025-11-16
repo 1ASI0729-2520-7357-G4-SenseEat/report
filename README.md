@@ -1695,7 +1695,7 @@ Deployment:
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Link hacia el deployment: https://front-end-fresh-sense.vercel.app/ 
+Link hacia el deployment: https://front-end-fresh-sense.vercel.app/
 
 Iniciar sesion:
 ![alt text](assets/loginDeploy.jpg)
@@ -1877,6 +1877,8 @@ Dentro de Settings en Notificaciones se agregó la opción de Notificaciones Per
 Del mismo modo, dentro de Settings en Integrations se agregó la opción de integración con Smart Fridges
 ![Mejoras 7](assets/Mejoras7.png)
 
+link a front desplegado: https://front-end-fresh-sense.vercel.app/
+
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review
 | Método | Endpoint        | Descripción                             |
 |--------|-----------------|------------------------------------------|
@@ -1886,7 +1888,7 @@ Del mismo modo, dentro de Settings en Integrations se agregó la opción de inte
 ![POSTMAN](assets/POSTMAN.png)
 ![MySQL](assets/MYSQL.png)
 ## 5.2.3.8. Team Collaboration Insights during Sprint
-Avance este ultomo trabajo Backend y Frontend
+Avance este ultimo trabajo Backend y Frontend
 ![Front](assets/FrontEndColaboration.png)
 ![Back](assets/BackEndColaboration.png)
 
@@ -1998,6 +2000,14 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 # 5.4. Video About-the-Product
 
+El siguiente video forma parte de la documentación del proyecto y tiene como propósito complementar la explicación escrita con una demostración visual del proceso desarrollado. En él se presenta de manera clara y sintetizada el funcionamiento, las características principales y los pasos realizados durante la implementación, ofreciendo un apoyo adicional para la comprensión del trabajo expuesto.
+
+Link OneDrive:  https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/IgD8apWOBNMlR58eqC4TIeHOAdQi0LeXLv-8dpF5IiLFwAk?e=B1fvLc
+
+<br> Link Youtube: https://youtu.be/J4Lr-Iov4jM
+
+![imagen Video](assets/Mejoras1.png)
+
 
 # Conclusiones
 - El desarrollo del proyecto FreshSense, producto de la startup *SenseEat*, permitió aplicar de manera integral los conocimientos adquiridos para el landing page en el curso de Desarrollo de Aplicaciones Open Source. 
@@ -2021,3 +2031,6 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 # Anexos
 
+Video exposición: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/IgCMAQxYOyhyRoiJuyrxY54wAbwhrydrzC6QBOx6ggkUdF4?e=ooNYAK
+
+video about the product: https://youtu.be/J4Lr-Iov4jM
