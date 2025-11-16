@@ -1813,6 +1813,8 @@ En esta sección se incluye la elaboración de el artefacto Leadership-andCollab
 
 Nuestro objetivo principal sprint 3 es realizar la segunda version de la aplicacion web por parte del frontend y la primera version de el backend, culminando con todas las vistas principales que contiene diferentes componentes para el análisis y las operaciones de nuestros clientes.
 
+![trello](assets/sprint3-bcklg.PNG)
+
 URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 
 | User Story | Title                            | Task Id | Task Title                   | Description                                                 | Estimation | Assigned To | Status     |
@@ -1835,6 +1837,15 @@ URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 ## 5.2.3.4. Development Evidence for Sprint Review
 
 
+| Repository                                                                             | Branch | Commit Id | Commit Message                                                          | Commit Message Body                                                      | Committed on (Date) |
+| -------------------------------------------------------------------------------------- | ------ | --------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------- |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main | main   | 3b2967e   | feat: upload bounded                                                    | Carga del contexto acotado                                               | Nov 15, 2025        |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main | main   | d6243c2   | feat: creation all bounded context and backend integration with postman | Creación de todos los bounded contexts e integración backend con Postman | Nov 15, 2025        |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main | main   | 46423e7   | feat: update pom.xml to add necessary dependencies                      | Se añadieron dependencias: JPA, validation, web, security, JWT           | Nov 15, 2025        |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main | main   | d146efb   | first commit                                                            | Primer commit del repositorio backend                                    | Nov 15, 2025        |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/FrontEnd-FreshSense | main   | 5d683cd   | Merge pull request #9 from feature/sprint3-Natalia | Integración de cambios del sprint3-Natalia al branch main | Nov 16, 2025 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/FrontEnd-FreshSense | main   | 66533d9   | feat: fix and update                               | Ajustes y actualizaciones generales                       | Nov 16, 2025 |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat/FrontEnd-FreshSense | main   | 11352d9   | feat: fix and update                               | Cambios menores y correcciones                            | Nov 16, 2025 |
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
 Se mejoró el DashBoard. Ahora se muestra el nombre del usuario. Además, cuando hay una cuenta iniciada aparece el botón "Logout" en la esquina superior derecha
