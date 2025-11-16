@@ -1815,7 +1815,25 @@ Nuestro objetivo principal sprint 3 es realizar la segunda version de la aplicac
 
 URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 
+| User Story | Title                            | Task Id | Task Title                   | Description                                                 | Estimation | Assigned To | Status     |
+| ---------- | -------------------------------- | ------- | ---------------------------- | ----------------------------------------------------------- | ---------- | ----------- | ---------- |
+| US03       | Formulario de contacto           | T04     | Implementación general       | Implementar formulario simple con validación                | 4          | Natalia     | To-Do      |
+| US04       | CTA para suscripción             | T05     | Botón CTA                    | Implementar botón llamativo y funcional                     | 4          | Natalia     | To-Do      |
+| US10       | Registro automático de alimentos | T11     | Registro por voz/escaner     | Implementar reconocimiento de voz y escáner                 | 5          | Manuel      | To-Do      |
+| US11       | Edición de inventario            | T12     | Editar inventario            | Modificar cantidad y fechas de alimentos                    | 6          | Romina      | To-Do      |
+| US15       | Tutorial interactivo             | T16     | Tutorial UX                  | Implementar tutorial inicial                                | 5          | Ysaac       | To-Do      |
+| US22       | Sincronización smart fridges     | T23     | Integración IoT              | Integrar fridges inteligentes                               | 6          | Fabricio    | To-Do      |
+| US24       | Notificaciones personalizadas    | T25     | Preferencias                 | Permitir personalizar notificaciones                        | 5          | Fabricio    | Done       |
+| US25       | Logros y recompensas             | T26     | Sistema de logros            | Otorgar puntos y badges                                     | 6          | Manuel      | Done       |
+| US26       | Compartir en redes               | T27     | Social share                 | Compartir logros en redes                                   | 4          | Ysaac       | Done       |
+| US27       | Retos y competencias             | T28     | Retos                        | Registrar, ranking y salida                                 | 5          | Ysaac       | Done       |
+| US28       | Categorías personalizadas        | T29     | Categorías                   | Crear y asignar categorías                                  | 6          | Natalia     | To-Do      |
+| US29       | Historial de consumo             | T30     | Historial                    | Registro, filtros y exportación                             | 4          | Manuel      | To-Do      |
+| US30       | Sugerencias de compra            | T31     | Recomendaciones              | Generar sugerencias basadas en consumo                      | 4          | Ysaac       | To-Do      |
+
+
 ## 5.2.3.4. Development Evidence for Sprint Review
+
 
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
