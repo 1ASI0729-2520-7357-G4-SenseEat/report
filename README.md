@@ -1833,9 +1833,22 @@ URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 # 5.3. Validation Interviews
 
 ## 5.3.1. Diseño de Entrevistas
+Estas preguntas están orientadas a validar la experiencia visual y la usabilidad del frontend ya implementado de FreshSense. Buscan evaluar si la interfaz cumple con los principios de claridad, estética moderna, estructura consistente y confianza, elementos críticos en un producto tecnológico que combina hardware y software.
 
 ## Segmento 1:
+### Adultos jóvenes
 
+#### 1. Primera Impresión
+- ¿Qué te pareció el diseño general de la página? 
+- ¿La estética te resulta moderna, atractiva y acorde al estilo de FreshSense? 
+- ¿Consideras que la paleta de colores y los iconos ayudan a entender la información sin confundirte? 
+
+#### 2. Claridad de la información
+- ¿El tamaño de letra, espaciado y organización del contenido te hicieron la lectura cómoda? 
+- ¿Las secciones están bien diferenciadas y explican bien su contenido
+
+#### 3. Experiencia de uso
+- ¿El frontend transmite confianza y profesionalismo suficiente como para considerar usar el producto?
 ## Segmento 2: 
 ### Pequeños negocios / emprendedores de alimentos caseros
 
@@ -1867,6 +1880,10 @@ URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 
 ### Segmento #1: Adultos jóvenes (25-40 años, dinámicos y ocupados)
 
+ Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
+|-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
+| 1                     | **Nombre:** Melissa Sulca  <br> **Edad:** 22  <br> **Distrito:** San Miguel <br><br> **Resumen:** Melissa vio la app como una herramienta útil para controlar mejor los ingredientes que usa, evitando el desperdicio. Le pareció fácil aunque requiere mejor legibilidad. Le sorprendió saber de los sensores que manejan la frescura de sus alimentos.Asi mismo, le gustó el hecho de que la aplicación le de recetas que puede preparar según lo que tiene disponible en su refrigerador.| ![Evidencia](assets/ReviewSegmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/19vsUUBn4T6eB-vFXiMJzUgS3gi7c3HuT/view?usp=sharing) |
+
 ### Segmento #2: Pequeños negocios / emprendedores de alimentos caseros
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
@@ -1882,7 +1899,42 @@ URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 | 6                     | **Nombre:** Rosa Ramos  <br> **Edad:** 42  <br> **Distrito:** Los Olivos <br><br> **Resumen:** Rosa percibe la app como una herramienta moderna y práctica para su negocio de repostería. Valora especialmente las alertas de vencimiento porque maneja insumos delicados y costosos como cremas y frutas. Le resultó muy fácil de usar y considera que la ayudaría a reducir pérdidas y organizar mejor su producción semanal. Le interesa recibir notificaciones y conectarla con su celular. | ![Evidencia](assets/segmento2rosa.png) <br> [📂 Ver entrevista](https://drive.google.com/file/d/17P6tts0iM54OaPlN4nevutPCTTHTKXQC/view?usp=sharing) |
 
 ## 5.3.3. Evaluaciones según heurísticas
+**Sitio o App a evaluar:** FreshSense – Aplicación Web de Monitoreo y Gestión de Inventario Alimenticio
+#### Tareas a evaluar:
 
+- El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas principales del sistema:
+
+- Visualización del estado de los alimentos
+
+- Consulta de alertas de caducidad
+
+- Consulta de recetas sugeridas
+
+- Registro automático/manual de alimentos
+
+- Consulta del inventario general
+
+- Consulta del detalle de cada alimento
+
+- Configuración de notificaciones
+
+- Consulta de reportes semanales
+
+- Consulta del impacto ambiental
+
+- Gestión de perfil del usuario
+
+- Navegación general de la interfaz
+
+- Interacción con botones, tarjetas e iconografía
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Integración con refrigeradores inteligentes (Smart Fridges)
+
+- Flujo completo Premium (estadísticas avanzadas y recetas exclusivas)
+
+- Funcionalidades del dispositivo físico (sensor)
 
 # 5.4. Video About-the-Product
 
