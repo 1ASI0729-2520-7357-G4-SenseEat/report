@@ -1819,16 +1819,39 @@ URL del Board: https://trello.com/b/ScNLfxb4/sprint1-freshsense
 
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
+Se mejoró el DashBoard. Ahora se muestra el nombre del usuario. Además, cuando hay una cuenta iniciada aparece el botón "Logout" en la esquina superior derecha
+![Mejora 1](assets/Mejoras1.png)
 
+En reportes, se añadió un historial de consumo descargable con rangos de fechas.
+![Mejora 2](assets/Mejora2.png)
+
+Se agregó el botón de compartir en Logros. Esto comparte una imagen del logro a través de la red social de tu elección
+![Mejora 3](assets/Mejoras3.png)
+
+Se agregó Challenge y ranking entre usuarios logueados. Para motivar a los usuarios.
+![Mejora 4](assets/Mejoras4.png)
+
+Se agregó la opción de agregar productos al inventario a través de la voz
+![Mejora 5](assets/Mejoras5.png)
+
+Dentro de Settings en Notificaciones se agregó la opción de Notificaciones Personalizadas
+![Mejoras 6](assets/Mejoras6.png)
+
+Del mismo modo, dentro de Settings en Integrations se agregó la opción de integración con Smart Fridges
+![Mejoras 7](assets/Mejoras7.png)
 
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review
-
+| Método | Endpoint        | Descripción                             |
+|--------|-----------------|------------------------------------------|
+| POST    | /api/accounts/register  | Agrega un usuario   |
 
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-
+![POSTMAN](assets/POSTMAN.png)
+![MySQL](assets/MYSQL.png)
 ## 5.2.3.8. Team Collaboration Insights during Sprint
-
+Avance este ultomo trabajo Backend y Frontend
+![Front](assets/FrontEndColaboration.png)
+![Back](assets/BackEndColaboration.png)
 
 # 5.3. Validation Interviews
 
