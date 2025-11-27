@@ -26,7 +26,7 @@
 
 ### Team Members:
 
-|Member |   Code    |
+| Apellidos y Nombres |   Code    |
 |:-------------------------------:|:---------:|
 |  Valverde Portuguez, Natalia Ximena  | u20231a816 |
 |  Tumi Oliden, Manuel Ignacio  |    u20241c134    |
