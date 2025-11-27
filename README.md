@@ -3,19 +3,22 @@
 
 <div align="center">
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
-
 <img alt="upc-logo" src="assets/upc_logo_200x200_jao73r.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
-<strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+
+<strong>Facultad: Ingeniería</strong><br>
+<strong>Carrera: Ingeniería de Software</strong><br>
+<strong>Periodo: 202520 </strong><br>
+<strong>Codigo del curso: 1ASI0729</strong><br>
+<strong>Nombre del curso: Desarrollo de Aplicaciones Open Source</strong><br>
 <strong>NRC: 7357<br>
-<strong>Profesor: Rafael Oswaldo Castro Veramendi</strong><br>
+<strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi</strong><br>
 
-<br><strong>Informe del Trabajo Final</strong><br><br>
+<br><strong>Informe de Trabajo Final</strong><br><br>
 
-<strong>Startup: SenseEat</strong><br>
-<strong>Producto: FreshSense</strong><br>
+<strong>Nombre del Startup: SenseEat</strong><br>
+<strong>Nombre del producto: FreshSense</strong><br>
 
 
 
@@ -23,13 +26,13 @@
 
 |Member |   Code    |
 |:-------------------------------:|:---------:|
-|  Valverde Portuguez Natalia Ximena  | u20231a816 |
-|  Tumi Oliden Manuel Ignacio  |    u20241c134    |
-|  Vega Coronado Fabricio Samir  |    u202317000    |
-|  Villanueva Andrade Ysaac Ligorio   |    u20231c168    |
-|  Tuesta Marin Romina Alejandra  |    U202211706   |
+|  Valverde Portuguez, Natalia Ximena  | u20231a816 |
+|  Tumi Oliden, Manuel Ignacio  |    u20241c134    |
+|  Vega Coronado, Fabricio Samir  |    u202317000    |
+|  Villanueva Andrade, Ysaac Ligorio   |    u20231c168    |
+|  Tuesta Marin, Romina Alejandra  |    U202211706   |
 
-<strong> Setiembre 2025</strong><br>
+<strong> Diciembre 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
