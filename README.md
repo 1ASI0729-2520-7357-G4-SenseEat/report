@@ -1,13 +1,10 @@
-# report
-# FreshSense
-
 <div align="center">
 
 <img alt="upc-logo" src="assets/upc_logo_200x200_jao73r.png" width="200"/><br>
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-<strong>Facultad: Ingeniería</strong><br>
+<strong>Facultad de Ingeniería</strong><br>
 <strong>Carrera: Ingeniería de Software</strong><br>
 
 <strong>Periodo: 202520 </strong><br>
@@ -17,16 +14,16 @@
 
 <strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi</strong><br>
 
-<br><strong>Informe de Trabajo Final</strong><br><br>
+<br><strong>*Informe de Trabajo Final*</strong><br><br>
 
-<strong>Nombre del Startup: SenseEat</strong><br>
+<strong>Nombre del startup: SenseEat</strong><br>
 <strong>Nombre del producto: FreshSense</strong><br>
 
 
 
-### Team Members:
+### Relación de Integrantes
 
-| Apellidos y Nombres |   Code    |
+| Apellidos y Nombres |   Código    |
 |:-------------------------------:|:---------:|
 |  Valverde Portuguez, Natalia Ximena  | u20231a816 |
 |  Tumi Oliden, Manuel Ignacio  |    u20241c134    |
@@ -34,7 +31,7 @@
 |  Villanueva Andrade, Ysaac Ligorio   |    u20231c168    |
 |  Tuesta Marin, Romina Alejandra  |    U202211706   |
 
-<strong> Diciembre 2025</strong><br>
+<strong> Diciembre, 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
