@@ -1906,13 +1906,73 @@ Avance este ultimo trabajo Backend y Frontend
 # 5.2.4. Sprint 4
 
 ## 5.2.4.1. Sprint Planning 4
+Mostramos en esta parte final el cuadro correspondiente al Sprint Planning 4 para nuestro startup, donde nos enfocamos en los aspectos más importantes del Sprint Planning Meeting.
 
+<div>
+   <table>
+     <thead>
+       <tr>
+         <th># Número</th>
+         <th>Sprint 4</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-11-20 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 12:00PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Remote mode through the GitHub platform </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Vega Coronado, Fabricio Samir </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Tuesta Marin, Romina <br> Valverde Portuguez, Natalia Ximena <br> Tumi Oliden, Manuel Ignacio <br> Vega Coronado, Fabricio Samir	<br> Villanueva Andrade, Ysaac Ligorio </td>
+     </tr>
+     <tr>
+       <td>Sprint n-3 Review Summary</td>
+       <td> Durante este sprint, el equipo revisó los avances obtenidos en el Sprint 3, especialmente en la implementación del backend. Se identificaron mejoras necesarias en la estructura del código de la última versión del frontend para conectar al backend. También se planificó el inicio del desarrollo de bounded context restantes del backend para la integración con funcionalidades dinámicas en conjunto con el frontend. </td>
+     </tr>
+     <tr>
+       <td>Sprint n-3 Retrospective Summary</td>
+       <td>El equipo acordó mantener una mejor gestión del tiempo para la preparación de bounded context restantes. Se destacó la buena comunicación con reuniones virtuales. Se decidió documentar mejor los cambios en los repositorios.</td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 4 Goal</td>
+        <td> Desarrollar la version final de frontend, backend y API de FreshSense junto a su integración, que permita ser una app funcional y registre todo en la base datos. </td>
+      </tr>
+      <tr>
+        <td>Sprint 4 velocity</td>
+        <td> 16 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 17 Story Points</td>
+      </tr>
+
+   </table>
+</div>
 
 ## 5.2.4.2. Aspect Leaders and Collaborators
 
 
 
 ## 5.2.4.3. Sprint Backlog 4
+Nuestro objetivo principal sprint 4 es realizar la segunda version de la aplicacion web por parte del frontend y la primera version del backend, culminando con todas las vistas principales que contiene diferentes componentes para el análisis y las operaciones de nuestros clientes.
+
 
 
 
