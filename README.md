@@ -2023,6 +2023,21 @@ En otros bounded context como Alerts se hizo que lo que aparezcan en la base de 
  
 ## 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint 4, el equipo desplegó el Backend API REST de FreshSense. El despliegue se realizó de la siguiente manera:
+
+Herramientas y plataformas utilizadas
+Git: Se utilizó para control de versiones, permitiendo ver cada cambio en el código fuente del backend.
+GitHub: Se creó y configuró el repositorio oficial para el backend, lo que facilita la colaboración del equipo y el seguimiento de los cambios realizados segun bounded contexts.
+MySQL: Base de datos relacional configurada y conectada mediante Entity Framework Core para la persistencia de datos.
+Swagger/OpenAPI: Documentación interactiva de la API desplegada junto con el servicio, permitiendo probar los endpoints directamente desde el navegador.
+
+![Mejora BackEnd](assets/MejoraBackend.png)
+![Mejora Schemas](assets/MejoraSchemas.png)
+![Mejora AlertsControllers](assets/MejoraAlertsControllers.png)
+![Mejora RecipesControllers](assets/MejoraRecipesControllers.png)
+![Mejora ProductsControllers](assets/MejoraProductsControllers.png)
+![Mejora AuthControllers](assets/MejoraAuthControllers.png)
+
 ## 5.2.4.8. Team Collaboration Insights during Sprint
 
 # 5.3. Validation Interviews
