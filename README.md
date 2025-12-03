@@ -1978,6 +1978,15 @@ Nuestro objetivo principal sprint 4 es realizar la segunda version de la aplicac
 
 ## 5.2.4.4. Development Evidence for Sprint Review
 
+| Repository                                                                            | Branch | Commit Id | Commit Message                                                    | Commit Message Body                                                                             | Committed on (Date) |
+|---------------------------------------------------------------------------------------| ------ |-----------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------|
+| Fabricio1v/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main     | main   | c7ef31b   | feat: new recipes and connect. api                                | Creación de data recetas en base de datos y conexión por medio de API.                          | Dec 01, 2025      |
+| ManuelTumi2244/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main | main   | 617f372   | feat: Created Endpoints and connections API with FrontEnd.        | Creación de los endpoints e integración con el frontend.                                        | Dec 01, 2025      |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main  | main   | 57de99c   | feat: configurate alert bounded context                           | Configurar bounded context alert para cargar la base de datos.                                  | Dec 02, 2025      |
+| ManuelTumi2244/github.com/1ASI0729-2520-7357-G4-SenseEat-FrontEnd-FreshSense/main     | main   | 54354c0   | feat: Modified User registers and Inventory                       | Modificar registro de usuarios e inventario con el API para que se guarde allí un registro nuevo. | Dec 01, 2025      |
+| Fabricio1v/github.com/1ASI0729-2520-7357-G4-SenseEat-FrontEnd-FreshSense/main         | main   | 75799d2   | feat: update on .json and recipes                                 | Actualizar archivo json y bounded context recetas.                                              | Dec 01, 2025      |
+| NatValverde15/github.com/1ASI0729-2520-7357-G4-SenseEat-FrontEnd-FreshSense/main      | main   | af9f8f5   | feat: configurate alert bounded context                           | Actualizar bounded context alert para jalar base de datos.                                      | Dec 02, 2025      |
+| YsaacVillanueva/github.com/1ASI0729-2520-7357-G4-SenseEat-BackEnd-FreshSense/tree/main    | main   | 46423e7   | feat: update bounded context and backend integration with postman | Actualizar bounded context e integración completa de Postman.                                   | Dec 01, 2025      |
 
 ## 5.2.4.5. Execution Evidence for Sprint Review
 
