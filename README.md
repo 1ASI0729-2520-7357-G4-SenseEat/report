@@ -1991,6 +1991,7 @@ Nuestro objetivo principal sprint 4 es realizar la segunda version de la aplicac
 ## 5.2.4.5. Execution Evidence for Sprint Review
 
 Se mejoró el backend culminando los demás bounded context.  
+![Mejora BackEnd](assets/MejoraBackend.png)
 
 Se editó el frontend para obtener la data de la base de datos con el API y también registrar en ella.
 Primero una vez que se registra un usuario automáticamente se registra en la tabla users. Todo lo que se encuentre en esa tabla son los usuarios permitidos para iniciar sesión.
