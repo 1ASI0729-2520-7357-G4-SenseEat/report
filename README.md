@@ -36,7 +36,7 @@
 
 # Project Report Collaboration Insights
 
- ![Collaboration report](assets/report.png)
+ ![Collaboration report](assets/report.PNG)
 
 # Registro de Versiones del Informe
 
@@ -1985,7 +1985,7 @@ Mostramos en esta parte final el cuadro correspondiente al Sprint Planning 4 par
 Nuestro objetivo principal sprint 4 es realizar la segunda version de la aplicacion web por parte del frontend y la primera version del backend, culminando con todas las vistas principales que contiene diferentes componentes para el análisis y las operaciones de nuestros clientes.
 
 A continuación se puede observar la herramienta trello, utilizada para la organización del sprint 4:
-![imagen sprint 4](assets/sprint4.png)
+![imagen sprint 4](assets/sprint4.PNG)
 
 
 | User Story | Title                           | Task Id | Task Title                   | Description                                                     | Estimation | Assigned To | Status |
@@ -2067,7 +2067,7 @@ Swagger/OpenAPI: Documentación interactiva de la API desplegada junto con el se
 
 Para el sprint 4 se obtuvo el siguiente informe de participación y colaboración en la parte del desarrollo del backend:
 
-![Contibuidores sprint4](assets/Contributors_sprint4.png)
+![Contibuidores sprint4](assets/Contributors_sprint4.PNG)
 
 
 # 5.3. Validation Interviews
