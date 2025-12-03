@@ -1990,6 +1990,24 @@ Nuestro objetivo principal sprint 4 es realizar la segunda version de la aplicac
 
 ## 5.2.4.5. Execution Evidence for Sprint Review
 
+## 5.2.3.5. Execution Evidence for Sprint Review
+
+Se mejoró el backend culminando los demás bounded context.  
+
+Se editó el frontend para obtener la data de la base de datos con el API y también registrar en ella.
+Primero una vez que se registra un usuario automáticamente se registra en la tabla users. Todo lo que se encuentre en esa tabla son los usuarios permitidos para iniciar sesión.
+![Mejora Register](assets/MejoraRegister.png)
+
+Una vez ingresas al dashboard el nombre con el que te registraste aparecerá en el mensaje de bienvenida. También aparece sus datos en Settings Profile.
+![Mejora Dashboard](assets/MejoraDashboard.png)
+![Mejora Settings](assets/MejoraSettings.png)
+
+En inventario puedes ver los datos de la tabla products de la base de datos, y si ingresas un nuevo producto por el app aparecerá en la base de datos registrado.
+![Mejora Inventario1](assets/MejoraInventario1.png)
+![Mejora Inventario2](assets/MejoraInventario2.png)
+
+En otros bounded context como Alerts se hizo que lo que aparezcan en la base de datos se visualizarán en la aplicación.
+![Mejora Alerts](assets/MejoraAlerts.png)
 
 ## 5.2.4.6. Services Documentation Evidence for Sprint Review
 
